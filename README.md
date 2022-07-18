@@ -17,5 +17,5 @@ Fonctions et techniques utilisées :
 - Pagination sur la table principale
 - Options des menus contextuels affichées ou masquées selon le contexte
 - Utilisation du timestamp UNIX pour les dates et heures
-- Utilisation de requêtes SQL*
+- Utilisation de requêtes SQL
 - Utilisation de la technique WDMémoBinaire pour enregistrer les fichiers en base de données
