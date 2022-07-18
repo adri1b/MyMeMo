@@ -8,6 +8,7 @@ Par la même occasion, cela permettra de montrer certaines possibilités de WinD
 
 Ce qu'il faut donc savoir :
 - Utilisation de WinDev 27 Update 3 (01F270103n)
+  C'est une version commerciale, le projet ne peut donc pas être ouvert dans une version Express.
 - Les fichiers sont au format texte
 - Utilisation du moteur de base de données SQLite
 - Aucune analyse
