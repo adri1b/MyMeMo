@@ -12,7 +12,7 @@ Ce qu'il faut donc savoir :
 - Utilisation du moteur de base de données SQLite
 - Aucune analyse
 
-Fonctions et techniques utilisées :
+Fonctions et techniques employées :
 - Compilation dynamique
 - Pagination sur la table principale
 - Options des menus contextuels affichées ou masquées selon le contexte
