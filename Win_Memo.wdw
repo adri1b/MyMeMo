@@ -1203,7 +1203,7 @@ window :
          			TableauAjoute(Columns, ["File_Checksum", File.File_Checksum, "String"])
          			TableauAjoute(Columns, ["File_Size", File.File_Size, "Integer"])
          			TableauAjoute(Columns, ["File_Time", File.File_Time, "Integer"])
-         			TableauAjoute(Columns, ["File", "{WDMemoBinaire('" + Table_Files.Col_Filepath + "')}", "File"])
+         			TableauAjoute(Columns, ["File", "{WDMemoBinaire('" + File.File_Name + "')}", "File"])
          			
          			POUR CHAQUE Key DE Columns
          				SI SqlSet <> "" ALORS
@@ -1358,7 +1358,7 @@ window :
          					i = File_IDs[1]
          					
          					SELON Key
-         						CAS "File_Size", "File_Time"
+         						CAS "File_Size", "File_Time", "File"
          							SqlSet += Rows[i]
          						AUTRE CAS
          							SqlValue = Rows[i]
@@ -1425,7 +1425,7 @@ window :
          		FIN
          	FIN
          	
-         	SI Files_Delete..Occurrence ALORS
+         	SI File_IDs..Occurrence >= 1 ALORS
          		SqlString = "DELETE FROM Files"
          		SqlString += " WHERE ROWID "
          		SELON File_IDs..Occurrence
