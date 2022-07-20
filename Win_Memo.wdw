@@ -1,0 +1,1712 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Win_Memo
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Win_Memo
+ identifier : 0x22c7fc8900e23cfe
+ internal_properties : BwAAAAcAAACE/OheMYiwEy0o53v0adYtbTA2B0U4SPjpJzxtjcOOmmw14ZI2fzBAaWjhISueGmKgo0++8Tobm0MqFyu9MQf3ZytFDgdplj3euijzxln6dP/RaTsKevHPOLt2FtTDzeRMfVsEgvgDsVplsjU+PBBU+WFPBcOaheWLqsYsls46TbO3QpUpzIPXYKlk1LxcvPeDvYttQjrYBUUpL3grewW7UzJ3h/PkA+Cy1lEo+CTKmUvQuBqMlP6FCa9YsO4FCJ1t8qoW498fsJ5sUUzJCnXyxz3gAc4Gj2WkkyqU/VQJL/RnUGVbzKEPLZI6NPF3g9Zm2gJY4Lml6icyAr68oCv5ggmTDmZOqy4RWKdwtu6MB8knqE6ouxsoJJZehNABujNlHQ027UcE42xN4H+bb8Wf+yv10gBiPb2WqdDy8g8vNSsQ6QUJ0b4l9exi8oTXWjCWcdMq/DVVTadwvML0imJWB4eZGWw84WsN7gOQhCTG3GEUbGm5dqMD1wg5UrU3tQ1fnm55YKCdoB/R39clWXTs21SKw51vBlNNyQRn9M56GRQcxB/b7ZIiyLnq8SpoVu2GQv7vCFBb53XOUwLldcycQIx6P3DMIvSCOyJCHJRRatsw1sWHNH3pSlFABa9yUBa0mlUPLMYIrQtNwtu7gPY8cRZEeu5EizLPlcYk3zsLOU/PJkk3Dg5C6b1L0K48i3H3XNKIoFMYjo3ktqev1AhBkFOFf+G27B+7y3NImlQv71CrUOfnu0nfMpPpKueXoQE0ieAzH+yPPqKtW2k1P5mv/SGMyCvqSPe9PNlCtAfoVqvumUq/7x02rPdYQw==
+ properties :
+  width : 591
+  height : 357
+  widthClient : 589
+  heightClient : 325
+ controls :
+  -
+    name : Tab_Custom
+    identifier : 0x22c7fd690120a80e
+    internal_properties : BwAAAAcAAACJklY84ccoh7N918NvkjzjOJG464qL3XsHKRuq1xt6OqT+YgMg9lMpcO0NgquIYDeMT0kwRgWMeQBIm/TA0I6AGRF+mxRiAPBxMXlhMCJaOPSRX6qcdjV2Tjw0qPx+wAs61dwAq7zll6FO6OncJE0CSxNSJYC7MZVAJ1mpig+YccaOL45tus8eeWpU8oJiOCuGOfHtTqi2exytMoLFDdt5VjE+4Cj6tHia1mrlMP2X52soMZ5Fw/g01cRlOY/qrAxoHJC2v99KBeliOVoozsUFVkguGMn/v0F6AGfpT7WmzWVg/MBRIzljixeLXjSh4CdkiMRrErolWjynQ0gP6taNx1OmUBMt7EjyXRUyBf5ZiKYr4UGDLTAQqO3z4wwyPTUtGDG3X4cpQbDTwdUhRp+FexCXKzskpnzTGdvLPRRPH3BXk/S51lk4XIfU7ECrFPr84JUch4r2+EXQwFXsoXAkbOEZ5K27TnN0XWh3viX/eZ9DXbM3OHzpi8WSsx549RF3gV50FqudnbBtVfKsc22/F2YRzJfvaacl9uywAymgBhjmn7oWLYX8BYLmx6g9LKU9nTxcE3mn5s3PixlvYfMpPmMbrx6RLGvXiWvhsDP88ruF5YcwEqJNFD9SE0byGHTjS2AXxViXdYIPrUtzvrNhm4B8SaS8V9eyi1Wgc5QNURj+kIF2nXNYCagNj+y9ujTCW0oTZoQfXqLpb/kk7AMsJ4BpO7+uDN7Ov02mc7BW81Z232QyoRO05OwSAKrPhjq7wo+x/IpQgA7NOTuey8wjoiCcn3gPw9OboGg=
+    properties :
+     x : 6
+     y : 6
+     width : 577
+     height : 276
+    tabs :
+     -
+       internal_properties : BwAAAAcAAABbW8Ul2/6RlKytmDvd0RggGmLR+3BZr5JAvFCFXur5VViuqyV3v4JFnbGg+ajRUdxOiSuxO36tczrQ2FUtPcLYH26cdJbvMcb3lO+ilt3lzLkxVghnT/NBKRgXOtq1jubrxWf/QB8jUZOKSOSeKarrlBKpqFw=
+       controls :
+        -
+          name : Fld_Title
+          identifier : 0x22c7fcf000f7d15a
+          internal_properties : BwAAAAcAAABq6/B9yOCdPqYupJBox76IFq+jVHdXL4ATt9aN6kMsYqDxOIsJPt/ccF9bJ0MUtHw9fXFzIrZZXB0cRhSfc72wr6cX7a5K0+SkyFYCp7fcF58eX57qUz5UkRaG+VXuvR2d5pbmqA7bYPprYDyg1dskbFmXlK/9PjhAFFOstXAUIpH2dO8iYr2gZX1ob74uceX4JNVNAioaVD470TSm/mv9B9QXVNUJdGpFAO+rq4CAnzJ3HM5b7IzS4FnYPeLKznHsBEnCTIlY/DUOxZ1SM2hYUMAhYILjeW5PSn63bMAB4Zc/u1LAGgW/6HCeGTO2PZNwLPmhBDMt0sDJ7CV4uW0JDNBHU+z/VSzwZcURI+CC/1bichiNuLQ4lQR0EW/x8JkDltudjfrc06hSvbJ6iZLoj25ZdH7Gzwzl+X6hRJGrEQMN1eluubwG2adwQZy0zsDZQ8vb7/ZrcfAZrntT0SiX/OQ8D3aG3Na/7Toj1ZK1Fbsxkt/N3noAJqDyegLS36W2AQxsb1nLbhcAssHDW7fe5i1hnzKCARTfEzRT5143x2fU/IVI69vxQUgUz+gb1u98uq3xP+xp7YaBlGKWeEa4X4VewWgmIjBz/PiOZ47vE5AcO6Ba+ib1/rF88IPT1cdATTrEcQMNA8+NPmCOGyiDijCZIKUjN1TWLDpxEtgbgJXUcz4wjSCCYuYffCGNpxwMOxEw0pPQ8Z/4NHqKZtX7SE2TAs82Bs+TD5rB3Xareew=
+          properties :
+           x : 6
+           y : 6
+           width : 565
+           height : 26
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              code : |1-
+               
+              type : 14
+            -
+              code : |1-
+               
+              type : 15
+            -
+              code : |1-
+               
+              type : 16
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              code : |1-
+               
+              type : 17
+        -
+          name : Fld_Content
+          identifier : 0x22c7fdbd0163f231
+          internal_properties : BwAAAAcAAAAbeuyCQZn6w7V3AK342jwIVozetQgY2zk3ifNjwUwgKckFLdqS33hx4bKMU29hfPIZv2E7VxE2YBQFc7p7zT2o1ri+0zBPzXSCDi4mhPewnjWgMvoA3KEEuLX/f8gJyEhPxE5VjcxC30DlTJ5eF8xaIcA5w7hDzvyrybnVpSgO6KfsQCCulkriZTDuEIUowPDaDBeDTg9AC7fmIQ7j/A/z84wRMGYNx8FGWqwVWwe2Fg0ZpKZ1df4IxqBgtvtppAnY8k20pFxGlEEJ3cfIjVcq6a7HEk7U1CkvnW1ZuwAP2jWj06Qp0Ovjjm7gArA9BQ/QTDlvB5wu6zyJjaGdnNRzjiLqqfbSIKVvZ56kMQSBM5+IfflLympP0mQ2m8n9qyYNhYIoNS1N3zwgHWJq3UUlmJg9O+Kg0Q5fwzoEObQ1cWrq7Vv0GrYHGwsqyftBOu8s/3qdKZOoO89VwOrTAHWe4vgtXAPtQRE7DaRBBvDmE0BYOO4Vv1HafDBrml0PdF7rEYbv/W9xzmGWSUekxZyEKY0wBdRaiujnQRChAqZ/XD2UfyHuV2jN2hc6G3YrQcv3/IdjAO+WgVX7HiXqbWJEWGiYVD4AyWCvpRjRGO9/VxoCFeVPbX9jh/5Pz8tsdszhzkQ1+IxRLAZYyeEf6PGHOvhT6/+YmrFRlZBZ+gt7DK1STjYkwKweoi6wYuCHKHMQIL7SGcrApC/CjzkH/SjKhK7bsKQx7DM9a36Dz+a8CB0=
+          properties :
+           x : 6
+           y : 62
+           width : 565
+           height : 187
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              code : |1-
+               
+              type : 14
+            -
+              code : |1-
+               
+              type : 15
+            -
+              code : |1-
+               
+              type : 16
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              code : |1-
+               
+              type : 17
+        -
+          name : Fld_Category
+          identifier : 0x22c8117504bcf884
+          internal_properties : BwAAAAcAAAABS19EzwsS5Paf5iDRT0684jgpseZeyjOtvwSjACUFawnoooG3s/rRSk6YuLpIu5W4rdy8DVWqx25SVtLt6WhnJAhTpgNhyu0SZF7eu83JGxE0BMubGFRgD3Y8+JU8xpqvwO1UP4jjl/JjKlfsQjM+Vij4IoqEZvHLzVwwhVmROoXoL7Mf5DIh0bvOqkXr3KHxSnGfZk9dCHBan2y3MJg6issDfyWvXYcONWN82rMOFblCTAozy6pDMPD6FzwFBXsBOr2tlMpjJLXOp6ZsG95TkMorVVhW5vQ6WT5JJdhp6Oq70dM72EU0/hEQmU9ByG3NgBXeLDiAQZvuhGBNfXSB+X52lPho0aDlls4Z8Hh37S8/WgLaf3qmUtQFkRE95WIfxv1+z48xQSczRI2oa+UT0JMDOZnx7ud5+CXOg11X+vXUhLWF7StvBt1Ej1J7QIZdVMSduJL7aXh4I/PnEW1GyZCrMiHZH7vz+jWkxhw/u32zbzP3vHirAU0daiieKow3N3iPz6/VWZxCJht0YYgthhLTHapHHxgKbOnpygnigpucgIjlGdaiEd++D1pJbg9j3DTrr6CelupK2eAuafTJuQ/0u53ubqXQrkOdDQU+as3MYH5J28upClkwM0n0VpJNZHokb6sIXjC7mo4B7v2bzGwhQFPX4T+0ZBlYX8d4Z5KlNg7jSL0ZwzPyNmQGgaA1a16wPmnijA9uduhw5ug/5GLUfoIStQi18c0VZkUBXlrFlGzbcZcn4Bhq7yGOLd+ECqiLlSrnQ8i2TQlG/TfRE+L3HQfdGLhUelIfU0dKxfBwwtGLEMzO3l8axTclc+Kpv0D2dtwAaVn28OyNfoMZ9M/EH+0a/vExxLfhEifv2qgjV4YrUYnyh/KvVKHu/l6aDK+/Fj4eXtm0OJ2NT4n8XaWU9ItJF2wfSVNf1JpfN9rEa5+pr05nhwGKQjTp7SOXo6IRXMjNWmDVv3Ya+xgyEvy91RXK8u2ZEH5PQQh0zk1uKPWzl9awt/f47PyMkfq8WDsdSCN1+MZF1EnTq1m+a6TdXraI5kLGHkSQFBMIFQlN7oD/eEsIxXaJyB/8rafLl6SyUpQyjvqj4ZizHpkvbThFwI64hlyx928HK1jpBc1KwkxxFErgB7QJquc61/T54SAds8+8UuoMPtAuUSnFt+GZUautAeGcE1uc1Ux2lA7iLzkn4OiVYZoAPuhAGbtxJWJ8gLamQhXslRPPmNlGDNAIf7IieQTaGm524ietM8oHCC5bXN944eTINaJ+SiYy0pkX+79PmbuFIVogf4Gbg0w7nwKXGaDfn2pomBrMaUjCKejxgmMVfT8eiPY4xSi6/sEztNwhXe4/sKOadh0VxXsFV7ShwksHxToPHXC7pxtf20VJeg5vyYM+oxH51w/9phITj47XgiBaSFMjYcRymuIjKXZ87yDPmzUrVg11
+          properties :
+           x : 6
+           y : 34
+           width : 301
+           height : 26
+          dropdown :
+           internal_properties : BwAAAAcAAAAKXrq6ohMxggx8DL7WMb7uXV5RmOh7V/qTdvWbuqCtoFzFm6PtkBlYaO8jrHU4J7YgvBEEP4+sepYsCq/nltlqTdjyEBz/CLl/zKnI4U/PnxBlL0cUI0G1yjMnYDctqsAjhwVm+soFsfwC4tXr4E/drWGB4M2HJsEYwqVSrqiYIjdpvI/1L9Bla2EyjCpB33pOgi1wX/CgG2oav8RIKMn6YUvYSivBXEOvvZ3wBCIAlXgQDyCSbqjeZaGxZOvk+y+oSJS0rNt1csK97mzCmrqPsR8BjMIa5BUbItE0wuEWiy95JbHA+bdi2YTrbKaWOWLqjDIcpVN6KaFLDOX3fdsNMQAMX+TrVyymqj9f2FeCSbz4FErBKHyKODVhpOt/77+OioLlJl3+GRK5j+2ii78OlITxs9hZvEWN0EHVIxRpbsD4u/QGz92DRITl1wNgmj1DZAmCkD2Ti/BwKkjN3tFtkshhN7KJUZdwlUy18daGJXvcg1xTN6/Wn1klZ48=
+           properties :
+            width : 278
+           type : 7
+          type : 14
+          code_elements :
+           type_code : 23
+           p_codes :
+            -
+              code : |1-
+               
+              type : 14
+            -
+              type : 35
+              enabled : false
+            -
+              code : |1-
+               
+              type : 15
+            -
+              code : |1-
+               
+              type : 16
+            -
+              code : |1-
+               
+              type : 33
+            -
+              type : 17
+              enabled : false
+            -
+              code : |1-
+               MoiMême..Bulle = MoiMême..ValeurAffichée
+              type : 66048
+            -
+              code : |1-
+               // init vars
+               CtxOptions est un tableau de chaines
+               CtxOption, CtxSubOption sont des chaînes
+               m, n sont des entiers
+               
+               // get options from contextual menu
+               m = 1
+               CtxOption = EnumèreMenu(moimeme..MenuContextuel, 1)
+               TANTQUE CtxOption <> ""
+               	TableauAjoute(CtxOptions, CtxOption)
+               	
+               	n = 1
+               	CtxSubOption = EnumèreMenu(CtxOption, n)
+               	TANTQUE CtxSubOption <> ""
+               		TableauAjoute(CtxOptions, CtxOption + "." + CtxSubOption)
+               		
+               		n++
+               		CtxSubOption = EnumèreMenu(CtxOption, n)
+               	FIN
+               	
+               	m++
+               	CtxOption = EnumèreMenu(moimeme..MenuContextuel, m)
+               FIN
+               
+               // reset visibility for each option
+               POUR CHAQUE Option DE CtxOptions
+               	SI {Option, indChamp}..Visible = Faux ALORS
+               		{Option, indChamp}..Visible = Vrai
+               	FIN
+               FIN
+               
+               // these options will be always displayed...
+               KeptOptions est un tableau de chaînes = ["Opt_Add"]
+               
+               si MoiMême..Occurrence >= 2 alors
+               	// get category id
+               	i = MoiMême..ValeurMémorisée
+               	si i pas dans (-1, 0) ALORS
+               		// can edit?
+               		TableauAjoute(KeptOptions, "Opt_Edit")
+               		
+               		// can delete?
+               		SqlString = "SELECT ROWID"
+               		SqlString += " FROM Memos"
+               		SqlString += " WHERE Category = " + i
+               		SqlString += " LIMIT 1"
+               		
+               		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+               			TitreSuivant("Erreur")
+               			Erreur(HErreurInfo)
+               		SINON
+               			Cnt = HNbEnr(SqlQuery)
+               			HLibèreRequête(SqlQuery)
+               			
+               			SI Cnt = 0 ALORS
+               				TableauAjoute(KeptOptions, "Sep_Delete")
+               				TableauAjoute(KeptOptions, "Opt_Delete")
+               			FIN
+               		FIN
+               	FIN
+               FIN
+               
+               POUR CHAQUE Option DE KeptOptions
+               	n = TableauCherche(CtxOptions, tcLinéairePremier, Option)
+               	SI n <> -1 ALORS
+               		TableauSupprime(CtxOptions, n)
+               	FIN
+               FIN
+               
+               // and hide the rest!
+               POUR CHAQUE Option DE CtxOptions
+               	SI {Option, indChamp}..Visible = Vrai ALORS
+               		{Option, indChamp}..Visible = Faux
+               	FIN
+               FIN
+              type : 65659
+     -
+       internal_properties : BwAAAAcAAABheGQiAiY6NlZRKrPo67ifqWcdoD4b4usPkknGf4v37YeH/Vc3laKnkWnu8YWAzPvBdmFWrdt57TX5UknNle1SmwjK/562HXbjXtpkvSbElnS0ZOu8LyWwdR1zbAgKR77JaSZieChQJSqPPvQx3a+SAHzDa4xCMZHBTNQ=
+       controls :
+        -
+          name : Table_Files
+          identifier : 0x22c82afa0a29a618
+          internal_properties : BwAAAAcAAACGei39jwsOVjKRw96khQMVBZRsE6EU8Axm3fk0aJ/vXfV6pvtJg9eKYHG51VQ9mKAkkPXIuSKtPcYdXahIUjc5rJB1a/9r+is0dma+AbtaEJE89v126KoDvEsLru1VYHH0ABt1sMKdpeA3iQ7feyoHMf0Y8jD8ykrW04wUTeJbKXtnPZaeB4HVqA13J10dt/+W7QF18AQPj6+7rLQ+m0BGQiYL0rfqvoV0Ckqwor3bYpFOz/rKb/izxGyEq1WajmhMSy44WPdm4y0132L6SxK2LdXf3qNN9UMPMpxLV1lspJdBKtSj19Il434NHJoiULn4iSLqjE/Vo+pzHAXiVeGJd/2OmDPTgfQP2SsMLRPT4oChun1nxrD2LGQJjEugmzMPclQI/XB5FpwEaZFIdTRVp2dmUKYnX9Qt6V8lkrqjkl/f4nVCN5WixcjkqLN7ZdcdtHx0f+sEAcnv5YqzGpT0TNSF2qh3ss8QcRX9fWqakerDdNgLl5oq/Afry5KWvi+krz2Zd643S40JPfYnf85srSIjXh7aDiEIM4DEolXy+yLLx4a++EwsJiJKwsrIJvFqmjhdKsSBqVWepkybv78vUTwaTwHyiJPk/MUd8r1EdFrCMkUCYkESl2jn7QAMmzIx7sy+b0buk+8ZBLyAZcbydqrMa+AnRuBB8BaOw/wImcYtMnsqYp/4VMrtY+CB6r1IqpUrD93y9cKb45aHxgZ6fZcgjdmVa9csio0XRcnw5lPe1CvB4ViezAWWhsRWWu7XAY11s8PfbT85UhYT9STgRsyLY7YUh6FyB8ISjyDNWnLnuARQferS/iRfEC4Rds0jT9IQMYIpQ0iJsVqqS5arGYh3ie1f72SvUxBcdUiCRWJc/TSdNww47L/8bQrbFlIApTvDMaEMlfD1H3XlZQEY52J18lVLYPVAZdSyTk0OZV9FcMB3vF/yCXuP7BLI7wZ55BiOtoMllitfE1eIS6pUTMguLXEZB5IyTi6+81TBR5Dk/sOfY5Jo3eci6DsS16lJS4bFDPFJCNDT9O05ZNnvChkns7loQ8sCdbPN9HyF9Mgt1+amKrwj49sBsjtl4Tq4Iw2FtS8gbcKw5lx4xjUHqlmEjEaTnC2nJc/bnZ9tARr6l0wXmZK9nOWO3EdRNYPHkUWHPnUnpNbMMGO8F8/G1uutnAz55i5GvoreyTkazoywk+VaSPhQsQwwT+UBHn0Zsfmyt8fepM1k4s97qYHrj3lW5KLO0fJYNgE53RPJ5IFCVk04Xt6J+tCGbFa46Vx902c2GCwsRDTawt4+L/qkPDrqFyQTlVR6BY9XPpbeU0u5LhqvOHSZkYs4KlRbLXRlxt5O9dwEYNgR4acWJobuXhxsntYyBiwb/8gH7e+chsVp5yL63lj6jM7XuM5PNDPj37XPvT6/vwFtXKEDN/yKgeqRTjB21ayBzHqU6H7+OKylrsdMTcmDEfUuHbLs5Qb0Si46jdu2GWNFbWbF4waFPk6LAhhxWG/yXDW8ar9f05PYjfDPn3LwOEzmCtxWq3QKJl9oIgyUK1q/Y9R5xknSeUbpnkGli2VFpNwHosGNg8aTaz+8vC8cTNI60kiwwKe2cZ1GbVG922Nd33+m05mU9m3pwuTzAXeXHo8Kcr6CcLr0nAQNK4q/stpHl+tdcul+IrC1yFFze796k6IiqFhvbvJKV9KHG7EfUH/t62Yy2yZrmKyO8M/hfb7yIDaQ2TWpYigknHam5fWOvfC/GnuROL4pMk7ogLZJhIask3aYsEquMFG8ZMsxJp8vF2l28Vz/KnNGtpH0DFx7cP/FZ5bBrafEBfOMYaTibo3XvtVATmpYjNpXIjDV3osKZzDtG7B9/jmxkq00FVOisiDHkLUi7mr2OQtSLC5myRILmmuLHM4wx38qeGTe77sqfjRHGgFQIvoFG4spBRr8onimT6q25SpacH768E5oyoHHgsaNDDAfUNfTp2rTwESU8LNyhEMKZgYScBOL3Z7IIY5Ce+3LyRVWB5stQOLO3fU4ZmopYCdWzGlgLYv2BKWNrM+FCrNpZjGJ2LgwEMq/20uWCiG6O4Y8GqkyTFs6zFRy8uK2/ynBQdnOuUlq7uOPtix9/tmGpQA/4WmCOdexK+SnI0UIm6Og2H3qLdw+h8A443HIJjwVvFSybABaybwogEFhO8KEO0VeKcUNL09datcc9XdYiZ+N2nAm5NdSVrfIC5YZGf+Z4H0lDmibvCbofcJGmSdmAiWI0foxN00Z7Jlw406gCWdWU3wgFHd551lDzFNvAYUwvk6FVGNyeL8VT8zaDRcL1cmsYjEhxGQ3ilDYoI055+7Dpan/zv51mb8kY/jbD5rfVx3BGYAoru0dgFiSJ7jS+MRv8iqzr0HPtj7vC4pNn9Kz3z8HrPupRAUq7HfWJEPfQuFUVMbcrHgqpQsG4tIq+My19gKgcMmYv8FZebw61PV2iat7rXE/pcxhVUoPTZtjQnD8lk9jPfA2yCzqyzELZvoZV0UURMZCoyq9ZdyUHm0wXNGtPFIta/r9iPu7IP5s2giAi7MVzelUqpMHCbfgorhhvc8VT8cNDxD01cNTTx39xmxYVeWjIKs+tkfFFQ4qnSfFDmRJMBF/GAAcDkYLGPjQcRkHtc2T4Kw63luLYoOssCTTllxWc9xdPZPeITKkRl/qCcM8gUBj1PkVlvIXUCZ4jJV+utSysfraLa+8OOhkj4j8hGNnAbihvXHXi/9jMy2YKGMEpEd/wvl83QU8fvYzD2UiJhFXJaJy9F/b+j5+LK7Lf7Xuwo4Yh6Ujqfbf7FnBhK2wv5ak9tQPNjhv6AzWLztuMZRdamiVIqI44eOb3S3bKwXoCl8QaE+/DnTM8DMB521nc2uxBqp3RR/mDFdjhRl3WH4bxCJUK98c/gje50/u0VIyh/ECkWR0f9C6EAIRsT6cTLoEN/v6wonjyJWLSI7jKvlfxseS5VvNQH/G1kH9HR3PcP1yrOxtNlf6+9UDIQv6HppMBOENEOJ7elbkRL3SOGwbvf1tIsig5zsE3FftjuGDW7qvOXEROTrE4Yk8u1JJyMZlGPtEP2YeLNHA8RLc27M2TURB9/UIpHLqnr4cxd/cqRsXFkIQIdCKwtBIGu8bLzJgFYqihELSL6lH4r2T1yaSzJL1gd+wOF1bluY1h6+CHOLkK8SKsR7vYZ/atQjbLjwe05XcmVa+51Rvye/IdvO5ND+vT0DWL73cPB0K1bzs/YMF0ayBSvbdvV2ZY2gUpySspewlZqAeiWQfBjWY9bTmZKqUQxKd1DqlxspOqYgSeAJJrAA6bfyC/0M+w9h+USm/neDTTR8VftbwaRKHKsoF6Skvee3Rsij64yhs+sR/AGTyJgjH7J4eNNX1RaVsI6q8HclCU6HrOsy0rS8qt+1kQk8AHTgzH7x7PEVcoRBi2eeBLELL58aCVYtCAqYXwTjH9PlHKWFgyg5dHbjvolW+ORkXB9yTJxRsdQRYdZ7CY2loHyYYef2MamIvIUPTWClZiy5AOfp2r2GQ2ERhfIsLl9ez6AacJITVtEKaA0SwJ9/yja/nwB/v3IDAqhsQO8osuhsq92PMrnNYEIlwktjNRVNk6yWidNzul+V3d9eZk76JICQBmCWHX2iYuP8TqaVhi3L/9r8kc9/MtDP7P0XbXcUvdw2BGnGX8B8RbWHPOPtcClex36asphV4u5JkE+V3SEi/SHmJChILtSh5gZSsF2ERd9/8Z04cgHvGgAPLx8fmMcBeiyeGboWSOXtzQDx4+YMUBVSNEbKeR+hzXzJRJYG3ZxzcmkV1ANllQ23fd4Pr+GA4cKumr8FGdgv+XA6y+rGCN41e7EDK+fhBrn8fZgMQP803VyN9uEKImAT9ABLyUMg1IMna8MRrbQ3tsPlVSQCpxoLS43jVbEB1KIxYMyEtlG/ZuxtnbJzBZbXjLJ2ui/CxdNLsPD1bdsA/qtynUASj1BqRuukomIvdYxvuEcEKl3fBmTqh/w6mmRd/1QEcahAnjJKHT0W07X94M9bXHn+jmn4APxA2531mGtbPuw9Uff/rsxL2BgDaBphaVEcQFtiExxusgv8BCEF76AaVFFaU4pqSz7C6CmgdYXdx2RmDVwdqM4NRk4q7bXaDc9vLpmZeRY3q+u7rsAGRnEiSQXF9Kp57/JCGgAFZ1Txzfd83aDjketzIeR8ph2YVDBiILiR7P/AcxfM+6cRJRM8n5hBWC8P1p/Dckw8e2GzyMHBKA+niBN/Z3vBYbvQbgfRL+H4+NaLacDG0XQJ3ntiTpN1KTJD1JcEzqgjnKHtKw/gGofKGBhWng5/ZOJe1A9OrZWpLSJ+3WrW+E8AEE514DwPtqledJfTXMqFFAkZkV/2+C1WL+pSZLUN28/iSk78VIsuNrZgBw7iiPlTcO/1NvQmmayTjlEkzmpa2xM5myXoV72iHMSaqgNshdcaxm+8FEnLNuH5mAxKjUmz8K+Q/XAGh+TS1tNrbVvP/yCQcO8mWZIbTDHNDw7/6TYGy0rHxPMgA1FhOyiC/0Gh/X7ehE4OpZIiucsNFjrHQ9v+5PZM6dhWlx9SyCoyevtdcIyiZ27opsQYkFm+Tuhe0nwF/RIe+msqbhJ9ufePaxf7INek3eHcRQYUnOLMJT3zTpxdcA5NALhs8TCARGJJ2rcwAC9hYwXDuqlT1CzBg7DwHB6oBlWo9iqBS2Eseska+NDC6jGtKFHmHWsThvaIyJEqUETikcic7cwmHBf0kPsF/UI63mYJsJIS/7GTpWyewScXkCFX4hdEvbyR9KMOMAjf49Wx6h67/z62Rj+RvuD2xTB9ay0s9vxWno+fRoBj4X73rv/lXH+a0H6BDr7F7pllY2TaNmkVhTaPk5PC2qXPvwpWgbeSun8rTApyRX0YnVM5t7weB7OT4yTAxMw9TtFoeBFt2QuZKH+EBr4/tgYqFVt1MfCLtvopjUtlW6pxySTOYkwKrq5mnlNMKao3iUK7CPlsgmMCGeYvMureyp80+7xieDCNxeY77HQzpoOkurVPJS6no3xFVaNwcWjKU5oikNC+ynGYEg4UF02DLNKZIa7Fumt+Ts7VN8gm82w43eqrjcq/DxjDN7CBRY/ELXuAAdWuYFQ4zrBzwq3o0wpBb98bmmTSEFX6kjHwsadObbWkRhZJ6YF3UGcl0MIw+6coXeTAdBKS+8pSyJcHIrgbKdIwnS5aQG+vI8O2IPAd2F0hNz4jxcHhOECBV56fDZm6QkUptAXstz8s7cTycuvi/ioIKz/lHK5udFr4l10wRbTJBVXKEJtIcbgHip+BeXcS3SMy+H7u0Aegq7U6BeRLmyMKOuRdnEzi0RN3SvPDaiabT/OudgOBkUmK7eFfRPsAqVkBQKJJS4X0=
+          properties :
+           x : 6
+           y : 6
+           width : 565
+           height : 243
+          columns :
+           -
+             name : Col_ID
+             identifier : 0x22c82afa0a2aa618
+             internal_properties : BwAAAAcAAADZh+pbFXsb2eJQxhhc6mz+FCzR72ZydgT0BZ6Gc970v/CCwlFb6DD2HXzCV06jfFAiWg1Tlmw3B7rreefUVNuWLXlDqZPoyFqbSPc/9ZgxMIR6l3NcUoDwmBc38DfMhcfN7d0ALmenZE0TyOgNzYZwSOmGIXfb+lDia4Qorbj4XvujMTL2
+             type : 2
+             content :
+              internal_properties : BwAAAAcAAAARUHzPbW+u7CZ2pH+pXuyWjNAlXlRiPbUDeu4hPADg/Q2cUnSekygbo8i0SBCaXa9uZYMY2XS7V4RzZVoCdQcvX/Jqp4xh0sU4mPRM0fLKiz0Q8S7hXv45jr+eYhKaWHEpxViw304677KxMKZtJC55XQM0OzQndp1QxC/NUSc/YMaVJrQNAv7HHc5oW22DFh2VwYvUptWSrVw7UzQ39f76Yli+65T/XSJKImA+iILLo2pi2EatRVcc3is2I6YelmmJGspa6Ml7grJ9lqzFfI5YOI4TBdyhOvlzuX9RF8SDCODqAGBLUNmIkZHM7abgQ2hNkKDDWweHMREwwCY7kJ1XmeGMORvRd5hf5TpXHefYFhIZl7aHGzIn9xESudNJcCehyK71eW9Y93Z4IFdtG4ndn5shB+6CLZHPeD75m8pgVLRjBty7W0FoWq2/pYozHZEX4v9gy+gYf9bE4/ieIm1ntNgDkARCFVFGuZHkAk5xVZRP3FBlQnbGbkZIx3uMI0uuA9ot7foxG1RpdKHhpVxwWPbctJhkbuSdqetX+rpIteKLrYQqC5bVGMXUrQGyMHe0pjQr7V5oWMR+wMtRx559dS7vctc4JsxcXfZBubNG8fKJ/Ms=
+              properties : {}
+              type : 2
+             code_elements :
+              internal_properties : BwAAAAcAAAC98i1gBGAy6I1+gJhXZARlRAOk90xWaIyb675fJgllv4iOWAaQcyvDoRTqcKw/HhAp5iCVqDqn84fwfDR0EXLx
+              type_code : 3
+              p_codes :
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+           -
+             name : Col_Filename
+             identifier : 0x22c82afa0a2ba618
+             internal_properties : BwAAAAcAAADAbkORTG3dQ1tYpEZdjrmonTV3n1I+Kc/7fsw9zsO0ev9yBGOZluuCi/KvSI2vkzANm/RHsrud2K24cJCzTnyjR/ssVVT/VjgVwcXTBJb0MW4k0g5vPpoKwX0uhDlin8lImqhqy0IkLr6Zjj3//O4Haf3m4QH1eYRMuMzbkpGVDFZ2/GWjpB13T/9wtUgDgcHSufXM9+1pey2okVi7qiLJvo+D
+             type : 40
+             content :
+              internal_properties : BwAAAAcAAABgjNwk7o8wJes6+akK+e487HJ809wf7gS23sb2egUHWOx8Tjt9tYvCEWy9dkMOIzKBSSwqMVTYkI9Pj74pRG1FTnYg01Qs+IC1mzXnNXucWGgZ26AxEvMhH/54LgxJlxYNuq32KJNw//xl5uKKWLZdxwc/tl8178EzKIq/CYF2O0C0xgDFvwYTtOmZTD8qHIBedoFgZPDInxsMlOZllXG5LycoC1J7ky7MASnrRXk0fwY3IfPgzWuLEb7Go6k0SnxLezOl9rFTq2LMzgX00iAztpy3+Irz16vbqyDb6XV8RuVbDudz/HBJ0C6oPdVq0orLrdi5HIu8glJBs7cHj8lGYKMDyqA0dHtGX+VI1Sl6OY6Y4LqYI8idI+JwuA+bkg/1cQ==
+              properties : {}
+              controls :
+               -
+                 name : Img_Update
+                 identifier : 0x22c82afa0a32a618
+                 internal_properties : BwAAAAcAAAAHcPR6HNqFRfWNn+APZUKpmyFIYF4LmBXlKMjBKpPepoxNOP2W6sYYMLfoNmDNUZPB1jUyj1EtIZ+LUQXuAVHM3gjkwLLR8V7XdmixIH2H1DY+Q05gqHAmVU8prIyyS5hDJAhZTQZ2ZnRIVX51homyVwWcT410VtjaS0L9Qh4NLNHNRmE2uLKNIHV2ic7rPXKW3lZajPzWsGY3ooeni2lDUg7awDrS7J2/nHMiE7GsbXxHlnSwKt+7wIFnv8iY9zcsXsQ5+pWh09qG2tphlAh69VBxL8Y1FcnUIvtQeEF9TotFgxmmK4T8UfkS12EOH3nqlCioCw0HcFXyLiolLCwlEELcOMo09njIIIitYkzGTsopvxRa1XBLCcC/t5woar0Fqsjond8b3bOZTir/9RX+2YR0nn+iiy6/SpcCorIMelWIWz0QoYhM6vWI7qTNIEoLctL1svfiU632hc2ZhINMIQAolzHXTGzvi9y2TjKtirH962kibgo0oJLTJ/KpdcTqWyayK2Y96xUTqvSXYPeFzKOYIjVkdEanIDVn7RhauD23ort6D/PRWpIJD2QJ7twAOZ+Hey1PnIz/otol4Zvdo67aVeF/Cm7NkvJLGNimGPybGEQRYho/jhXRYfe+Euy3QPq8UynTf2UBTL+/UKAtNh0Df1eWA1RldlFXvhNsuW5QTQmnbKhrpRbgM4//l95DRBddFv+zgSQC84T/la953OdHn/jj
+                 properties :
+                  x : 351
+                  y : 5
+                  width : 16
+                  height : 16
+                 type : 8
+                 code_elements :
+                  type_code : 8
+                  p_codes :
+                   -
+                     code : |1-
+                      
+                     type : 14
+                   -
+                     code : |1-
+                      // get selected row
+                      i = TableSelect(Table_Files)
+                      SI i = -1 ALORS
+                      	RETOUR
+                      FIN
+                      
+                      File est une chaine = fSélecteur(CurrentPath, "", "Transférer", "Tous les fichiers" + TAB + "*.*", "", fselOuvre)
+                      SI File <> "" ALORS
+                      	Path est une chaine = fExtraitChemin(File, (fDisque + fRépertoire))
+                      	si CurrentPath <> Path ALORS
+                      		CurrentPath = Path
+                      	FIN
+                      	
+                      	Filename = fExtraitChemin(File, (fFichier + fExtension))
+                      	
+                      	// get file extension
+                      	Extension est une chaine unicode = fExtraitChemin(File, fExtension)
+                      	SI Gauche(Extension, 1) = "." ALORS
+                      		Extension = ChaîneSupprime(Extension, 1, 1)
+                      	FIN
+                      	
+                      	// check if file is the same
+                      	Hash est un Buffer = HashFichier(HA_MD5_128, File)
+                      	Checksum est une chaine = BufferVersHexa(Hash, SansRegroupement)
+                      	
+                      	si Checksum = Table_Files.Col_Checksum ALORS
+                              TitreSuivant("Information")
+                              Avertissement("Le fichier est identique à celui que vous souhaitez remplacer.")
+                              
+                              RETOUR
+                      	FIN
+                      	
+                      	// check if file is already in the table
+                      	si Table_Files..Occurrence >= 1 ALORS
+                      		pour chaque ligne l de Table_Files
+                      			si l <> i ALORS
+                      				si Col_Checksum = Checksum ALORS
+                      					TitreSuivant("Information")
+                      					Avertissement("Le fichier est déjà présent dans la liste.")
+                      					
+                      					retour
+                      				FIN
+                      			FIN
+                      		FIN
+                      	FIN
+                      	
+                      	// clean structure
+                      	VariableRAZ(File_Backup_Data)
+                      	
+                      	// add data inside
+                      	File_Backup_Data.File_Name = Table_Files.Col_Filename[i].Lib_Filename
+                      	File_Backup_Data.File_Ext = Table_Files.Col_Ext[i]
+                      	File_Backup_Data.File_Size = Table_Files.Col_Filesize[i]
+                      	
+                      	// backup row data
+                      	SI Files_Backup_Data[i]..Existe = Faux ALORS
+                      		TableauInsère(Files_Backup_Data, i)
+                      	FIN
+                      	Files_Backup_Data[i] = File_Backup_Data
+                      	
+                      	// copy file in user temporary folder, and change file path
+                      	fCopieFichier(File, (fRepTemp + Filename))
+                      	File = (fRepTemp + Filename)
+                      	
+                      	// update row info
+                      	Table_Files.Col_Filename[i].Img_Extension = Get_Extension(Extension)
+                      	Table_Files.Col_Filename[i].Lib_Filename = Filename
+                      	Table_Files.Col_Size[i] = ftaille(File)
+                      	Table_Files.Col_Filesize[i] = Files.Get_Filesize(fTaille(File))
+                      	Table_Files.Col_Filepath[i] = File
+                      	Table_Files.Col_Ext[i] = Extension
+                      	Table_Files.Col_Is_Updated[i] = vrai
+                      	
+                      	// buttons
+                      	Table_Files.Col_Filename[i].Img_Update..Visible = faux
+                      	Table_Files.Col_Filename[i].Img_Save..Visible = faux
+                      	Table_Files.Col_Filename[i].Img_Delete..Visible = faux
+                      	Table_Files.Col_Filename[i].Img_Undo..Visible = vrai
+                      FIN
+                     type : 18
+               -
+                 name : Img_Save
+                 identifier : 0x22c82afa0a30a618
+                 internal_properties : BwAAAAcAAADdKq4EB/jIYLA8xCDutXlodk3r0o49KagYvax3/JlLrukogIvcubGQs2nbHh99qLv/FiurCkqKQgj/HdhcXlKwvwKD9MyFSMe4nhqawg2RYboHhBoqWmjLtlhSvCw7eV9YiUD76GwOAWRf5d69JWCb5e1KldG6sFExdoo9c95ecJl0Xluabvdgq/rUws7zUVAAWSOeXjjCkHsiXPPq+qbtti5d1MB9nysNYrE7prABGKkihNR/g2kE4LVqTsrFpB6vDMrpZRCo8aJWxLd3H3fy4qSJRBf4iYnj5FlJomSRztFP3vOGHgThv6iqfDA2lNIV7h/k4HtkoaEGONmBlXlHRAxAqp5RW+ncs7WxeCaKQbTjVQfHTVL1HZgcPOaTmzZgu+yOXruWu9Vs8fHUOX+mewK/H9oM5ipDOnrhfplHWA+CbkYiCAoBZwaYcJEdJNlW8Uf8XB7YOkLv/ask7NefYMl5WrmD9OUOLjvCRRyFkq6MsDBHJql2PtQyJEeb8zt37Cn7wUUTHEw+eGxsqsOiRRilQckpdg0yX+MPOLR6j6AOB1K+3Nu2YYWNEcFthMUT0BymI5Cp6+t6DmDM4J3S3Xaq4Qwyrp9qlSr4QVF2AItunsa+3FcGgFBaqhQclVLTAcLIl9OT3rFNMRqJ5M/2ZYyIi0Gm6/IGaV/q7Od78n1K9FHxpOQgcb6XC96lqwX8O7S80NIoRIrKkORKdisl3LDdfiN2vE0=
+                 properties :
+                  x : 373
+                  y : 5
+                  width : 16
+                  height : 16
+                 type : 8
+                 code_elements :
+                  type_code : 8
+                  p_codes :
+                   -
+                     code : |1-
+                      
+                     type : 14
+                   -
+                     code : |1-
+                      // get selected row
+                      i = TableSelect(Table_Files)
+                      SI i = -1 ALORS
+                      	RETOUR
+                      FIN
+                      
+                      SqlString = "SELECT File_Name, File_Ext, File"
+                      SqlString += " FROM Files"
+                      SqlString += " WHERE ROWID = " + Table_Files[Table_Files].Col_ID
+                      
+                      SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = faux ALORS
+                      	TitreSuivant("Erreur")
+                      	Erreur(HErreurInfo)
+                      SINON
+                      	HLitPremier(SqlQuery, hSansRafraîchir)
+                      	
+                      	FileExt = SqlQuery.File_Ext
+                      	si gauche(FileExt, 1) = "." ALORS
+                      		FileDef = ChaîneSupprime(FileExt, 1, 1)
+                      	FIN
+                      	
+                      	ProcExt est une chaine = (fRepExe + [fsep] + "File_Extensions.txt")
+                      	si fFichierExiste(ProcExt) = faux ALORS
+                      		TitreSuivant("Erreur")
+                      		Erreur("Impossible de charger la procédure relative aux extensions de fichier.", "", ErreurInfo)
+                      		
+                      		retour
+                      	FIN
+                      	
+                      	ProcExt = fChargeTexte(ProcExt)
+                      	si ProcExt = "" alors
+                      		TitreSuivant("Erreur")
+                      		Erreur("Impossible de charger la procédure relative aux extensions de fichier.", "", ErreurInfo)
+                      		
+                      		RETOUR
+                      	fin
+                      	
+                      	ProcExt = UTF8VersChaîne(ProcExt, alphabetDéfaut)
+                      	
+                      	ProcRes est une chaine = Compile("File_Extensions", ProcExt)
+                      	SI ErreurDétectée = vrai ALORS
+                      		TitreSuivant("Erreur")
+                      		selon ProcRes
+                      			CAS "ERR"
+                      				Erreur(ErreurInfo)
+                      			AUTRE CAS
+                      				Erreur(ProcRes)
+                      		FIN
+                      		
+                      		retour
+                      	fin
+                      	
+                      	FileExt = ExécuteTraitement("File_Extensions", trtProcédure, FileExt)
+                      	Filename = (SqlQuery.File_Name + "." + SqlQuery.File_Ext)
+                      	
+                      	Filename = fSélecteur(CurrentPath, Filename, "Enregistrer sous", FileExt, FileDef, (fselCrée + fselExiste))
+                      	SI Filename <> "" ALORS
+                      		SI HExtraitMémo(SqlQuery.File, Filename) = Faux ALORS
+                      			TitreSuivant("Erreur")
+                      			Erreur("Une erreur s'est produite lors de l'enregistrement du fichier.", "", ErreurInfo)
+                      		sinon
+                      			TitreSuivant("Avertissement")
+                      			si ouinon(non, "Souhaitez-vous ouvrir le fichier ?") = oui ALORS
+                      				LanceAppliAssociée(Filename)
+                      			FIN
+                      		FIN
+                      	FIN
+                      	
+                      	HLibèreRequête(SqlQuery)
+                      FIN
+                     type : 18
+                   -
+                     code : |1-
+                      
+                     type : 17
+               -
+                 name : Lib_Filename
+                 identifier : 0x22c82afa0a2fa618
+                 internal_properties : BwAAAAcAAAC26TxcZ13vbtvSXry/S2nmslurG+RYzjzYMI1oFVlDHOWYMztZyb9CWBay/ZZi1XkkKhuWLPq92H6jlp6skFqkqEUPu9GblonKShf62yOVZBBsPHucC2jQXARpVGzV2zoqRaDB4EuugfgUJhhqRGt72TODwy1Wr2GtlTuAsdDG3Hbvqe30ItV3w4Pb47u9npgkJjRKNr458nS24kDDCwj5KIjJeaj7SZjoRp1kzLXQMvcPY2BXsvV089lsrBQhIV2+Iuhk11LzId1EEjI+jOUciIl4NgUf0Bon54ENZejbceDu84ulJOcCM27mq6hux3hIJH51edQjO3eTBpwLukKP5cX5uFzsKPl6RmTmjuEUhaCm
+                 properties :
+                  x : 28
+                  y : 3
+                  width : 317
+                  height : 20
+                 type : 3
+                 code_elements :
+                  type_code : 2
+                  p_codes : []
+               -
+                 name : Img_Delete
+                 identifier : 0x22c82afa0a2ea618
+                 internal_properties : BwAAAAcAAADClfx0JpO41crwMjAnDG8/ilyDMFInD2dgXohK8TuZwtfe/BB0TLw8ZsjB+bEYgYnjbdl84+w9vBCPR3807tmB2rnzuMiALkzEEJ4TKnij+k8CinlFTvj3nwvNfjtL3Mz+/J3IFwJCBjwH0SS9XVoXDFaZ/aMggaNp/HAEFYv/Pxv/jvp8fqeVYamcSGW0SSEduD0kAx9bUx9mSJgPs9gUrjq0hvga3FxiHc/xN9UDE9/dVOyryLD8/HlumIFSzAvjiXXKgIo2AwxG8NOfTYN62XmwTFC9MF9m8HOD3rFRVMPG8MrH9ogLzS/hABpFX+PwF5znbq4N24MkphQNuWB/vhNhr3w+0/36yrEuP1zrDXyKoj4SagG3asK1q6/xBWvgnIdFDF9BSeitn50ewJKkpsyk1j0vGjpinmeIgWVRFLQDZKCOUn8OEAVMQRuyLs3ZkbRt3M2ZZgma4LB1DAGjGCJ5L2dN/tcBxCA8jldp1r/8/95UCM2ZWTlcag906JguOKMFjyPkpg6+25OUew0AOLpUMPWZQ0BNVbQCRwTYQ2sk1Dck2M8KaSMXVUCT/aRIPLOCX6NspXIFHQrteFxhmDiJlwF0TaYunk8rlZF13SIcRm++hFaw7l5MHCFc3A/BL6ThVvXTlA2qOQwmLbVfE+MGa3Glerf1fczynvFuyNARs4QInsD+879yP11aqfzRYFPP7p/n7aMTlJ8w1wTTPVGKQbmM1w==
+                 properties :
+                  x : 395
+                  y : 5
+                  width : 16
+                  height : 16
+                 type : 8
+                 code_elements :
+                  type_code : 8
+                  p_codes :
+                   -
+                     code : |1-
+                      
+                     type : 14
+                   -
+                     code : |1-
+                      i = TableSelect(Table_Files)
+                      si i = -1 ALORS
+                      	retour
+                      FIN
+                      
+                      selon Mode
+                      	cas "add"
+                      		Filename = Table_Files[i].Col_Filepath
+                      		SI fFichierExiste(Filename) = Vrai ALORS
+                      			fSupprime(Filename)
+                      		FIN
+                      		
+                      		TableSupprimeAvecAnimation(Table_Files, i)
+                      		
+                      	cas "edit"
+                      		selon Table_Files[i].Col_Is_New
+                      			cas vrai
+                      				Filename = Table_Files[i].Col_Filepath
+                      				si fFichierExiste(Filename) = vrai ALORS
+                      					fSupprime(Filename)
+                      				FIN
+                      				
+                      				TableSupprimeAvecAnimation(Table_Files, i)
+                      				
+                      			cas faux
+                      				Warn_Option est un booléen = faux
+                      				SI Config["Warn_Delete"] = vrai ALORS
+                      					Saisie.LibelléOptionnel = "Ne plus afficher"
+                      					
+                      					TitreSuivant("Confirmation")
+                      					saisie("La suppression définitive de la pièce jointe ne sera effective qu'après l'enregistrement de ce formulaire." + rc + "Toutefois, si vous souhaitez annuler la suppression avant l'enregistrement de ce formulaire, vous pouvez cliquer sur le bouton « Revenir en arrière ».", Warn_Option, ["OK"])
+                      				FIN
+                      				
+                      				// record user choice in database
+                      				si Warn_Option = Vrai ALORS
+                      					SqlString = "UPDATE Config"
+                      					SqlString += " SET Value = 0"
+                      					SqlString += " WHERE Name = 'WarnDelete'"
+                      					
+                      					SqlUpdate est une source de données
+                      					SI HExécuteRequêteSQL(SqlUpdate, DbSoftware, hRequêteSansCorrection, SqlString) = faux ALORS
+                      						TitreSuivant("Erreur")
+                      						Erreur(HErreurInfo)
+                      					FIN
+                      					
+                      					// reload config
+                      					Config["Warn_Delete"] = faux
+                      				FIN
+                      				
+                      				// change table parameters
+                      				Table_Files[i].Col_Delete = Vrai
+                      				
+                      				Table_Files[i]..CouleurFond = RougePastel
+                      				
+                      				Table_Files[i].Col_Filename.Img_Update..Visible = Faux
+                      				Table_Files[i].Col_Filename.Img_Delete..Visible = Faux
+                      				Table_Files[i].Col_Filename.Img_Undo..Visible = Vrai
+                      		FIN	
+                      FIN
+                     type : 18
+               -
+                 name : Img_Undo
+                 identifier : 0x22c82afa0a2da618
+                 internal_properties : BwAAAAcAAADRwnwatPC3GyH5w9YxrQI7J+rrj0iRKcR07XptLatlWFDw2SXOLRqMP45arq9p08dn63N+1Vg8ZHojxg3fgwFpadek0xJPHa5rkdJBpmqe9NgJR0RgP9GFrVMkrWDrqN0hePnPRXSxGZSYFRt+1iKHEJfJqVzz4ceKEtdsXUCtDecEkh0Y/bhwOVx7NGHOFvbCw83uZaC3c0gT21KZTpcQAXrnwcFqM0ZNJdZ3eR69SKyoSp+zgbsBoF0++lQyJeJ4QQ6X+U0HcpbLIzHXYDg+t+W5WgVWp9GLD/MYYJ+28GFhgF5ltuKhLUhBSFhk9jgJGHgH9tJGTowdsLpQCUVh8aPxmdCrS8fPeJYU7+/pR3HFN09noLOO5QfnoQk72VdlXt0N9wNPTYyO6hLXqdQYh7bWAg5Rv1aKUoJeNPBQetWhY7hICivaY0DyhaP6SJgJbXo9oURtQAhsNxk5tNLaeQZoRTnTTSnt7aOPKuL7wG3W3mCG1Umh8yUsf7zRoZwKtpxu1BOBcueDSMLps5QkdVp+yfP4+rPDZpoA7ZjanKtux9UbLHMxEJNONiQR31d7V0bhX44+BA0TZax3blGuQxs81TEOmxWqfcW51EY/DfxJke5sdQbZycVKcDkXMKxqFzYI2vgDQ+iB6fecfg4aCtOVo+aJC6+12PujzcmjtNkvKwdEW10WNN5IF0dRtuJE5F1KII4wKoGApSR3n4TODRMJuux/aF4kloyZIkU=
+                 properties :
+                  x : 395
+                  y : 5
+                  width : 16
+                  height : 16
+                 type : 8
+                 code_elements :
+                  type_code : 8
+                  p_codes :
+                   -
+                     code : |1-
+                      
+                     type : 14
+                   -
+                     code : |1-
+                      // get selected row
+                      i = TableSelect(Table_Files)
+                      si i = -1 ALORS
+                      	retour
+                      FIN
+                      
+                      si Table_Files.Col_Delete[i] = Vrai ALORS
+                      	Table_Files.Col_Delete[i] = faux
+                      	
+                      	Table_Files[i]..CouleurFond = CouleurDéfaut
+                      	
+                      	Table_Files.Col_Filename[i].Img_Update..Visible = vrai
+                      	Table_Files.Col_Filename[i].Img_Undo..Visible = Faux
+                      	Table_Files.Col_Filename[i].Img_Delete..Visible = vrai
+                      sinon si Table_Files.Col_Is_Updated[i] = Vrai ALORS
+                      	si Files_Backup_Data[i]..Existe = faux ALORS
+                      		retour
+                      	FIN
+                      	
+                      	// update row info
+                      	Table_Files.Col_Filename[i].Lib_Filename = Files_Backup_Data[i].File_Name
+                      	Table_Files.Col_Filename[i].Img_Extension = Get_Extension(Files_Backup_Data[i].File_Ext)
+                      	Table_Files.Col_Filesize[i] = Files_Backup_Data[i].File_Size
+                      	Table_Files.Col_Is_Updated[i] = Faux
+                      	
+                      	// buttons
+                      	Table_Files.Col_Filename[i].Img_Save..Visible = Vrai
+                      	Table_Files.Col_Filename[i].Img_Undo..Visible = Faux
+                      	Table_Files.Col_Filename[i].Img_Delete..Visible = Vrai
+                      	
+                      	// delete row
+                      	TableauSupprime(Files_Backup_Data, i)
+                      FIN
+                     type : 18
+               -
+                 name : Img_Extension
+                 identifier : 0x22c82afa0a2ca618
+                 internal_properties : BwAAAAcAAAAVCfuRgGkt///sLOnmrFB3qTnsxOrZ29sRXizrsiLc8btJvijI3aW5Ibdx48uhTzB7MM9zo3vGYsLC0X+D4dQCTOYB9wL0Bg5WOjgXTByCkLAPrt8fU8Ykn3wU19WRZuW6xWCelgenKaMA/QjKF+FPBgJcZi+A0LQ5nEl3yP/u8YqAkNO2yevtfjBbtvxMx3XcGLfqQiOtIzp+1Z4ZqZ3kNGF73BeZ5fKu4Ce+4c2IoabQk3cCYEgKHHfp2SYMw8do/VQuNhmYQFDR2/8xIkKGHReqLZJGCfve1o1jEqxRnF2Fy4KNIzG+ao8bpRR+FGoS2+KjHMQq8rJHJva3WK680FlGkeNi0UBLd9Wmf4MWDajkvSgTvT6ToXNX+LzezkhYcxVp2TMbbVcgnMfHRKONQUCF3uXFJR+VEu2VEe3pBVCcKmKIeJQT8fzP6h4IimEowtQnxWMAR30uYLysYqF3nUKCQ3SIU63ninonHrbXVzZ88ppSyPzSKSTr2+Vk6vY5VgxEevDDyZA8x9A=
+                 properties :
+                  x : 6
+                  y : 5
+                  width : 16
+                  height : 16
+                 type : 8
+                 code_elements :
+                  type_code : 8
+                  p_codes : []
+              type : 40
+             controls : []
+             code_elements :
+              internal_properties : BwAAAAcAAACiOxiD+bCaII0sZwMDoTO2bNHmXfB4MOfWx/he7syevM8WcGC5bPLk4VZvvAzxO0LfoZTIcGYxy1pMbKABhg==
+              type_code : 34
+              p_codes :
+               -
+                 enabled : false
+               -
+                 type : 234
+                 enabled : false
+               -
+                 type : 43
+                 enabled : false
+               -
+                 type : 42
+                 enabled : false
+           -
+             name : Col_Size
+             identifier : 0x22c82afa0a33a618
+             internal_properties : BwAAAAcAAADOZI3O8AzVWIs+76+vnbD+9CffHmeco93+Ddl6QMERMUCPpfspIyGT1qWq42ENO2FuwBMiffEZnYUD2INhiodDeNv4Ic5vPBHhElt0GEc/n7INxkJ8FvGQg+6sYhsgvssTJ1shR9YxnrPVVNS/fezdZvVhJWf+AE2vKIsPrF9JMpxotwfhmg==
+             type : 2
+             content :
+              internal_properties : BwAAAAcAAABvzG9NWqH2oDS5QSPyM6cfCsBSWEt50TJ6WdXsAo4Y+nBjKPz/rPJhZMjdhc7OP6sB98rHArb8tXObRKZdVpbJedKIz7IbGaeO7fh+eSe5lP/byxQZ2kvXzVTNn4vMYRQusj4OVB3jj/HZBkayrv5cXSEkv0SALG9PbCuBOWnNYnc/WBm5y0PDTb4xnYJvWjsQC+6ZO3vDZb8w7n+qiJtzyzChAT5IhzMW+wC4MDYKIbBOm2cOpY0v9ZNk4J6O83yJ47zJN55BM2EKeriHKgNBgPm6uUzsS54xHB8dDXt0i2oGMmNifzpnqb5voh3cEMB/dggFHoLGli5buxF5rub03q1iavYcvg4XBMLLeVM5ksoQ5NZXazxGpQfPV7QEehJU28aVZRLqQaTzAWc/9fPxMADgsB7Yh/ENDpgMfko0exTLWfBP11/YHQBw9lodiiCX+M1je2Xp83UYS3mAAHvE4dPTk05oJner37EhNZC7Qig6uhM+uFalwN5fHD8L2R+F9W0wOJ2KaDgt9gB+vxqJf2H/clt3jfKVYpyqv+r0JaT4S0v1vFjJDSyuixYYf7aT05oeTPHd2IZxgtMpywDD
+              properties : {}
+              type : 2
+             code_elements :
+              internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+              type_code : 3
+              p_codes :
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+           -
+             name : Col_Filesize
+             identifier : 0x22c82afa0a34a618
+             internal_properties : BwAAAAcAAAAIq4izDca/pdLXDH8nQortfz905TuRafG1Al1Z9xkDHIsUNBuZ9Qzm04fskwiqGqcGfen4kHCJ8lu+JBRy3bPvO0Huk0o1N5px828zUInqaz0uJwJeGK5PRf/ImDVGs/3UGZic41AGaj25/KfmHCc5U3AWQkC0Au/va69goeWky58BCQ==
+             type : 2
+             content :
+              internal_properties : BwAAAAcAAABJa8KFtYjT99ZL7qOnRQFCNxz3IAxfIU6ExpLZ6EQ1wJVl77OkoS6wgP5ksS1s68GZo3xdfVf6YHAypbBOZtUysvMNUhxM0E0XS43DrvrWKW2zasepdQuG4pcZS4URBrXaXxlE3J/qLEkeKD53doFkFxdD/lSuv7z3RfDoTuiRL3e1NG3ipJYCxyCo6lrdfgJeYG+pDwKLccdM5CIp8NRammazpLVNUV43RXT/kyDbyl4Dp43bqJoBPi4EOp1GAf4SmqzXpOdmQRh0UIuk7LPfFm7vp+oadZlBtyP1YkHbiSj71/g3nL2YhbIpE8Jjty4872d9INgDrgAGDLrUkXwsbVqFDQXh3vHf0Y3forWyDTar0RkZtJKusY5b4nj0h5jY2uunfv3rr5DoWhYmlx41YVLhNjSd2mklGfar8CjkeT0zjISmHfvEQT/X7SsCX7Y61S7XZRfUP2DwocWDTllTqDrGghc3br3AErZc8kNobi1qOVe191fsxT26JpQegJ3KSlnD0omMxRZdd6c/1l0JyXKsAPeXbmSHxoeihelJfNQfVhsIvIgMLbafskbNsteknrHjfBcr8gWt0DZS
+              properties : {}
+              type : 2
+             code_elements :
+              internal_properties : BwAAAAcAAABG1Zhl2g88oGLNCYEZAyJOfzNMSR++tbKheHfVhsFtRznHcYm0eU34/6fF5Dhw8dcU71kW+IGnWkIfAl0E738wVkbE
+              type_code : 3
+              p_codes :
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+           -
+             name : Col_Filepath
+             identifier : 0x22c82afa0a35a618
+             internal_properties : BwAAAAcAAABeS4IS9DbXexbuBxfYz47eT14UVT0fsOvti3q3xV/K+UPLCQDpeIoxhxXb4gXzbqyLBYLhnb1N3l0ZNZE5+JdyfFPEJvd6OL0HQDtP+VMRLaP43J8E2RwtpL8bTBV77/pvQoRr/HnmmPDsBwPdffm2TIEPX1tijjWb6LyWk3Irx/j+cEVbk30X12qIFw==
+             type : 2
+             content :
+              internal_properties : BwAAAAcAAABz+pHtfpP2TOcKMwO4RXe8Zfvfw2J/t8gdx3evDSIatcz2bpkQSYjNc7Bu5qPoDh+Ij+vt8DVQmI4uMHebIw/crjXKQeD9sRscEoi9hXTHZ9oTQS8gNDQP4qiFQX2v/qdAlYY/CY3bJBuFz+VxCUlCWLXMqhSkb0i3EqioJp8Gr0HpUwPIlOw58DdOFzGck2rR0Otj3FVh/yrW5e/c3K3HWM3JPpTdWOS4/fmi1Jb4slEW3tL1bgQstUQEw8V5On1K5ujbJBkhHPT+Bzdjy0IgXEQF83HxyW36Xui9k1RiDcbkqsFlsViiaDpny4Zp6r0GHaSye6Y8gBfcqcajrSIe+My2KiF0/kWbF2c9+6ypEQ2ombepCB2kPZ2ZOfG+o9hqnRrkL4Y/MDwI44MRthZ0jn7l2DjvztQNWAvP/QWfCfuO2D9T7vZLXldGKXT0+OpUAycBX0+f6LKSNEh2z1B4obmDs9inrApYAZS6ZJFAonFQultlLT2j5EohZaEBCmjXiDQYL6u4TDpxcYtv+GF3xd+1ju8y9dKDpdryBM2/nNjMtzOEAU4XWoEjHywPma9ZgX+drPc=
+              properties : {}
+              type : 2
+             code_elements :
+              internal_properties : BwAAAAcAAABG1Zhl2g88oGLNCYEZAyJOfzNMSR++tbKheHfVhsFtRznHcYm0eU34/6fF5Dhw8dcU71kW+IGnWkIfAl0E738wVkbE
+              type_code : 3
+              p_codes :
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+           -
+             name : Col_Ext
+             identifier : 0x22c82afa0a36a618
+             internal_properties : BwAAAAcAAACh1yb7BTg8cN6bGMW9fRogepuabPSxdGVVQDfVcbtCMLocd7boeIhOz65TVtpuTGZDtTq2ZLAsNQlXfLPppjdnnLcg31g57lM7/MXWAplJ3Z5hJdPx/R7P3smX2+RL4bj6/k4dT4V0p9GbWgFavCKTutEnAoAxUy5Cp4otzwchCc8b4myONQ==
+             type : 2
+             content :
+              internal_properties : BwAAAAcAAABGu7EDrWe2+r07iS8BbqSGa3WkJkfoni6tzZdvsOQhKtFdcpNNcEWp3M+0zyB2y8nxV3/mZkCsr1Ugjb3evjwVaEb001CjuJWo53uF7OzrtDAqD5ZyGoSjHlBf3DzsZy2WCJStc5UE5MHVxkQebDQTqzojpldYeR8qqnGm2w+MNBSAsS1rnSI6no/bjqvqocS3SQiwaZ48YZzPUeMY9FTnhdTyjoacuQ4iEjBjwn/oJ2INWSv8R/zsdjLXBOBFT4Ucvi8alhA72dDBWtKvTXu53GQsTzjGQtpAioeN+pK/Fxcu1bbolsjdrB2xc+RSCAaOiH/oJFWOzv9AHQqgsIr+A91lKaRTXLZ4YbiQ9K+TCClqT/0NTrQ60gh5MoGaPhLxdWP+PYNcw4n0yQoo97MhWy7lCeJdJQHA1XRLzeo6bcN38i3xKLO2FCtGdefREEgmjA4sbwqXO/zLN/Lh2GVQxKkQXBaFvJsmlkUQ7qZbvNlmCZ4WXXZZ71nz1Q6XG+8Oij6cZ7GRhWqkiBE/ce/46kFIBGOUHg23xCLp7z1ywa6s6edf
+              properties : {}
+              type : 2
+             code_elements :
+              internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+              type_code : 3
+              p_codes :
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+           -
+             name : Col_Checksum
+             identifier : 0x22c82afa0a38a618
+             internal_properties : BwAAAAcAAABNUIX5y+0esmc/3E6l5FEx6vN7OABCS96eOCfyhhAJuIIQcEcsCdyXE6jEM57YI7HsnOs4au7sHp0Z1XFZmHfSnHNkxrc6KE0XcKs/yWMB3VPIDM+0qep7dL8LguEPTWRZBADOnNInW7cjzkQePLj3D8zCLIg9Ywiu+087eJ0GHK81P3YU2sbe7nGPCA==
+             type : 2
+             content :
+              internal_properties : BwAAAAcAAABGu7EDrWe2+r07iS8BbqSGa3WkJkfoni6tzZdvsOQhKtFdcpNNcEWp3M+0zyB2y8nxV3/mZkCsr1Ugjb3evjwVaEb001CjuJWo53uF7OzrtDAqD5ZyGoSjHlBf3DzsZy2WCJStc5UE5MHVxkQebDQTqzojpldYeR8qqnGm2w+MNBSAsS1rnSI6no/bjqvqocS3SQiwaZ48YZzPUeMY9FTnhdTyjoacuQ4iEjBjwn/oJ2INWSv8R/zsdjLXBOBFT4Ucvi8alhA72dDBWtKvTXu53GQsTzjGQtpAioeN+pK/Fxcu1bbolsjdrB2xc+RSCAaOiH/oJFWOzv9AHQqgsIr+A91lKaRTXLZ4YbiQ9K+TCClqT/0NTrQ60gh5MoGaPhLxdWP+PYNcw4n0yQoo97MhWy7lCeJdJQHA1XRLzeo6bcN38i3xKLO2FCtGdefREEgmjA4sbwqXO/zLN/Lh2GVQxKkQXBaFvJsmlkUQ7qZbvNlmCZ4WXXZZ71nz1Q6XG+8Oij6cZ7GRhWqkiBE/ce/46kFIBGOUHg23xCLp7z1ywa6s6edf
+              properties : {}
+              type : 2
+             code_elements :
+              internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+              type_code : 3
+              p_codes :
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+           -
+             name : Col_Is_New
+             identifier : 0x22c82afa0a39a618
+             internal_properties : BwAAAAcAAAB8MtjOwoqknYGuih1CHBNl+U42wRMB0+We8hXCV39vFIgUNa1FiYtARbAkDUlYdme/NMoExi0m5s/FsN2gIxcHH7i4k6a8Ic1iDqh6CVv3oP5NsVVgT1yFktDY9DPyPHKiEITxYQMwVFLrUwJp4HY+7jbRD8zEdlDqgrhcR0oq8T+c+ebowEc=
+             type : 5
+             content :
+              internal_properties : BwAAAAcAAAA3oMGrJWuFwuNNnk2nGaxP9pbUdz4wGwW7KZJOAiFbIsVeu+vJRYVce0XYYukQvLp7LNsZKK+7v2bWBKQtDI5efR9GVS9aaVc5jN3gFCaV1MXs6Ya3+20YOiLoCKIwawdG52qSqnKHstK5QsZJ+zdThK9ZYzVS7kJj3RvZHum6KnqMRVbN1ouC5LBLw1rCd9JsFDVVCPnixWK/mRGJeU3eTSStuvvViH4O1btwT/V1WUFdRGcQlMWlw/P37/7WL30WTk6dK2GQ7p4a1+93KQLM1To3x3878P6HtupVXnmO9MaK4sYkU8gXk+rqD8bvGP381W5OksC4qImwto9Dw/5ZmrTklTjCjBxLiyaxTPAzgJGgf9UmrzZFm+PZ08dRMFv1mGJ5bGdgvTkHE3X41FfPWFhmPZ7tms8w6RquiYTCz/hTKJzvyx6GrQ6zwLBEJsOYV3GjNarMZji5Qd0MqT9KjDdTFf4q+JC4JzfI+it2drz1S/M8XU17+CQI100QDC0a5X2PyNM=
+              properties : {}
+              options :
+               -
+                 internal_properties : BwAAAAcAAADZvWx7N04Ani6QsNIAD7/3Hg/t7SCF2bx2IaVjkjXz3Ke1ob84s1r5eL5hgzRFaLoEGE/s4cUC
+              type : 5
+             code_elements :
+              internal_properties : BwAAAAcAAABG1Zhl2g88oGLNCYEZAyJOfzNMSR++tbKheHfVhsFtRznHcYm0eU34/6fF5Dhw8dcU71kW+IGnWkIfAl0E738wVkbE
+              type_code : 5
+              p_codes : []
+           -
+             name : Col_Is_Updated
+             identifier : 0x22c82afa0a3aa618
+             internal_properties : BwAAAAcAAAD0Ks8j+wTMshhXIQ3RY4tlQCMgzleyYPwLQ7CjwI+seLWQdFnsxRS4mn1bOB/dyfrq3BM58XUnplOLM03Cu0RpSh9vNI8WKgrbqm8651tkmIBNEGIVMfeyw2LF2PFoMYR2xY0qp9Be46EHbCeFgnQIepOVhXJgrh0B/OJHqCe/h5nqHvejjWrANvp0
+             type : 5
+             content :
+              internal_properties : BwAAAAcAAAA3oMGrJWuFwuNNnk2nGaxP9pbUdz4wGwW7KZJOAiFbIsVeu+vJRYVce0XYYukQvLp7LNsZKK+7v2bWBKQtDI5efR9GVS9aaVc5jN3gFCaV1MXs6Ya3+20YOiLoCKIwawdG52qSqnKHstK5QsZJ+zdThK9ZYzVS7kJj3RvZHum6KnqMRVbN1ouC5LBLw1rCd9JsFDVVCPnixWK/mRGJeU3eTSStuvvViH4O1btwT/V1WUFdRGcQlMWlw/P37/7WL30WTk6dK2GQ7p4a1+93KQLM1To3x3878P6HtupVXnmO9MaK4sYkU8gXk+rqD8bvGP381W5OksC4qImwto9Dw/5ZmrTklTjCjBxLiyaxTPAzgJGgf9UmrzZFm+PZ08dRMFv1mGJ5bGdgvTkHE3X41FfPWFhmPZ7tms8w6RquiYTCz/hTKJzvyx6GrQ6zwLBEJsOYV3GjNarMZji5Qd0MqT9KjDdTFf4q+JC4JzfI+it2drz1S/M8XU17+CQI100QDC0a5X2PyNM=
+              properties : {}
+              options :
+               -
+                 internal_properties : BwAAAAcAAADZvWx7N04Ani6QsNIAD7/3Hg/t7SCF2bx2IaVjkjXz3Ke1ob84s1r5eL5hgzRFaLoEGE/s4cUC
+              type : 5
+             code_elements :
+              internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+              type_code : 5
+              p_codes : []
+           -
+             name : Col_Delete
+             identifier : 0x22c82afa0a3ba618
+             internal_properties : BwAAAAcAAAB7OafPw4ujNupBPajnczYcnLEB4rC6/mYffZA9qIKyuzOfqBa1O8vZPhnS1GqznerGgxFZr7axMveTqtnit+3bsYoYyg0FfkYbecPX7vBeV3eibhCjSH+C73FxM4/ohJw9aG+G3o7F6yU+JnfmY/W/EdF07OHvm3fNpVvx3KVRmkab+Ofpx0A=
+             type : 5
+             content :
+              internal_properties : BwAAAAcAAAA3oMGrJWuFwuNNnk2nGaxP9pbUdz4wGwW7KZJOAiFbIsVeu+vJRYVce0XYYukQvLp7LNsZKK+7v2bWBKQtDI5efR9GVS9aaVc5jN3gFCaV1MXs6Ya3+20YOiLoCKIwawdG52qSqnKHstK5QsZJ+zdThK9ZYzVS7kJj3RvZHum6KnqMRVbN1ouC5LBLw1rCd9JsFDVVCPnixWK/mRGJeU3eTSStuvvViH4O1btwT/V1WUFdRGcQlMWlw/P37/7WL30WTk6dK2GQ7p4a1+93KQLM1To3x3878P6HtupVXnmO9MaK4sYkU8gXk+rqD8bvGP381W5OksC4qImwto9Dw/5ZmrTklTjCjBxLiyaxTPAzgJGgf9UmrzZFm+PZ08dRMFv1mGJ5bGdgvTkHE3X41FfPWFhmPZ7tms8w6RquiYTCz/hTKJzvyx6GrQ6zwLBEJsOYV3GjNarMZji5Qd0MqT9KjDdTFf4q+JC4JzfI+it2drz1S/M8XU17+CQI100QDC0a5X2PyNM=
+              properties : {}
+              options :
+               -
+                 internal_properties : BwAAAAcAAADZvWx7N04Ani6QsNIAD7/3Hg/t7SCF2bx2IaVjkjXz3Ke1ob84s1r5eL5hgzRFaLoEGE/s4cUC
+              type : 5
+             code_elements :
+              internal_properties : BwAAAAcAAAAYoVb9Kx5UZnMy7RXRll2/EIuUYK4CS8CKlMjOXmSmkDO6/Lw4Y6Qh2Mch+AIPtBUhWz72rvjnCeTW+jqbHA==
+              type_code : 5
+              p_codes : []
+          type : 9
+          controls : []
+          code_elements :
+           type_code : 9
+           p_codes :
+            -
+              code : |1-
+               
+              type : 14
+            -
+              type : 35
+              enabled : false
+            -
+              code : |1-
+               
+              type : 15
+            -
+              code : |1-
+               
+              type : 16
+            -
+              code : |1-
+               
+              type : 19
+            -
+              code : |1-
+               
+              type : 20
+            -
+              code : |1-
+               
+              type : 21
+            -
+              type : 22
+              enabled : false
+            -
+              type : 24
+              enabled : false
+            -
+              type : 23
+              enabled : false
+            -
+              type : 25
+              enabled : false
+            -
+              code : |1-
+               
+              type : 33
+            -
+              type : 230
+              enabled : false
+            -
+              type : 241
+              enabled : false
+            -
+              type : 263
+              enabled : false
+            -
+              type : 262
+              enabled : false
+            -
+              type : 222
+              enabled : false
+            -
+              type : 223
+              enabled : false
+            -
+              type : 224
+              enabled : false
+        -
+          name : Btn_Upload
+          identifier : 0x22c82d240ad31b51
+          internal_properties : BwAAAAcAAAAihUvkYDl/ylkhw+mjw6qqb1TUlEewh2WoxUsa/WcAKX232nzaGhY+Ex94Yk8OclOZEHLJceSuVYkgw6gBhE3xmeDhZTY2JSa0JGkLbN0ZsJBqFjbRgEzU4tuAPdehmKQkgtTNHPXQ7+I0JONrV+Oh83SJoCDAgMPj+dF50xZ6PBrVpasi8Q48MDX3sN05YtSwImARpRwu9cbZdoSUmVy1d97wVPF7vKPGTX9sny8Hy44J+ZpvAT7QmSpFf4DVU1BWcfTdzM2IG6jFfO2gidaP2jLRvPC7bfS1ExHu9QtLtIoGMtHiftfLRo00tpoNcQCPejWsS6GJuu+Q6W2bbzGcqGHP0XXrilgXhCnCvK6DgJGMm7e3LD1aPa8JK6y2GVmTM8i1E1f6N/Z2yldixTXx4XaFoiyHx4GGL5qI8NYbAEXOyQJ5EvM42vLmB4DwcpWOl5gauXNJE5hmhXrxYdVm3yZN7SoPb66VD0wCyTeEEgdzSkdChzVqdQC1Kt5CNrkV+3yaKA9gJXulNuU9OeeOM76l8gFgIapvlLDe1LpYoSQWBDbxBlS9CjYNa47wcbyCqKFPykOQ4e6Y3S/UcpxJCLQbN5qeN4p0WVyPlfscVu4QzxsHTEVNSAEowuTMB/DmH+YLd7z4AYcZDiEOXM7QjrYG4wIsVgseS7XtpDuhCyeMKfteSUHm9VCwkoYSqSmfgA+DomDvYMp9U1GbS+/GVRcdDir7fKYWTxazMNgd5uxKbBuQ4YvO00fmhhmzwYaLPMCeN2xFn5BizJdXJVM=
+          properties :
+           x : 508
+           y : 204
+           width : 40
+           height : 40
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+              type : 14
+            -
+              code : |1-
+               // init vars
+               Files est un tableau de chaines
+               Path, Extension, Checksum sont des chaines UNICODE
+               Hash est un buffer
+               
+               Selection est une chaine = fSélecteur(CurrentPath, "", "Transférer", "Tous les fichiers" + TAB + "*.*", "", fselOuvre + fselMulti)
+               si Selection = "" ALORS
+               	retour
+               FIN
+               
+               ChaîneVersTableau(Selection, Files, rc)
+               si Files..Occurrence = 0 ALORS
+               	retour
+               FIN
+               
+               pour chaque File, f de Files
+               	si f = 1 ALORS
+               		Path = fExtraitChemin(File, (fDisque + fRépertoire))
+               		SI CurrentPath <> Path ALORS
+               			CurrentPath = Path
+               		FIN
+               	FIN
+               	
+               	Filename = fExtraitChemin(File, fFichier + fExtension)
+               	
+                   // get file extension
+                   Extension = Remplace(fExtraitChemin(File, fExtension), ".", "")
+               	SI Gauche(Extension, 1) = "." ALORS
+               		Extension = ChaîneSupprime(Extension, 1, 1)
+               	FIN
+               	
+               	// calculate checksum
+               	Hash = HashFichier(HA_MD5_128, File)
+               	Checksum = BufferVersHexa(Hash, SansRegroupement)
+               	
+                   // check if file is already in the table
+                   SI Table_Files..Occurrence >= 1 ALORS
+                       POUR CHAQUE LIGNE DE Table_Files
+               			SI Col_Checksum = Checksum ALORS
+               				TitreSuivant("Information")
+               				Avertissement("Le fichier est déjà présent dans la liste.")
+               				
+               				CONTINUER
+                           FIN
+                       FIN
+                   FIN
+               	
+               	// copy file in user temporary folder, and change file path
+               	fCopieFichier(File, (fRepTemp + Filename))
+               	File = (fRepTemp + Filename)
+               	
+               	i = TableAjouteLigneAvecAnimation(Table_Files, "", "", fTaille(File), Files.Get_Filesize(fTaille(File)), File, Extension, Checksum, Vrai)
+               	
+               	Table_Files.Col_Filename[i].Img_Extension = Files.Get_Extension(Extension)
+               	Table_Files.Col_Filename[i].Lib_Filename = Filename
+               	
+               	SI Mode = "edit" ALORS
+               		Table_Files.Col_Filename[i].Img_Update..Visible = Faux
+               		Table_Files.Col_Filename[i].Img_Save..Visible = Faux
+               		Table_Files.Col_Filename[i].Img_Undo..Visible = Faux
+               		Table_Files.Col_Filename[i].Img_Delete..Visible = Vrai
+               	FIN
+               FIN
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 16
+    controls : []
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 235
+      -
+        code : |1-
+         
+        type : 236
+      -
+        code : |1-
+         
+        type : 17
+      -
+        type : 292
+        enabled : false
+      -
+        type : 293
+        enabled : false
+  -
+    name : Area_Actions
+    identifier : 0x22c8124405ad20af
+    internal_properties : BwAAAAcAAACjsAQdMW1XxwO1BSbn6oe8dMHPaS/7qR58qNBf3a11h3epyD4b3gwxGYpFoBPMa8rWlV1vtXxeA4wJK+u54SWXqU6guR1d+MYVA9WAZ/t4ULC6lPwiV3wkP0Q0DwgUPyjYfaSbb0pyvuKmjDZZbjm6+ziazo3Wp1L7QZFAHiv/A54VEV7OrQ9YBSQbDk3pJV8/+xqJac7fv2LaFcDp+IGqtdPo+OKPNkmIuuwTN77gq9EV9ewE50vzlra52zYEx19/q+LHKlzqNZAyEQUtqNEYHcwIP7v17weFDBtbRXmKKqNsbMQXxE5h0BLmUQfahC7Ra0IXWZeCB50vw1aosdempTlwslP4DYrhQFStNtAOxWS1VAFHdp2XtTLoq6gNZnm2HxNJ8MWwAcwl49zPq6OHVjezoKvbP+MNjZa0LzZAqTb2oS6hXmxhvadQ14rZDHTdoZFyjwMLBsRiNIk0J+xWhw==
+    properties :
+     y : 288
+     width : 590
+     height : 38
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Btn_Cancel
+    identifier : 0x22c8124505af2571
+    internal_properties : BwAAAAcAAABZuChTgI7ZJDriKnp0WNLZY8bvxNcamS+I0houVRgu5M21r83ND5Z1ODcfJmJBtmVl4LBGzv1ZmrdruzjX98BU7JkE0bFuh24dUi7uzkZ2vxeD/W7hPLdEIBvCXgMHNiRskN0hPMYlS4nyqjR/NPOtccos8n73m7tIfiaBiCxSBmnEl9Ou1wNddZzOFaxKt+2epIEG0DXlGdkQ4MNY0OlcQ0d64cyeBnQVXeliqB3HachBklF1rP7vNeidTC8FngMEvkp+5HxiNdlfk/tU3CddP06uwsIDaFPp33bPZaijcaB1KBGLO98KSFIuVKBVmHQdIo7UgtHXS5+/G1j1A9r3Zp+tHKIFt3a3TWHds50KwGfQD4/HsCfQDWSruRnfNzSa9zJVnfbE89QPGp9LhKJdT0B2kADs+SH3UuoFH6UVNMa7S/caRyExAk0an7h12JvsZ//t5WL36IRDJV6rOBcGsm2Z3eUlcMMNMR8y9nAHwg5zK1VOOQazfmlM8f+e1m2R4MOPce64NAi/QtTMWN6UlGh6+y++A5nMq0R20BWqbtgXKqXcNcPmbDwuwHbA1CwE83HlaBppeN0UBCf5tQs7MuMLU7TJzG1VxSkVe4OeojdC14VpNb9M0PjnZ92Wl9QzhiUSM/TVqtCrAGxxDgRBFj5djUTe4wGS+qeWatYMS8Oe7/9nXRFUwqofMDae9hNw1nfEsh1q5z+1B1G5FpFWjWAJ7mAmLb3LHrC0BlNLpkdvpaw+jVt6UwruyaXnagVf3lIeRGk3M3nk8w4y9h03n9XsQ43XjK0LLX6eOyN2tQ==
+    properties :
+     x : 417
+     y : 295
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // delete files in temporary folder
+         pour chaque ligne l de Table_Files
+         	si (Col_Is_New[l] = vrai) _ou_ (Col_Is_Updated[l] = vrai) ALORS
+         		si fFichierExiste(Col_Filename[l]) = Vrai ALORS
+         			si fSupprime(fRepTemp + [fsep] + Col_Filename[l]) = Faux ALORS
+         				TitreSuivant("Erreur")
+         				Erreur(ChaîneConstruit("Une erreur s'est produite lors de la suppression du fichier « %1 » dans le dossier temporaire du système", Col_Filename[l]))
+         			FIN
+         		FIN
+         	FIN
+         FIN
+         
+         // close window
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Btn_Submit
+    identifier : 0x22c8124505b12571
+    internal_properties : BwAAAAcAAACXibpc8Rqzy+Xf61SHQWP93UkBc0vrSH26DfFVGsMrHwIij3Si10ddl1g2gZGU2mAHC2tNI7y2y0K0F1w7Sv2gnHwWyj54LrknfcjZMHrZ5Yo9Hif2i+gvFClL7PJRZLUEPTjyeC+tZa/XuQoHMwQrBytYFFl9ScwMFob6XouESq9O7c/HXI/SWoVH5KHsG5wUkUQ9HUYqsnwA7ZgYDIsUgaKknUmFUCPimI7hXGSd6HvgZ8bVGl8W58nb1XZ6gCRmhyGqCgjaQzPnux50DZP45eEzmxmnUsYZ4nWnKCiJrxRwwRT3rZONWB55xBMGO5eKI/MnfvIgGyGMnSJBcRoP+yKuMJgTPK9cFpz+u0aiPU8Wp+u0EHwXdYFzxID7Hp3ihuuxdeUczIugZLSEsVHM32X6xeL1aosZgcA3j0YH8kbgydl+vmS6xu76OTGIEWE5KghgUPkfxM1GxWape3jV9yelUEKSxZ7ieGjA8cGV4AGJQLn0IvaMypB6O+DEfb+GDBJ9IYmd9J6ixCeGAH8kwPsyVrLaE1Rd0ERBSy7aEjggEvkZ1sU/ZxYIm4KvyCTWxRLDpIfgKGnGxGxbnReC9MpQCvrqDHi28G+2PfUv7JtnpNOujxWJfLWmzTRbr4paud+xaHXGp5DCrldE8KlJ+OI6bg9nKTqdHfOdSWhM0OtJDhk6Gs8F8HvJ/a+T46N1MbBiKHYAOOdtpdO9CmNdIjp5nxyfpUo4PH+yFgVrij0IWUI/2BrfhkrJKx5bCZ1VVwsmEdNtq9cXU+Ctjx2txUYRsJCW6jrmeSCGgumO+1EtOgjegenNtw==
+    properties :
+     x : 503
+     y : 295
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // check empty fields and values
+         si Fld_Title = "" ALORS
+         	TitreSuivant("Erreur")
+         	Erreur("L'intitulé de la note n'a pas été renseigné.")
+         	
+         	DonneFocusEtRetourUtilisateur(Fld_Title)
+         FIN
+         
+         si Fld_Category..ValeurMémorisée = 0 ALORS
+         	TitreSuivant("Erreur")
+         	Erreur("La catégorie de la note n'a pas été sélectionnée.")
+         	
+         	retour
+         FIN
+         
+         // init vars
+         SqlValues, SqlSet sont des chaines
+         
+         // get timestamp
+         Timestamp est un entier = DateHeureVersEpoch(DateHeureSys)
+         
+         // init a specific structure for record
+         Columns_Structure est une Structure
+         	Name est une chaîne
+         	Value est une chaîne
+         	Type est une chaîne
+         FIN
+         Columns est un tableau de Columns_Structure
+         
+         TableauAjoute(Columns, ["Title", Fld_Title, "String"])
+         TableauAjoute(Columns, ["Category", Fld_Category..ValeurMémorisée, "Integer"])
+         TableauAjoute(Columns, ["Content", Fld_Content, "String"])
+         
+         selon Mode
+         	CAS "add"
+         		TableauAjoute(Columns, ["Created", Timestamp, "Integer"])
+         		
+         		SqlString = "INSERT INTO Memos ("
+         		pour chaque Key, k de Columns
+         			si k >= 2 ALORS
+         				SqlString += ", "
+         			FIN
+         			
+         			SqlString += Key.Name
+         		FIN
+         		SqlString += ") VALUES ("
+         		POUR CHAQUE Key, k de Columns
+         			SI k >= 2 ALORS
+         				SqlString += ", "
+         			FIN
+         			
+         			SELON Key.Type
+         				CAS "String"
+         					SqlString += "'" + SQLite.EscapeString(Key.Value) + "'"
+         				CAS "Integer", "Float", "Boolean"
+         					SqlString += Key.Value
+         			FIN
+         		FIN
+         		SqlString += ")"
+         		
+         	cas "edit"
+         		TableauAjoute(Columns, ["Updated", Timestamp, "Integer"])
+         		
+         		SqlString = "UPDATE Memos"
+         		SqlString += " SET "
+         		
+         		POUR CHAQUE Key, k de Columns
+         			SI k >= 2 ALORS
+         				SqlString += ", "
+         			FIN
+         			
+         			SqlString += Key.Name + " = "
+         			SELON Key.Type
+         				CAS "String"
+         					SqlString += "'" + SQLite.EscapeString(Key.Value) + "'"
+         				CAS "Integer", "Float", "Boolean"
+         					SqlString += Key.Value
+         			FIN
+         		FIN
+         		SqlString += " WHERE ROWID = " + RowID
+         FIN
+         SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         	TitreSuivant("Erreur")
+         	Erreur(HErreurInfo)
+         FIN
+         
+         si Mode = "add" ALORS
+         	SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, "SELECT LAST_INSERT_ROWID() AS Value") = Faux ALORS
+         		TitreSuivant("Erreur")
+         		Erreur(HErreurInfo)
+         	sinon
+         		HLitPremier(SqlQuery, hSansRafraîchir)
+         		RowID = SqlQuery.Value
+         		
+         		// free memory
+         		HLibèreRequête(SqlQuery)
+         	FIN
+         FIN
+         
+         // are there files to upload?
+         SI Table_Files..Occurrence >= 1 ALORS
+         	sablier(vrai)
+         	
+         	// clean array
+         	SI Files_Data..Occurrence >= 1 ALORS
+         		TableauSupprimeTout(Files_Data)
+         	FIN
+         	
+         	// check new files for the moment!
+         	POUR CHAQUE LIGNE DE Table_Files
+         		SI Col_Is_New = Vrai ALORS
+         			VariableRAZ(File_Data)
+         			
+         			File_Data.File_Name = Col_Filepath
+         			File_Data.File_Ext = Col_Ext
+         			File_Data.File_Checksum = Col_Checksum
+         			File_Data.File_Size = fTaille(Col_Filepath)
+         			File_Data.File_Time = Timestamp
+         			
+         			TableauAjoute(Files_Data, File_Data)
+         		FIN
+         	FIN
+         	
+         	// reset this one
+         	SI SqlValues <> "" ALORS
+         		SqlValues = ""
+         	FIN
+         	
+         	// upload new files
+         	Cnt = Files_Data..Occurrence
+         	SI Cnt >= 1 ALORs
+         		SqlValues = "("
+         		
+         		// just do it!
+         		POUR CHAQUE File, f de Files_Data
+         			// build sql query
+         			SI SqlSet <> "" ALORS
+         				SqlSet = ""
+         			FIN
+         			
+         			// clean array
+         			SI Columns..Occurrence >= 1 ALORS
+         				TableauSupprimeTout(Columns)
+         			FIN
+         			
+         			Filename = File.File_Name
+         			Filename = Remplace(Filename, fExtraitChemin(Filename, fDisque + fRépertoire), "")
+         			Filename = Remplace(Filename, fExtraitChemin(Filename, fExtension), "")
+         			
+         			TableauAjoute(Columns, ["Memo_ID", RowID, "Integer"])
+         			TableauAjoute(Columns, ["File_Name", Filename, "String"])
+         			TableauAjoute(Columns, ["File_Ext", File.File_Ext, "String"])
+         			TableauAjoute(Columns, ["File_Checksum", File.File_Checksum, "String"])
+         			TableauAjoute(Columns, ["File_Size", File.File_Size, "Integer"])
+         			TableauAjoute(Columns, ["File_Time", File.File_Time, "Integer"])
+         			TableauAjoute(Columns, ["File", "{WDMemoBinaire('" + Table_Files.Col_Filepath + "')}", "File"])
+         			
+         			POUR CHAQUE Key DE Columns
+         				SI SqlSet <> "" ALORS
+         					SqlSet += ", "
+         				FIN
+         				
+         				SELON Key.Type
+         					CAS "String"
+         						SqlSet += "'" + SQLite.EscapeString(Key.Value) + "'"
+         					CAS "Integer", "Float", "Boolean", "File"
+         						SqlSet += Key.Value
+         				FIN
+         			FIN
+         			
+         			SqlValues += (SqlSet + ")")
+         			SI f <> Cnt ALORS
+         				SqlValues += ", ("
+         			FIN
+         		FIN
+         		
+         		// get columns
+         		SqlColumns est une chaîne
+         		POUR CHAQUE Key DE Columns
+         			SI SqlColumns <> "" ALORS
+         				SqlColumns += ", "
+         			FIN
+         			
+         			SqlColumns += Key.Name
+         		FIN
+         		
+         		// build query
+         		SqlString = "INSERT INTO Files (" + SqlColumns + ")"
+         		SqlString += " VALUES " + SqlValues
+         		
+         		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         			TitreSuivant("Erreur")
+         			Erreur(HErreurInfo)
+         		FIN
+         		
+         		// delete files
+         		POUR CHAQUE File de Files_Data
+         			fSupprime(File.File_Name)
+         			SI ErreurDétectée = Vrai ALORS
+         				TitreSuivant("Erreur")
+         				Erreur(ErreurInfo(errMessage))
+         				
+         				RETOUR
+         			FIN
+         		FIN
+         	FIN
+         	
+         	// clean array
+         	SI Files_Data..Occurrence >= 1 ALORS
+         		TableauSupprimeTout(Files_Data)
+         	FIN
+         	
+         	// init vars
+         	Hash est un Buffer
+         	Checksum est une chaîne
+         	
+         	// init array
+         	Files_Delete est un tableau de chaînes
+         	
+         	// check updated files now!
+         	POUR CHAQUE LIGNE DE Table_Files
+         		SI Col_Is_Updated = Vrai ALORS
+         			VariableRAZ(File_Data)
+         			
+         			// checksum
+         			Hash = HashFichier(HA_MD5_128, Col_Filepath)
+         			Checksum = BufferVersHexa(Hash, SansRegroupement)
+         			
+         			// delete this file
+         			TableauAjoute(Files_Delete, Col_ID)
+         			
+         			File_Data.ROWID = Col_ID
+         			File_Data.File_Name = Col_Filepath
+         			File_Data.File_Ext = Col_Ext
+         			File_Data.File_Checksum = Checksum
+         			File_Data.File_Size = fTaille(Col_Filepath)
+         			File_Data.File_Time = Timestamp
+         			
+         			TableauAjoute(Files_Data, File_Data)
+         		FIN
+         	FIN
+         	
+         	SI Files_Delete..Occurrence >= 1 ALORS
+         		SqlString = "DELETE FROM Files"
+         		SqlString += " WHERE ROWID "
+         		SELON Files_Delete..Occurrence
+         			CAS 1
+         				SqlString += ("= " + Files_Delete[1])
+         			CAS >= 2
+         				SqlString += ("IN (" + TableauVersChaîne(Files_Delete, ",") + ")")
+         		FIN
+         		
+         		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         			TitreSuivant("Erreur")
+         			Erreur(HErreurInfo)
+         		FIN
+         		
+         		TableauSupprimeTout(Files_Delete)
+         	FIN
+         	
+         	File_IDs est un tableau d'entiers
+         	SqlCase est un tableau associatif de tableaux associatifs de Variants
+         	
+         	SI Files_Data..Occurrence >= 1 ALORS
+         		POUR CHAQUE File, f de Files_Data
+         			// clean array
+         			SI Columns..Occurrence >= 1 ALORS
+         				TableauSupprimeTout(Columns)
+         			FIN
+         			
+         			Filename = File.File_Name
+         			Filename = Remplace(Filename, fExtraitChemin(Filename, fDisque + fRépertoire), "")
+         			Filename = Remplace(Filename, fExtraitChemin(Filename, fExtension), "")
+         			
+         			TableauAjoute(Columns, ["File_Name", Filename, "String"])
+         			TableauAjoute(Columns, ["File_Ext", File.File_Ext, "String"])
+         			TableauAjoute(Columns, ["File_Checksum", File.File_Checksum, "String"])
+         			TableauAjoute(Columns, ["File_Size", File.File_Size, "Integer"])
+         			TableauAjoute(Columns, ["File_Time", File.File_Time, "Integer"])
+         			TableauAjoute(Columns, ["File", "{WDMemoBinaire('" + File.File_Name + "')}", "File"])
+         			
+         			TableauAjoute(File_IDs, File.ROWID)
+         			POUR CHAQUE Key DE Columns
+         				SI SqlCase[Key.Name]..Existe = Faux ALORS
+         					TableauInsère(SqlCase, Key.Name)
+         				FIN
+         				SI SqlCase[Key.Name][File.ROWID]..Existe = Faux ALORS
+         					TableauInsère(SqlCase[Key.Name], File.ROWID)
+         				FIN
+         				SqlCase[Key.Name][File.ROWID] = Key.Value
+         			FIN
+         		FIN
+         		
+         		// build sql query
+         		SI SqlSet <> "" ALORS
+         			SqlSet = ""
+         		FIN
+         		
+         		SqlValue est une chaîne
+         		POUR CHAQUE Rows, Key de SqlCase
+         			SI SqlSet <> "" ALORS
+         				SqlSet += ", "
+         			FIN
+         			
+         			SqlSet += (Key + " = ")
+         			SELON File_IDs..Occurrence
+         				CAS 1
+         					i = File_IDs[1]
+         					
+         					SELON Key
+         						CAS "File_Size", "File_Time"
+         							SqlSet += Rows[i]
+         						AUTRE CAS
+         							SqlValue = Rows[i]
+         							SqlSet += "'" + SQLite.EscapeString(SqlValue) + "'"
+         					FIN
+         					
+         				CAS >= 2
+         					SqlSet += "CASE"
+         					
+         					POUR CHAQUE Value, ID de Rows
+         						SqlSet += (" WHEN ROWID = " + ID + " THEN ")
+         						SELON Key
+         							CAS "File_Size", "File_Time", "File"
+         								SqlSet += Value
+         							AUTRE CAS
+         								SqlValue = Value
+         								SqlSet += "'" + SQLite.EscapeString(SqlValue) + "'"
+         						FIN
+         					FIN
+         					
+         					SqlSet += " END"
+         			FIN
+         		FIN
+         		
+         		SqlString = "UPDATE Files"
+         		SqlString += " SET " + SqlSet
+         		SqlString += " WHERE ROWID "
+         		SELON File_IDs..Occurrence
+         			CAS 1
+         				SqlString += ("= " + File_IDs[1])
+         			CAS >= 2
+         				SqlString += ("IN (" + TableauVersChaîne(File_IDs, ",") + ")")
+         		FIN
+         		SqlString += (" AND Memo_ID = " + RowID)
+         		
+         		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         			TitreSuivant("Erreur")
+         			Erreur(HErreurInfo)
+         		FIN
+         		
+         		// delete files
+         		POUR CHAQUE File de Files_Data
+         			fSupprime(File.File_Name)
+         			SI ErreurDétectée = Vrai ALORS
+         				TitreSuivant("Erreur")
+         				Erreur(ErreurInfo(errMessage))
+         				
+         				RETOUR
+         			FIN
+         		fin
+         	FIN
+         	
+         	// clean arrays
+         	POUR CHAQUE Key DE ["Files_Data", "Files_Delete", "File_IDs"]
+         		SI {Key, indVariable}..Occurrence >= 1 ALORS
+         			TableauSupprimeTout({Key, indVariable})
+         		FIN
+         	FIN
+         	
+         	// finally, delete files
+         	POUR CHAQUE LIGNE DE Table_Files
+         		SI Col_Delete = Vrai ALORS
+         			TableauAjoute(File_IDs, Col_ID)
+         		FIN
+         	FIN
+         	
+         	SI Files_Delete..Occurrence ALORS
+         		SqlString = "DELETE FROM Files"
+         		SqlString += " WHERE ROWID "
+         		SELON File_IDs..Occurrence
+         			CAS 1
+         				SqlString += ("= " + File_IDs[1])
+         			CAS >= 2
+         				SqlString += ("IN (" + TableauVersChaîne(File_IDs, ",") + ")")
+         		FIN
+         		SqlString += (" AND Memo_ID = " + RowID)
+         		
+         		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         			TitreSuivant("Erreur")
+         			Erreur(HErreurInfo)
+         		FIN
+         	FIN
+         	
+         	// update information
+         	SqlString = "UPDATE Memos"
+         	SqlString += " SET Attached = CASE WHEN (SELECT COUNT(ROWID) AS Cnt FROM Files WHERE Memo_ID = " + RowID + ") >= 1 THEN 1 ELSE 0 END"
+         	SqlString += " WHERE ROWID = " + RowID
+         	
+         	SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         		TitreSuivant("Erreur")
+         		Erreur(HErreurInfo)
+         	FIN
+         	
+         	Sablier(faux)
+         FIN
+         
+         // refresh table
+         ExécuteTraitement(Win_Main.Table, trtinit)
+         
+         // close window
+         ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x22c7fc8300de25bd
+  internal_properties : BwAAAAcAAAAmnmsMK+pSZJrizHlry5BJP+sbufa4zccF/7flbZf4xlv2rTJ5avaWvToZog8Bfg5qj5cqL9/K+JLwUxYFygPOe4+hQvOqbwHe/B4YH64plXyGcwsEwRu1H7jq/rNyP/R81O/USeI2/APkVZidyxtNh0Y/fytnunm/iyk7nElGG0atcn+8qJ8LBDnxES4mH02yeiwFrgWEo6ixqShEqe7e3BCIlx4J1qYpblIc431oi7HFGkFiVZlDyYxU+PQl0CTH8W8dFRumzgcOnys3VyceJZTYWUhKrQ==
+  options : []
+ popup_menus :
+  -
+    name : Ctx_Categories
+    identifier : 0x22cc184a309ead6e
+    internal_properties : BwAAAAcAAADVWMNiVQ3yXOiIjUO5HbskEIX3iOgAsTKWqK4NUXOmOZrZJCUmzZ+/8EN4Zloy75k3A1LUIzc56s1AtgszfBbbcHoeYkNk7sPUzazMZvlzOefE2NgpuyHTvIRMJalbOGWtC38f9b5jrfXizeghBrYyUs12dIWA210oEXtPsDbW/2npNjLp5TuVS+pPKkcW5N8aW0DqaP1eUTV6VYcSpNuFt1Tpcg/MhUEAfHmoS/dGgn0ZYC90nTsYPFpQunt7bMB56tyRbqY1RYmCnxndhUB6xMKr68RGskaDBK/Xn3ckb+cI+LeK+JpnJ/VEwsbpbOSPPRcf2378ZcAJ2fN4dhDtIMby14Io80t8xOvYdxP+c064BsdG6yYtR/kHkA==
+    options :
+     -
+       name : Opt_Add
+       identifier : 0x22cc184a309fad6e
+       internal_properties : BwAAAAcAAABIM/m7EFDbmtfuDldHB8dwNsWj+aoDua0IDQbL1Mi0BJw7HpszdgqTYLi/meolTJ07KHNKIftEgv4OSudhZ1Thu3AeaTGYV/R374dy7BJE0VqbPvFBL58dAqIXADCibHDADA5goijMvrUFYkJi+Eyt1raeo1QxLRuBj6efjgxrw1qZAqWdnW2ny/S1orYlkbKNmk52S3cM7Gpj2f+iWkhz0a6kiNBIa/GNpQfiWLAyAkIyZgDlQwiOwcGZZ19XBGvyCtCp5rAAsYsnuwclC9dPkI2kg0e9YCLRxyQzc8/EZ7mhCTnS7JU6c3/sBsKrJVPzC6Uf65ALoVaSgMnb/bku2t5eJohCNhWVMCbbPY+83O2k8yi0exe8vbU+bTkRcfv/QbqrEgFwbL8mns4XAeGLKpFf9pNN25DmBgi3NvaUjBp919nTVCYQD6qpKMcC1El8Lo2XtSixz4Sg
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            ouvre(Win_Category, "add")
+           type : 32
+     -
+       name : Opt_Edit
+       identifier : 0x22cc187a30e66881
+       internal_properties : BwAAAAcAAABrwtT5G3UiUgxXflrktpCTl7mTMh3yhG73UOliU95LYQKku8ISg9SyfnbvecmJTuOMxF1Prc8QFT4Z7K9RAR4zqQpPiZE2gY6HXfKOolySo0y9nOcFNz71a5h1r+oRHWvJMkKoii1V4kZOHqQvIG6HPC7bms6DR4IJ8ktfbJzNSm3yxyb8bIqyTuyF02HjA8M94+rU01uFj7kfHT/y+iKEy+GrPy2rHLXI569g6Aox3Zx2bl41x7LAbwpROR0MBG+Bo+6SR1Wv1PwPIoYnecESSvTPaqILUDZRiOEq5X32iUoU/TPY55KBpmHBHSkKsPA+04UgH37lSHncpcf6rmFujk+16jbmWmFlDH4n1WOKNwiRRg2XqigOJyuYtyaHmytKlgyRlIdtXdg82rj1rlKq3xQ5LW3nNzpWZTMk5LKczFRxLakFAhIr0dr/Urt8xHhjdXX/vwaeGtN/
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            n est un entier sur 8 octets = Fld_Category..ValeurMémorisée
+            si n pas dans (-1, 0) ALORS
+            	ouvre(Win_Category, "edit", n)
+            FIN
+           type : 32
+     -
+       name : Sep_Delete
+       identifier : 0x22cc189230f4c595
+       internal_properties : BwAAAAcAAADXvHyGE1jVJlj6oa8YU+2MfKzEwIAvNbnbBS5HgLyxyWHphkqQpQVUfNrHNZOEPX/cTUd3URhU7ijz5LQg+B59rg9dYOVdwcKcb7UAXLJGhs61KTm33igJGJgwJXu6k92s5EKf+cbtchJlIDAc7bVaj60mDVhmop4m5Sgy3oSRVNovVEJVXUPjpVga0yiHjzRVt70vsLal5u8pX16/iDd7yPasInoroY0S7VArh3fcA/sTl8P7LSVaTFJWlac0hWevI20DMoz9wjVCqzU4NyQYfiDK/G1NI30wJ8yHfRNuFb6NUEYoVIvUbg2x96cfl9eDi9GUalNrcrKA5nT1d3sSwqamwFicr4k+hxd6NOlo680rIiBwFumIi0wy+5U8hX8u5TDHLKc=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : Opt_Delete
+       identifier : 0x22cc188030e97ed7
+       internal_properties : BwAAAAcAAAAfgFYrNhCM8TRWdq9k9LwzaToh8jYKu2HTSBIHE13IZv9VBcccTpHKfNOMhhjYy5ajNxFfkbxzCSvIT2i1KISyW2DZpSwlmnow/IFeZqDgF806/Uqmt/vJTQFlhhArfEZm5RjW5XvCtkBTvdL5ONM0+YlX8fDfIDA6Pw7/ZqbEgC0nS9CFsd1dtxgi/Wz0uotGZ/FNIKWyQonx0q6ueJQ0OhI63dC/z+aRWpzARRQYXx1bwk4kFkGz1KFNUivIdJMXT6on+MMGt0Dd3lVATtDPYXtLR5ijNxr4ku3LJyUcVsYEXzUF5X6B6JZsDuMMQ1rUJYeFTjZYkQwaf7KJsc4BRKziyXwJluiaAqOYVV0UjXzvvzXZU4N2zlmrkWwMi/RlUNjtY8QEhUL5RWy4VEGcAGY/sjz/sa/F6SooQwbo+eR7ahl/RQRZ8q4qG7rD8ruTFngTZnlOVIWtcyWUGGY=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            n est un entier sur 8 octets = Fld_Category..ValeurMémorisée
+            si n pas dans (-1, 0) ALORS
+            	TitreSuivant("Avertissement")
+            	SI OuiNon(Non, "Êtes-vous sûr(e) de vouloir supprimer cette catégorie ?", "Cette opération est irréversible.") = Oui ALORS
+            		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, "DELETE FROM Categories WHERE ROWID = " + n) = faux ALORS
+            			TitreSuivant("Erreur")
+            			Erreur(HErreurInfo)
+            		FIN
+            		
+            		si Fld_Category..Occurrence >= 2 ALORS
+            			ListeSupprimeTout(Fld_Category)
+            			
+            			// re-load categories
+            			Get_Categories
+            		FIN
+            		
+            		// select first line
+            		ListeSelectPlus(Fld_Category, 1)
+            	FIN
+            FIN
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : BwAAAAcAAACOsiF/Pfp3k51yVKeM9xdKJ0V1HZk3hUYghciWUA9xr3yxEUofcJQCMWFMVw0W4A9gOdQyKavMojQKLw/VKPXqXLKHqGQfu0K/N9HzEw==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre(Mode est une chaine, RowID est un entier sur 8 octets = 0)
+      
+      // init vars
+      SqlString, FileExt, FileDef, Filename sont des chaines
+      SqlQuery est une source de données
+      i, Cnt sont des entiers
+      HasAttached est un booléen = faux
+      
+      // init structures
+      File_Data_Struct est une Structure
+      	ROWID est un entier sans signe sur 8 octets
+      	File_Name est une chaîne UNICODE
+      	File_Ext est une chaîne UNICODE
+      	File_Checksum est une chaîne UNICODE
+      	File_Size est un entier sans signe sur 8 octets
+      	File_Time est un entier sans signe sur 8 octets
+      	File est une chaine UNICODE
+      FIN
+      File_Data est une File_Data_Struct
+      File_Defs est une Définition = RécupèreDéfinition(File_Data)
+      Files_Data est un tableau de File_Data_Struct
+      
+      // backup uploaded row, but do not instantiate it now
+      File_Backup_Data_Struct est une Structure
+      	File_Name est une chaîne UNICODE
+      	File_Ext est une chaîne UNICODE
+      	File_Size est une chaîne
+      FIN
+      File_Backup_Data est une File_Backup_Data_Struct
+      Files_Backup_Data est un tableau associatif de File_Backup_Data_Struct
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      // get categories
+      Get_Categories
+      
+      // just do it!
+      selon Mode
+      	CAS "add"
+      		MaFenêtre..Titre = ChaîneConstruit(MaFenêtre..Titre, "Ajouter")
+      		
+      		ListeSelectPlus(Fld_Category, 1)
+      		
+      	cas "edit"
+      		MaFenêtre..Titre = ChaîneConstruit(MaFenêtre..Titre, "Modifier")
+      		
+      		SqlString = "SELECT Title, Category, Content, Attached"
+      		SqlString += " FROM Memos"
+      		SqlString += " WHERE ROWID = " + RowID
+      		
+      		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+      			TitreSuivant("Erreur")
+      			Erreur(HErreurInfo)
+      		SINON
+      			HLitPremier(SqlQuery, hSansRafraîchir)
+      			pour chaque Key de ["Title", "Content"]
+      				{"Fld_" + Key, indChamp} = {"SqlQuery." + Key, indVariable}
+      			FIN
+      			
+      			i = ListeCherche(Fld_Category, SqlQuery.Category)
+      			si i <> -1 ALORS
+      				ListeSelectPlus(Fld_Category, i)
+      			FIN
+      			
+      			HasAttached = SqlQuery.Attached
+      			
+      			HLibèreRequête(SqlQuery)
+      		FIN
+      		
+      		// get attached files
+      		si HasAttached = vrai ALORS
+      			SqlString = "SELECT ROWID, File_Name, File_Ext, File_Checksum, File_Size, File_Time"
+      			SqlString += " FROM Files"
+      			SqlString += " WHERE Memo_ID = " + RowID
+      			
+      			SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+      				TitreSuivant("Erreur")
+      				Erreur(HErreurInfo)
+      			SINON
+      				HLitPremier(SqlQuery, hSansRafraîchir)
+      				TANTQUE HEnDehors(SqlQuery) = Faux
+      					i = TableAjouteLigne(Table_Files, SqlQuery.RowID, "", SqlQuery.File_Size, Files.Get_Filesize(SqlQuery.File_Size), "", SqlQuery.File_Ext, SqlQuery.File_Checksum)
+      					
+      					Table_Files.Col_Filename[i].Img_Extension = Files.Get_Extension(SqlQuery.File_Ext)
+      					Table_Files.Col_Filename[i].Lib_Filename = (SqlQuery.File_Name + "." + SqlQuery.File_Ext)
+      					
+      					// show buttons
+      					Table_Files.Col_Filename[i].Img_Save..Visible = Vrai
+      					Table_Files.Col_Filename[i].Img_Update..Visible = Vrai
+      					
+      					HLitSuivant(SqlQuery)
+      				FIN
+      				
+      				HLibèreRequête(SqlQuery)
+      			FIN
+      		FIN
+      FIN
+      
+      // indent data
+      Table_Files.Col_Filesize..RetraitGauche = 10
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+  procedures :
+   -
+     name : Get_Categories
+     procedure_id : 1354486256855917949
+     type_code : 14
+     code : |1-
+      procédure Get_Categories()
+      
+      SqlString = "SELECT ROWID, Title"
+      SqlString += " FROM Categories"
+      SqlString += " ORDER BY Title"
+      
+      SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+      	TitreSuivant("Erreur")
+      	Erreur(HErreurInfo)
+      	
+      	Ferme
+      SINON
+      	ListeAjoute(Fld_Category, "Sélectionnez une catégorie" + gValeurMémorisée(0))
+      	
+      	HLitPremier(SqlQuery, hSansRafraîchir)
+      	TANTQUE HEnDehors(SqlQuery) = Faux
+      		ListeAjoute(Fld_Category, SqlQuery.Title + gValeurMémorisée(SqlQuery.ROWID))
+      		
+      		HLitSuivant(SqlQuery)
+      	FIN
+      	
+      	// free memory
+      	HLibèreRequête(SqlQuery)
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Fenêtre1
+resources :
+ string_res :
+  identifier : 0x12c7fc83000925bd
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

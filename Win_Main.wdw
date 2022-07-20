@@ -1,0 +1,1193 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Win_Main
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Win_Main
+ identifier : 0x22c7fbc9009d4f6b
+ internal_properties : BwAAAAcAAABjAkc2wp8Z+nKQu3Nfom2b5YZallr3D8AdXGrWBY/SnDpfJ2xMPyl55gQ+OVo3kVzKQOKKN8A8nSNT5NcNJAwbn9ZFYfi0Q0VQN342XXZ/KGD4spcLPEqIo6lECH8fZZP2mvQZW7jBh71LU1lIs8zRu/nUHl7Zjqg2iw3j76wELLO3KNmKKUgPvtQvD4vCgbn0ap9kejUPfHbsOVuUnGkJJUceK9j2VUtnEfEbB2goeDJsXyyWqSeUFG4bbHGheD+3eOI9HKkNC0BBeTg6dRrE6lC4Ao83QUE3YF0LBXfpIrKxR7hrlnmf6hVEopxD32PhlL47Jr7ZB01yy875SKM2PC7dVluO52bdivw0TYVUe241UptkcQx/GEbtZ8FpFDHaZDhH7PTVf5EjbH7Q9yLVS8yXyzoiufIxNjug05ZxXnx25i2okfl/wMSDwUVgvsKkrG/3JjkdrqNfAkN6dt4e8/FcIDQR17QWqJBqsHpJJwkShxpgrOR32NJ15joc9bG/eiLO3R6FpqmHzl49Os/oMu1NgSz/maIMWcwHVmRypHF67jrcwin1tuhV0NiqrGqEHuMVgnC0syCvNeKweufFE/UYi4OhJmv16YAYyqTTOqiqNQaW8fi24+WRbsvS6LEEU6BTKJ+tcPKwd1FMZkKEqufIyIDK1TTRp2Y8LiK/IEeBOdvImgIYtbfDtZ936dEeskWXQpPWMUuydkV4eMtE6dnL53zm2vSkRdqJHtZUAU3w5DMdBFUbKDRPprVPR7t7a9/54HFUzIWxPrfmAtbiXOx1T4ybIZqKJYYVMxnf4md+Q9r5N/NP3F6hBwDOdA==
+ properties :
+  width : 800
+  height : 600
+  widthClient : 798
+  heightClient : 568
+ controls :
+  -
+    name : Table
+    identifier : 0x22cc225e454f0a07
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 6
+     width : 786
+     height : 495
+    columns :
+     -
+       name : Col_ID
+       identifier : 0x22cc225e45500a07
+       internal_properties : BwAAAAcAAADbgehdD30dwyQigHZGmD4oLnafwTC8WDaGWQcWqwZsv7hmBtEjjMiaPfCKPx6zzPDqNgFDvuyCFx4blTMIqJ/CuYGxFyUaBhxBXpF9J0pHpnpwtVlWBL66Xh0ZdlEe401zE2v2UMENPtO5Gj5bn7QimrvQV00NKH7clb72c8L2WPWlMzD0
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAACGr23O1q5gQIa47ZzhXjYTQFsWnRdwkZ9r6kgmx8dGA3voMIeCQoyBHy5T045DC+UDiIxqAXweRCQIEKzkbX55zO/JXzh5ILhZmZ1lfol4Fgp6fs5kwbNmxsu6ER59tvBRMupOmEm8krcj6/IcoZHMwwH+ISBuzjq/42VyeNW8DYGi213Cy41IAqsSKv3QvAjcXj3ru+zXs9y3rqOSG40wDZpbVyiIYdBDzCyere8RWgwRzQSrAfpTM6CkkSFYcFHtZnnoSzOLvQeAtD1INkIe1vZZmPjTF7teomuCyrGycnaHD1uX3YqmOrCdFXCf5LM4z16wOSy4fBPQ/bI3IwrOBtLExFfchk2DN9chnTwfiweiG9WPgGlwyekVuVEgte70J5Kcc/DBQgwQS2fTHqiKKPDv5jLxdnyV2FubO92Zz5VwuL8vilYrTEXEt5KwBLacK9/5W01RCoB4ekZi1RC4lbWPv8hxXCqy4wZoUIMcvh20mH0HpdW70C5VJUNDgCK1zvRQ4+P6/p7d7d8FWuXzoTN04U4fWT0LJYI9wDHBEFN4bAKNPQVt16rmQJ2BlSauJd6yYL+Lp/jniuy6SnpyLoxgNjSjJ6Phb5w0i3OFGeL7vyB5Yg==
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : Col_Attached
+       identifier : 0x22cc225e45510a07
+       internal_properties : BwAAAAcAAAAOG1KihCO9KTIixYte9U4WZzYAxMmnb3buw+0nw2lI1Ys7GMxuVt1nEBCL39HcyKS6CjRPQUUWHUecHjBvFpyh3Srju70LuB64e/fSqNzwKIrtQNBYLpo8A7OLCAIIOAkfVTUS+HF8OlXZXKgk2B6h6e4iLUYAsHsoLW2nxt9G1ENp0Y4KtI0nJzrYxw==
+       type : 5
+       content :
+        internal_properties : BwAAAAcAAAC9vPwYV6e4UGPVNdefOwg4S/Q/RmY8H2cyR27Pg8PLEIssUrxG3keWtadGl0r8McLQnO1ZX7fwz7Ps0pdZt3aCmtupwiVqYFuaSQv/tA8F0PkMMlmNlm72q9GSW6geKukB6O9n7KXyLKtHdRqvaJgXpbuhKX2U8z1IFgV8fxq8FHpIa20ni24XwHU4NKzzJ6dSWaKsS/2Wbd98I0J+IHkhXXt662Clwdx2m75HlIDfuBH1cjyKCcI+9QuRGuX8J4zdw7372ed6CBRt0tPC72SE/QXvw1/ShwsvrUMr59SZzN3L5EjYoX6U3uTart3imIVCcpLQ+pjzi4hM1XUUotLkB4s2pIsd2SLQ/diEy1btOL9SoNWRPKmVVyH7lS+eTERNuVdSoLeSABOumst4T5YpcQcwNH4jmTd8QmfyVqzlXFOyQNhbJtcvMUtpf5dAZt263UI2/RkGbqEjMWqJPUHirisI3IJrLfgSWdDZxnjo3iwIw06BngUlT++YG44Qqg==
+        properties : {}
+        options :
+         -
+           internal_properties : BwAAAAcAAADZvWx7N04Ani6QsNIAD7/3Hg/t7SCF2bx2IaVjkjXz3Ke1ob84s1r5eL5hgzRFaLoEGE/s4cUC
+        type : 5
+       code_elements :
+        internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 5
+        p_codes : []
+     -
+       name : Col_Created
+       identifier : 0x22d56f413e155bbb
+       internal_properties : BwAAAAcAAACDXyb3mJnRbLA2cNcXDXj648OOL6GWCrPzNoYTahGP70YK90uXZF2OhL7iPYqwZG6X0QoKAuEf5YXCzRx1taT2m22i+IB2fZvgYMLEhpoNV2XEA/S/L6UHlEjnqPdbXUo7M10F+5k+mJR/IvHFQSXbcDxGFFAZ6bx5GDcdBOTiaaoUh/KcipAv9GWqX1cgWGutcY14
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAADC0r7arLmORGCryAo82ue5QFR7RgyvgPv4ptJt5jnezOm2T0OB6yo3/9SHEq+tOJnIDvKGuT2Lr5/MDWzcE6fakZfuQDKeNRj/scwHUlQd1uNgy8pSp1r4J7c2cZ8VF1AwhQ9P2o5J8qPNT721jQAd4CulyFjpQp4MeKHYNDCHL8l0YzpUkIt3bzZKqoHpFAs0eON8zpox2qyXrMIPbo2uTvMbrBwvwa3tL6jfw/NtQHyVAkoScf7J7NCkHSRBDvm5O6Q/cQexJ2p0cIVeUgopFE8JSmvHbdXVrhJSE2ud1kzaHmipuwDMxFLVkvt+P8e0lnWZueHLQB+JfE9ekw1sjH1HmFyOwEcnih16xLzegL5xwidXszBHOrOXNqiqdI3vk0Copavfd5lPy9Z9IUzOE7UYFEWKDK/w3woBKoLtsnk9J/xtLM88BhnWuAKU5T2ouEt0i0fMJ725KKh3JXJ3Dv2YACOaouzxct1laGor6Y6y8ZTABAUPv0Ah4SYWQWDXow7KT+4GlG10Fbbr7sWe4uNduwckkqz+jfBtBukS6L6sxYAZ4tyAag==
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAAA2/NAN8e0i1nx9CL+UKDdKp0Wj8Hs3F8Uq+4nJi+Vlrhs8L5hr2bVP32EnBW6z+NbZQlN5MBPGig8ViSdfVhZsQGtgEMDD1bdMu7MeAi3Mz5RU1KkMSSSTgilVTXjn74MSjTOuyMJEpPVP6Gp5Ar2OzWyav4kS
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : Col_Updated
+       identifier : 0x22d56f413e175bfa
+       internal_properties : BwAAAAcAAAD6VtH486y2EZWV7QRE3lnb+upBWLCFG0zswR+8jzbs1F2tEnAyz45/1dEzrktxhe92sO2jpQSwDj7VYr326kljhiHGZn40G424MP+5eV8gdAK5CJ/iTLgYhVkoT75kanVEJE40KirNaVXQk0AUEsp+ldnr/3s2DGHSoUAUM9XzeFtFsNm7q7/codIHOmo9RVa2eoZ/
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAADC0r7arLmORGCryAo82ue5QFR7RgyvgPv4ptJt5jnezOm2T0OB6yo3/9SHEq+tOJnIDvKGuT2Lr5/MDWzcE6fakZfuQDKeNRj/scwHUlQd1uNgy8pSp1r4J7c2cZ8VF1AwhQ9P2o5J8qPNT721jQAd4CulyFjpQp4MeKHYNDCHL8l0YzpUkIt3bzZKqoHpFAs0eON8zpox2qyXrMIPbo2uTvMbrBwvwa3tL6jfw/NtQHyVAkoScf7J7NCkHSRBDvm5O6Q/cQexJ2p0cIVeUgopFE8JSmvHbdXVrhJSE2ud1kzaHmipuwDMxFLVkvt+P8e0lnWZueHLQB+JfE9ekw1sjH1HmFyOwEcnih16xLzegL5xwidXszBHOrOXNqiqdI3vk0Copavfd5lPy9Z9IUzOE7UYFEWKDK/w3woBKoLtsnk9J/xtLM88BhnWuAKU5T2ouEt0i0fMJ725KKh3JXJ3Dv2YACOaouzxct1laGor6Y6y8ZTABAUPv0Ah4SYWQWDXow7KT+4GlG10Fbbr7sWe4uNduwckkqz+jfBtBukS6L6sxYAZ4tyAag==
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAACOjVQzA1A78FoOX4iEV1aFh3tOr6qYKUJFskwBq+8SiUg0TdOaYEpUzoJiGUJ1tbp+XvR9Hzzz9GXdYDRm5F8scjQw86J+oX+TvAdVKUNKUdceHsoCgrX9s87GxYDSzN2livus1mkTKcUvGqDClTB2eIWExoixY3jFokpB
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : Col_Container
+       identifier : 0x22cc225e45530a07
+       internal_properties : BwAAAAcAAABimqPyxORLrgOE+M9Mf8qn6YvGXt91NQfIhnmRSzaYgrLtTQMTiHAzvKbHGJlJZ/qijqbU5tTe7Cmqa1EOC/dWwQimaMU2uZq9PiBDuYoZdfwJvhas+e5IgXKxI2AWQTG8QJxF/hBzC6H6qUmcsmWTMBWCo38T0z4VhbzhoHBaJk9OtLSxna3We6j7Z3Msq7rq+aXDjTsxdd+M3EQVbzc2jZ0YsoI4A9CweA==
+       type : 40
+       content :
+        internal_properties : BwAAAAcAAAAe2oouTl2eSFq+YU7aYrw2rvkRcWpgj++UpE8eoESEpNMDLCxeJc0609hTT+MUISyDFstTB0//1+kIg8lkIxhZ5tHdIr2VxZcHPjGottpJdxeZwNgnhTvJ1H0K4OyqnLODCfcrdsOPkv4wIYmwxxEu/kOHJP2/pLOZTliHpU+R/q7stjk/yVD8fWEE+zaVkw+ZXHJlbd/ZtqkHtYJjq4A6gDjU3Cd9ycUdGNRP9XSNTcAu59oUQsds7gZgF1Qc8n/290nTsjBjUjnh2Gibxl/ynuwHfMa/UaIuZUCjq4M6sMW5GlB7G/BxKU+p3w2ZnY8OxWkDxYlSfYHrt7saSju4R2Wb9RoSZGrRjAWBy2NY+qgUVt43bohbB6P0fJ9tDAWLjw==
+        properties : {}
+        controls :
+         -
+           name : Img_Attached
+           identifier : 0x22cc225e45540a07
+           internal_properties : BwAAAAcAAACqXHcWEx3YB2jjh02RvWSCFtxjgDuh7b6zQ0lWxnEBfIacvIkeSk2n3zOdpmrpuhh26c7NNnjYpu3sWVWD9FSGhr4ZB++/KG5H3QT7StjFBepwIlVNgLf2kgCufqRLVksfvt1LvElpmg2U1aIDBAZfL+xiPye11tJS80RNn6b1MC3R3ympuBD/MZj5JwxtplRMgVQePRyatCdypfICRZaUfmy757bRDHIkGO1aaZgzzcyBaw1EB080M715lKyaEeKrmyJ4RD32OuyTkUXhm+an3J2oe2t/8jY5KWqU5E6po6mskudQ+/2rUYCafpZkFDqy9r7m8xpm7ka+awta7BtFF/fMRUXdx76gjNiRxYGKjoGZLlbNDeMqRPvuOGnl/2292a7eY5ULDCgMoxVhq3pHTZQBmOuISPXMsAVRzlogNXX3GwpdibppVAiwRNW0B39i+TCnqt6DfSCJXZvO12nxXNrBt8i+Xy5RwqfaOWJE266pFDhQIiZ1OoMfqfN5JpYaw/w2XrV7QkIcoQsTELpl58Ok46Wg6DfYpBWLH9XwI0KUf7aLFEWLAqRUyKPg53FdD/qBfPHogv+449+Xyr3XiQGKi52SJEvyAqS4iWRrh0j5j4S55Ue+iTrHlBJxH+Q6myoP9gY+Um3p+E5QOGTsbAWLkGNsexBdHA+F7Q2QQphbrZHCH3BRQu8x1TE=
+           properties :
+            x : 312
+            y : 2
+            width : 18
+            height : 18
+           type : 8
+           code_elements :
+            type_code : 8
+            p_codes : []
+         -
+           name : Lib_Title
+           identifier : 0x22cc225e45550a07
+           internal_properties : BwAAAAcAAACxdPGcU3CUtuwP1qRJCLKmaEBxlvHf10pwhnM4spKOjQdeaCkYpJQ+RR7V+p4OTlhkpJz/MAL8Yl4KmlTNK4SEc3MvnHABnRhKUqe7gPJZDqtLaDqjza58eUV1PR/SLQHsYIaWklb05cBNI/01nEOoclOI1wyuJdd/bmCjh2JnpF8aKsgXulwp+D0ad+rkW0bDfVeMcDPh4WU3vAWe/cM/lY1AIC4HTSb3UdarBXehTOL2AD90lh3SHEPHWsvVnT31Ptj0tDn4MPrwvNWlFydaoEbVQiZr07WvhbFl8umyodGVSx8VX4p8FejlGGFAM/7pznjilaMATxrJuHlqzxuemEoWnFtm+iHMXEI+h/TDyED/HafZfHj5
+           properties :
+            x : 6
+            y : 1
+            width : 300
+            height : 20
+           type : 3
+           code_elements :
+            type_code : 2
+            p_codes : []
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BwAAAAcAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : Col_Category
+       identifier : 0x22cc482312b46748
+       internal_properties : BwAAAAcAAAAtk2myLUhf6Npk2nCJOU7FekdkYRlIE1J5B6bqCAYeOmdqU39Av6zpZDox8ta1HcCP4PVJiTm0klODy+/7PhZPTtgG7eGCmP+Ssbs9G46g/ZOp8p6f2ve49oQy7m+fVYO8ezla+HSRb0ZhRs3dsoQi2+eFmwOUzgJ873CPz/7dMcvajzx5DFIg8sxhwSHMMmdB3uOOXGEITWs84h6sFw==
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAAALLAzyuaYafD8s9s1G5/DgOijG3VrrexS1RPDfWI2q0FGKyk60vhbbqSSXS31WfNQXwdpyIgKYxKuTNgehXQgYrfwKOGmA78N8Eq+XzW0rbixpb6f59QPxMiz+RDBVietRGdQcvT6QiX1JM4unFnAD+apa422fR6xyPswbqPbTbZ0phUGgoL5aIDcpn9gqwKBZd8rG/4sCVN7sx74pV0Mu9fMasR9J+d471gYiIHz3EhFmQGaq6EJKEWyyip8h72E+pJeJwEAvvO2dwPNdiyCDK6mizk2NfoT3EgkBQdS2pFt3x42z87JR2mFVLimeN+xUlbMdfgDAyJfct33eSbq4ORimpkD13mYj5xlkeTUSMbQ2RgUoyxdfSJfxSLciTkTZ/Dk2OmHoDyYZJmCl2hfUWEtRuiQApbV0MRYuNrKtD1qk0SET+CCx/J8uUgSNl7TPyjy7P0MpEgqjvPvYPrgBOM1xSd0znZ2kHsJpnZefv6fM9/QZIVY6iV3cqBpnn5d5j0Msc12V6lFRRInLLcEf0+nO/9vvVen/ett/wquqcmtzmI+LBc1iMFP3rA==
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAAAYoVb9Kx5UZnMy7RXRll2/EIuUYK4CS8CKlMjOXmSmkDO6/Lw4Y6Qh2Mch+AIPtBUhWz72rvjnCeTW+jqbHA==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : Col_Dates
+       identifier : 0x22cd2f0604dc4d93
+       internal_properties : BwAAAAcAAADGAJSfxpUzQmq4s+98v08GengYCboceBL/+fO0zkb8W7Ja1P2csGbfCh6Xxq7JjSSpM4Z89DP8lXxJ75rRxInJ77WTuCjKpvkWIgwcLeHnSKRCqth71/8he6kpd54rA1y7ctWgKB4CLfplyPq01Jx/bKoRj9hbc0Rm/7KWCU0MuVierip+0DrRF0upraQzfMKduuI1PNYfPg==
+       type : 2
+       content :
+        internal_properties : BwAAAAcAAAALLAzyuaYafD8s9s1G5/DgOijG3VrrexS1RPDfWI2q0FGKyk60vhbbqSSXS31WfNQXwdpyIgKYxKuTNgehXQgYrfwKOGmA78N8Eq+XzW0rbixpb6f59QPxMiz+RDBVietRGdQcvT6QiX1JM4unFnAD+apa422fR6xyPswbqPbTbZ0phUGgoL5aIDcpn9gqwKBZd8rG/4sCVN7sx74pV0Mu9fMasR9J+d471gYiIHz3EhFmQGaq6EJKEWyyip8h72E+pJeJwEAvvO2dwPNdiyCDK6mizk2NfoT3EgkBQdS2pFt3x42z87JR2mFVLimeN+xUlbMdfgDAyJfct33eSbq4ORimpkD13mYj5xlkeTUSMbQ2RgUoyxdfSJfxSLciTkTZ/Dk2OmHoDyYZJmCl2hfUWEtRuiQApbV0MRYuNrKtD1qk0SET+CCx/J8uUgSNl7TPyjy7P0MpEgqjvPvYPrgBOM1xSd0znZ2kHsJpnZefv6fM9/QZIVY6iV3cqBpnn5d5j0Msc12V6lFRRInLLcEf0+nO/9vvVen/ett/wquqcmtzmI+LBc1iMFP3rA==
+        properties : {}
+        type : 2
+       code_elements :
+        internal_properties : BwAAAAcAAABsVQ/pR5yS/zOfJ5EnDO36FrYBR/MlTypx1n7KSiaRJQq9hLlMacl7GjlQnyy6YD03QEJKs+g=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1-
+         // disable display
+         MoiMême..AffichageActif = Faux
+         
+         // remove all breaks
+         RuptureSupprimeTout(MoiMême)
+         
+         // get position
+         TableSettings["Position"] = TableSauvePositionEtSélection(MoiMême)
+         
+         // get search parameters
+         QueryFilter
+         
+         si Col_Category..Visible = faux ALORS
+         	Col_Category..Visible = vrai
+         FIN
+         
+         // are there hidden fields/columns?
+         SI Config["BreakDefault"] <> "None" ALORS
+         	// hide/show columns
+         	SELON Config["BreakDefault"]
+         		CAS "Category"
+         			Col_Category..Visible = Faux
+         		AUTRE CAS
+         			// small craftiness, if the case is not here!
+         	FIN
+         	
+         	BreakHead <- RuptureAjoute("Col_" + Config["BreakDefault"], "Break_" + Config["BreakDefault"], ruptHaut, 22)
+         	BreakHead..CouleurFond = HTMLVersRVB(Config["BreakColor"])
+         	
+         	BreakLib <- ChampCrée(BreakHead..NomComplet + ".Lib_Break_" + Config["BreakDefault"], typLibellé, BreakHead..X + 24, BreakHead..Y, 500, 20)
+         	BreakLib..PoliceGras = Vrai
+         	BreakLib..CadrageVertical = cvMilieu
+         	
+         	// count rows
+         	SqlString = "SELECT ROWID, "
+         	SELON Config["BreakDefault"]
+         		CAS "Category"
+         			SqlString += "CatID"
+         		CAS "Created"
+         			SqlString += "strftime('%Y%m%d', datetime(Created, 'unixepoch'))"
+         		CAS "Updated"
+         			SqlString += "strftime('%Y%m%d', datetime(Updated, 'unixepoch'))"
+         	FIN
+         	SqlString += " AS Ref"
+         	SqlString += " FROM View_Memos"
+         	SI SqlFilter <> "" ALORS
+         		SqlString += SqlFilter
+         	FIN
+         	
+         	SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         		TitreSuivant("Erreur")
+         		Erreur(HErreurInfo)
+         		
+         		Ferme
+         	SINON
+         		SI Breaking_Data..Occurrence >= 1 ALORS
+         			TableauSupprimeTout(Breaking_Data)
+         		FIN
+         		
+         		HLitPremier(SqlQuery, hSansRafraîchir)
+         		
+         		TANTQUE HEnDehors(SqlQuery) = Faux
+         			i = TableauCherche(Breaking_Data, tcLinéaire, "Ref", SqlQuery.Ref)
+         			SI i = -1 ALORS
+         				i = TableauAjoute(Breaking_Data, [SqlQuery.Ref, 0])
+         			FIN
+         			
+         			Breaking_Data[i].Cnt += 1
+         			
+         			HLitSuivant(SqlQuery)
+         		FIN
+         		
+         		// free memory
+         		HLibèreRequête(SqlQuery)
+         	FIN
+         FIN
+         
+         // init subquery
+         SqlCount = "SELECT COUNT(ROWID)"
+         SqlCount += " FROM View_Memos"
+         SI SqlFilter <> "" ALORS
+         	SqlCount += SqlFilter
+         FIN
+         
+         // now show data in table!
+         SqlString = "SELECT *, (" + SqlCount + ") AS Total"
+         SqlString += " FROM View_Memos"
+         SI SqlFilter <> "" ALORS
+         	SqlString += SqlFilter
+         FIN
+         SqlString += " ORDER BY"
+         SI Config["BreakDefault"] <> "None" ALORS
+         	selon Config["BreakDefault"]
+         		CAS "Category"
+         			SqlString += " Category, "
+         		cas "Updated"
+         			SqlString += " Updated DESC, "
+         		autre cas
+         			// small craftiness, if the case is not here!
+         	FIN
+         FIN
+         SqlString += " Created DESC"
+         SqlString += (" LIMIT " + RowsOffset)
+         si RowsStart > 0 ALORS
+         	SqlString += (" OFFSET " + RowsStart)
+         FIN
+         
+         SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = faux ALORS
+         	TitreSuivant("Erreur")
+         	Erreur(HErreurInfo)
+         SINON
+         	si MoiMême..Occurrence >= 1 ALORS
+         		TableSupprimeTout(MoiMême)
+         	FIN
+         	
+         	HLitPremier(SqlQuery, hSansRafraîchir)
+         	TANTQUE HEnDehors(SqlQuery) = faux
+         		SI (RowsTotal = 0) _OU_ (RowsTotal <> SqlQuery.Total) ALORS
+         			RowsTotal = SqlQuery.Total
+         		FIN
+         		
+         		i = TableAjouteLigne(MoiMême, SqlQuery.ROWID, SqlQuery.Attached, SqlQuery.Created, SqlQuery.Updated, "", SqlQuery.Category)
+         		
+         		Col_Created[i] = gauche(EpochVersDateHeure(Col_Created[i]), 8)
+         		si Col_Updated[i] pas dans ("", 0) ALORS
+         			Col_Updated[i] = Gauche(EpochVersDateHeure(Col_Updated[i]), 8)
+         		FIN
+         		
+         		SI Config["BreakDefault"] <> "None" ALORS
+         			BreakHead..Traitement[trtAffichageLigne] = BreakTitle
+         			
+         				PROCÉDURE INTERNE BreakTitle
+         					
+         					SELON Config["BreakDefault"]
+         						cas "Category"
+         							BreakLib[IndiceEnCours] = Col_Category
+         							
+         						CAS "Created"
+         							Parsed = DateVersChaîne(Col_Created, Config["BreakDateTimeFormat"])
+         							j = tableaucherche(Breaking_Data, tcLinéaire, "Ref", Col_Created)
+         							si j <> -1 ALORS
+         								BreakLib[IndiceEnCours] = ChaîneConstruit("Note%2 créée%2 le %1", Parsed, (Breaking_Data[j].Cnt >= 2 ? "s" sinon ""))
+         							FIN
+         							
+         						CAS "Updated"
+         							Updated = Col_Updated
+         							si Updated dans ("", 0) alors
+         								BreakLib[IndiceEnCours] = "Pas de mise à jour"
+         							sinon
+         								Parsed = DateHeureVersChaîne(Updated, Config["BreakDateTimeFormat"])
+         								j = TableauCherche(Breaking_Data, tcLinéaire, "Ref", Col_Updated)
+         								SI j <> -1 ALORS
+         									BreakLib[IndiceEnCours] = ChaîneConstruit("Note%2 mise%2 à jour le %1", Parsed, (Breaking_Data[j].Cnt >= 2 ? "s" SINON ""))
+         								FIN
+         							FIN
+         					FIN
+         				FIN
+         			fin
+         		
+         		Col_Container[i].Lib_Title = SqlQuery.Title
+         		Col_Container[i].Img_Attached..Visible = Col_Attached[i]
+         		
+         		// dates
+         		Parsed = ""
+         		SI Config["BreakDefault"] <> "Created" ALORS
+         			Parsed += ChaîneConstruit("Créée le %1", DateHeureVersChaîne(EpochVersDateHeure(SqlQuery.Created), "JJ/MM/AAAA à HH:mm"))
+         		FIN
+         		
+         		SI Config["BreakDefault"] <> "Updated" ALORS
+         			si Col_Updated[i] pas dans ("", 0) ALORS
+         				si Parsed <> "" ALORS
+         					Parsed += rc
+         				FIN
+         				
+         				Parsed += ChaîneConstruit("Mise à jour le %1", DateHeureVersChaîne(EpochVersDateHeure(SqlQuery.Updated), "JJ/MM/AAAA à HH:mm"))
+         			FIN
+         		fin
+         		
+         		Col_Dates[i] = Parsed
+         		
+         		HLitSuivant(SqlQuery)
+         	FIN
+         	
+         	HLibèreRequête(SqlQuery)
+         FIN
+         
+         // retrieve the position
+         TableRestaurePositionEtSélection(MoiMême, TableSettings["Position"])
+         
+         // calculate total pages
+         RowsResidual = modulo(RowsTotal, RowsOffset)
+         SELON RowsResidual
+         	CAS 0
+         		PagesTotal = (RowsTotal / RowsOffset)
+         	AUTRE CAS
+         		PagesTotal = (((RowsTotal - RowsResidual) / RowsOffset) + 1)
+         FIN
+         
+         SELON PagesTotal
+         	CAS 0, 1
+         		POUR CHAQUE Button DE ["Start", "Previous", "Next", "End"]
+         			{"Btn_Page_" + Button, indChamp}..Visible = Faux
+         		FIN
+         		Lib_Total_Pages..Visible = Faux
+         		
+         	AUTRE CAS
+         		POUR CHAQUE Button DE ["Start", "Previous", "Next", "End"]
+         			SI {"Btn_Page_" + Button, indChamp}..Visible = Faux ALORS
+         				{"Btn_Page_" + Button, indChamp}..Visible = Vrai
+         			FIN
+         		FIN
+         		SI Lib_Total_Pages..Visible = Faux ALORS
+         			Lib_Total_Pages..Visible = Vrai
+         		FIN
+         		
+         		Lib_Total_Pages = "Page %1 de %2"
+         		SELON CurrentPage
+         			CAS 1
+         				POUR CHAQUE Button DE ["Start", "Previous"]
+         					SI {"Btn_Page_" + Button, indChamp}..Etat = Actif ALORS
+         						{"Btn_Page_" + Button, indChamp}..Etat = Grisé
+         					FIN
+         				FIN
+         				POUR CHAQUE Button DE ["Next", "End"]
+         					SI {"Btn_Page_" + Button, indChamp}..Etat = Grisé ALORS
+         						{"Btn_Page_" + Button, indChamp}..Etat = Actif
+         					FIN
+         				FIN
+         				
+         				Lib_Total_Pages = ChaîneConstruit(Lib_Total_Pages, 1, PagesTotal)
+         				
+         			CAS PagesTotal
+         				POUR CHAQUE Button DE ["Start", "Previous"]
+         					SI {"Btn_Page_" + Button, indChamp}..Etat = Grisé ALORS
+         						{"Btn_Page_" + Button, indChamp}..Etat = Actif
+         					FIN
+         				FIN
+         				POUR CHAQUE Button DE ["Next", "End"]
+         					SI {"Btn_Page_" + Button, indChamp}..Etat = Actif ALORS
+         						{"Btn_Page_" + Button, indChamp}..Etat = Grisé
+         					FIN
+         				FIN
+         				
+         				Lib_Total_Pages = ChaîneConstruit(Lib_Total_Pages, PagesTotal, PagesTotal)
+         				
+         			AUTRE CAS
+         				POUR CHAQUE Button DE ["Start", "Previous", "Next", "End"]
+         					SI {"Btn_Page_" + Button, indChamp}..Etat = Grisé ALORS
+         						{"Btn_Page_" + Button, indChamp}..Etat = Actif
+         					FIN
+         				FIN
+         				
+         				Lib_Total_Pages = ChaîneConstruit(Lib_Total_Pages, CurrentPage, PagesTotal)
+         		FIN
+         FIN
+         
+         // enable display
+         MoiMême..AffichageActif = Vrai
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 19
+      -
+        code : |1-
+         
+        type : 20
+      -
+        code : |1-
+         
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         SI MoiMême..Vide = Faux ALORS
+         	TableSettings["Position"] = TableSauvePositionEtSélection(MoiMême)
+         FIN
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1-
+         ExécuteTraitement(MoiMême, trtSélection)
+        type : 66049
+      -
+        code : |1-
+         i = TableSelect(MoiMême)
+         si i <> -1 ALORS
+         	ouvre(Win_Memo, "edit", Col_ID[i])
+         FIN
+        type : 66051
+      -
+        code : |1-
+         ExécuteTraitement(MoiMême, trtSélection)
+        type : 66052
+      -
+        code : |1-
+         // init vars
+         CtxOptions est un tableau de chaînes
+         CtxOption, CtxSubOption sont des chaînes
+         m, n sont des entiers
+         
+         // get options from contextual menu
+         m = 1
+         CtxOption = EnumèreMenu(MoiMême..MenuContextuel, 1)
+         TANTQUE CtxOption <> ""
+         	TableauAjoute(CtxOptions, CtxOption)
+         	
+         	n = 1
+         	CtxSubOption = EnumèreMenu(CtxOption, n)
+         	TANTQUE CtxSubOption <> ""
+         		TableauAjoute(CtxOptions, CtxOption + "." + CtxSubOption)
+         		
+         		n++
+         		CtxSubOption = EnumèreMenu(CtxOption, n)
+         	FIN
+         	
+         	m++
+         	CtxOption = EnumèreMenu(MoiMême..MenuContextuel, m)
+         FIN
+         
+         // reset visibility for each option
+         POUR CHAQUE Option DE CtxOptions
+         	SI {Option, indChamp}..Visible = Faux ALORS
+         		{Option, indChamp}..Visible = Vrai
+         	FIN
+         FIN
+         
+         // these options will be always displayed...
+         KeptOptions est un tableau de chaines = ["Opt_Add", "Sep_Options", "Opt_Options", "Opt_Options.Opt_Override"]
+         
+         si SearchSettings..Occurrence >= 1 ALORS
+         	TableauAjoute(KeptOptions, "Sep_Default")
+         	TableauAjoute(KeptOptions, "Opt_Unfilter")
+         FIN
+         
+         si MoiMême..Occurrence >= 1 alors
+         	i = TableInfoXY(MoiMême, tiNumLigne, SourisPosX, sourisposy)
+         	si i <> -1 ALORS
+         		TableauAjoute(KeptOptions, "Opt_Edit")
+         		TableauAjoute(KeptOptions, "Sep_Delete")
+         		TableauAjoute(KeptOptions, "Opt_Delete")
+         	FIN
+         FIN
+         
+         POUR CHAQUE Option DE KeptOptions
+         	n = TableauCherche(CtxOptions, tcLinéairePremier, Option)
+         	SI n <> -1 ALORS
+         		TableauSupprime(CtxOptions, n)
+         	FIN
+         FIN
+         
+         // and hide the rest!
+         POUR CHAQUE Option DE CtxOptions
+         	SI {Option, indChamp}..Visible = Vrai ALORS
+         		{Option, indChamp}..Visible = Faux
+         	FIN
+         FIN
+        type : 65659
+  -
+    name : Area_Actions
+    identifier : 0x22cc291449444433
+    internal_properties : BwAAAAcAAACOMhyIj5SAsr45wKH50y1KpiaqP5kfFUcT6nSXSdnNo4mTViqY43v8rjcTkJEkXsFTFWhR1siysDEVjpxb/l9KiI77M//yiGyao36yZ6IjYJZf+9uEg/zjE4ahz1vuS9j4Ug2Q55wPG8AtbS0tNwROfnjZ3hX5IfrLPrs7pv9UTIMpc4Z3c56pL5jSvcjF4ruZUu+Er3Rlqc0EDDSg+GH3i3s46Lxwz5GRQomYIuEqxhkJK4m5741a+bXVnFZ5Cm+9YV8xFPFr/JaZmXTMyl3TOwQ6bmRSCXa4VwB+hbVFBS3/Hbj41Nhjj2QZewxdqL5NyHZuTL0TWSc8EBC2qFTOtCpjcR2l4TAt5b+FXr5oGDZHPgpZWVhm44UbkCqbCPiAvkVs612GkPWOMQUdMldn6HzknaFBlaiUsf/fEUrHecty07+VsyDg23dR4gW/vAOMiDiynN6Fmwo4cFhk2s2H3hx02HEz54hk3A==
+    properties :
+     x : 6
+     y : 501
+     width : 786
+     height : 38
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Btn_Page_Start
+    identifier : 0x22cc291749464d3c
+    internal_properties : BwAAAAcAAAAEPzL3j193eixatKgDbVrHEEgh/B9i0bhdhzNu/4IgRLRnahFCtxVy5Y5Jtn/BiKO5Qm8l8b9Eh53HH/CVoECi2d74tKm8zNuNZutWp1MXWQkl/atR4VVrjSx1au8Cpbkt4HsdWITnuUMJ5H5eKjb/Ab9qRL4RZvuaDYr0pClgeO7AQPDN9YMe/LdU46p9CxSpJzP4fsbYn1d2AclF9GbBjP9rWwErE6TP6hKd7JG3nUdbh2XNRm5S0xCArPDau7+OECfuOycXaeiURXceasT7c5uGj5MIw8isgDzQ5tFJ/bvPm6Q0IapU2t2klw/5YPsBXc8291BanZGhwOs8dNqVTAiiiAoZDjZclBgCzxJt+6Pt7iEsGfegOaMTfD/KYWhH6hGAOhbIWSn9v4lZn0kOExdr/NDWn9o9tqVib24Fj1eRhKRfmJnN77Hhs6I435kAPFF0703j3THYeqSjNT4pmxGymyppdcDo0QD9toWCD5zyPc5Qj+M3VRXT8uG8+loNk6Xf3yz8OIqVuDAbezg2p6j+bknOBM/472d2EeSt7OdT/zrGt9Y0YEtdj7Jo2jpFrm9fRYCviHyfaoxFFwFg1No1Wx6lRZZIM1HteAhFJVyEp7cvX8yYVUAd1N6YM2v0wqsz8P25+qKO1AEB8NSUAzj3hlHz1KkiEE66bIGLJ9lc9G21DxpHQQOdGw70jiI9AcQc3dFFXk8Ipk8iBh8QrxSqpiW1DT0xInXEHK31J4SFfAlC3qPXT6QEdnQeoYGW8fsCNlErfS1ONHMMOtKZ9wCKXNXfGi6JoequnwZadvhIAJcV9hQno02oJr8UPREA
+    properties :
+     x : 12
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // pagination
+         RowsStart = 0
+         CurrentPage = 1
+         
+         // select first line
+         TableSelectPlus(Table, 1)
+         
+         // refresh table, and force selection
+         ExécuteTraitement(Table, trtInit)
+         ExécuteTraitement(Table, trtSélection)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Btn_Page_Previous
+    identifier : 0x22cc291749484d4c
+    internal_properties : BwAAAAcAAADrX6E+Rp88+LARxM4JbIT0KSbuvy/bKu1+a4MA16iQykIbnVRwtAkHNUYVcs3kEIvcM37e+0YKEfHu1d9+ioeEuH4EMoZNzGhBGFEW/C9ZArU0KjVXrEenDQTfOertRhs6zbp4D14uWhZFidhMxTVosv7eFYGQBuoCd0ru+wIMGaO5J0WVEC4zfcvd2XN7m0seGu2Y35vZSXq30GD37Z7taFg3gK+BUn1hJVS31NVKpKURAuYGhEPpOHjLJwhBcJYuwwE0Ukx12MOzOUNNUjr9gfjzLEl0xUepa+CWzYsWEuKP5h9Z91Xc50klS/bVpP2zxEvj5Y+kBXptgh1jeAqVzf04i2D4AbmgJCC+YkepASWhix+/JynInTIJ1sKxUkinYqwiZu7F3MHSHsHxZyQWvAcNLwrkut7A6nIwgxus6p9aQmA2ve9sHrsx9zeIGMoyBbWSOFiliMbuQhhWbyfeMb4EP/scTUfdbW4TOw0N2hblE4D/REPwpkVBngKW88+BBitjdlGII09BphJSL/c9oV2Y4CpR/oIBy3EMYqgCwatCwe5nCvADY1PvDWu0WSklyY+teIklbas9fmAkPerJbBeVrSYNomAVyvEqsyD+7EZv7NF8Trem4UCVneHnFqeTSNoPx/yFpt5l5Jf2zCYvI9klieUH3lDiueahm1v5pNWtexdv3uK/T3MAziYScgcWleFdI8MQJu9sl9rW/RqDr1hF8F8nVznEn3oPnLI9I7vJqbEhjEhyqhfE3hkQLcA67sLNn+TczOs1sA0ArbPi0ru4i3TjrgEK9wTTjtcDGZAsigbZH2Dmbct4m9N5GvRfZX1Vo60nIonSLao=
+    properties :
+     x : 38
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // pagination
+         RowsStart -= RowsOffset
+         CurrentPage -= 1
+         
+         // select first line
+         TableSelectPlus(Table, 1)
+         
+         // refresh table, and force selection
+         ExécuteTraitement(Table, trtInit)
+         ExécuteTraitement(Table, trtSélection)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Btn_Page_Next
+    identifier : 0x22cc2917494a4d4c
+    internal_properties : BwAAAAcAAABZaVOuofQ0b8Yz3gUhKI28Y7fNnzKovFjmchf8JwSCYG4y+i1vOINFCfxEo0Qb3kxacO0V/GO6cnBZ1zch5bB1/GFkCxl4qOZp5CMl1GtoyC/Qdp8rzJuenracEaJfxCgXuhGbPQx/DG3yfj3A5ZVivrLjtbwCcwWWtq4d6Cm89dOtdt2a1u7kqmc/7hv6OR/lRZxxE4hqalgxgMtT+gCcAiueC4k5/gAQTknvzqPF/JhmIfuNSFOf1xv+ZRfUCYvD4sm+s9Ply1pK/Ghred77JXiadYJXqOgDcOsQGCLePlK7Xv9slee9Lu+Qj+wTJY/tQ6OHwoUH6HwXBMf7jdPMFKtUZo3qgEcCJR/+W8CIomzDJKa89+Hu3aEF00JWuE2F2sxpWAA6RgSBUFbzhoGbmugaEBFxZcWnU511tUsZtYpCfvub2DeKyNbtgjyzK59DN+Oja22BWpJBaM17isitAMJKsminNeGL+o6q2s6AF4tFMQeI88HQfrKLLUcRPF7g6Csc8SZ08enuMjFHemLK3s9S6ysImIqLWoVj0ekHBO5caQ1c3d7/ZwbpyPh3XKYqvTXGR7pHwUnM6H+VHM0ZVQPTsG/M1tJLr6JUuFsw2jbMdrnOpJ1GRV6ujneMCCp0RDwjI29oYknGzmaohZRIARIftI6D35VNC6cVyiphpudxrv9SjNZwCpOYlbUzJs6sfvTerFb0tDFyhBH9FvEHxwmsq54aHt0TBIbS0T3yGE3mynpsjOc8A0ylT4SA3BzD42dehcGtqr3xWjwf2uqbdBhHtr4amPcM44vs8sbfp6wmDDf4DElgiifiWZxf4uA+xg==
+    properties :
+     x : 64
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // pagination
+         RowsStart += RowsOffset
+         CurrentPage += 1
+         
+         // select first line
+         TableSelectPlus(Table, 1)
+         
+         // refresh table, and force selection
+         ExécuteTraitement(Table, trtInit)
+         ExécuteTraitement(Table, trtSélection)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Btn_Page_End
+    identifier : 0x22cc2917494c4d5b
+    internal_properties : BwAAAAcAAADamjNAzCS6wcDJr/8o425ZX2tHYHyG9V+cH8/3kbxi+JX0GcfcLCl/53FoH5dvZ3/OoiHH95Els3uacRjKX6QdTTaHXFp1reNVaSJiCNH7Ct4P006gd5nH2clVcVB2E7bNXW9moXhyNKxYcM3zPghtxdAjA3BBTDmGDpIzu7wX/CxIZ4MH+m2b+wZLt/iIWBn1w4nRJqHnRcx+aeq+ya+mzSgpSRewOvTuYiO5x1mX3fpNNeOUGVJLQ34szHse2LpSxqBntNhQjiktyzp7kShmqItWYJ31TvqakvoqoU0+NFRvAU++fkDd0L792lXxcOM09qA6UrGdTDrR3QZ6e7Xy8Dp8S3p+ikQuwPkcanPZ6rLFH3/uWChnSrga1gKAiaV3A3HHmg/jZVCfJyg1B/F0Js6EVH4/p2xhe21yo165Vt8SdH5V92QzYnhPlxoEF2KO9enCiVpoHWY1fEYxs+T6oWbel1oIeOApmiQPlFXWSlLFeVZstmpJUJDBHDcu5N2jJNHPA6X5AkFcena1r4AlXf14rpV7IXdDxiWko2RJc7GQH2JahhEi25JBIchUSkEBgX+XMW/+dK+iIrZbw3nxeA878W5wcOavBn+GhfvutG7XAkd7wtMHGlAKvSlc7iOXG7OMdH+cADvRXnvnhAA2HiSYX72xVwe8dMepl5QidiQ1Di3L3keHXih9JpEeWIe2a6UkJ6+vLxczLrehT3NClFG6hipkOL3s48OYXE/GY885eRhqeX7k6vTX0SUDAKl4VemVw1n+ioSsk/6bl0PwpeiDeZ4Xn/iiMAZTjidBtEGE7ALi/Q4RQiRMtVlbHxEyzVE=
+    properties :
+     x : 90
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // pagination
+         RowsStart = (RowsTotal - (RowsResidual = 0 ? RowsOffset SINON RowsResidual))
+         CurrentPage = PagesTotal
+         
+         // select first line
+         TableSelectPlus(Table, 1)
+         
+         // refresh table, and force selection
+         ExécuteTraitement(Table, trtInit)
+         ExécuteTraitement(Table, trtSélection)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Lib_Total_Pages
+    identifier : 0x22cc2917494e4d6b
+    internal_properties : BwAAAAcAAAAuoHUURBSKj3BoWJit77RtwwwrzG+4WkJLc0F5uhS85DRSZmEu/iAJoW5oglnff6eyZVDWSoO+2Y1T4d/mYa3V4/8XAemJ8MqPrstEwy5NOq4LnBEu+/N1g+Uz+UaVS3dLcLjVMuAw6MkWDBWXp714rulHkDYypLd42HPurcm2hB2EHrCTIdGbnRTuwJVlBC0nkLK2wyZ9g6YlqmZikjdmmBmRmAVljaxeczi3ND5FJNGj3NW6qj7x4199alcdPc54NRjzZZr8y99aQmnNaglPsDYAthOQfGtvE8PyKBs2G3VhX5jAt8gNGaLWyyg6y2xZOlm4dhzOlV4KXLuFcA/LLrI7F1ER0noBbaDVojJVmhgHeJH6Xfrshg==
+    properties :
+     x : 122
+     y : 510
+     width : 150
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         Ouvre(Popup_Page)
+        type : 18
+  -
+    name : Btn_About
+    identifier : 0x22d513e41e9869ae
+    internal_properties : BwAAAAcAAADWpB148GqdR7aDJ7Hpkzy7rNmL+Jf7/5RibXzV0Wx7bB0M6yCKEcq6MVlw98qoiEjWC9Zcn5LY2tEE8q8cV0b8/syJ9uuKlhZVgA9MGP2VBllEWAfGAUI0lZLXmpK+qYig0XKpKnY+Hsh3zS2Ur2YYDlrZ9MY/f5umM/FtwqLItP+PhlHTYD17MvgjuisBuGw14u27yUKeGYpNvf2UX0uZ007PZUQbtGyDUD61aWTYPfgG4+64p/udl76dkFC9ntSNGjMTLEZK8Gj5qMyzDHxKLQZ7RLCELy+zNGTFCt1Gz9EbgT2OLjkq4ZKm1FKhwd+0JoO4/U8z7UFmW5AY5+25QBYEx9XLxbL/htHxGK9LEYuzIiLieYyRUu3t53XUX4E2RLC1HVEepoXWBbYOqND06j3CmolfbITc+qwQCED40j+km9FjzU3CQ1mnX/VM9y1hNk9uzWPBTZo7v6Sf2QerPf+1pbq1CqTMBR6PheI8E2AFRX9Cc2WpGdkfRDFxUoC0z9Rt8avDKehvP4Sp7Ls8Lar7UIkM2EPE9p//eba/Erws5wvzAa6njq3ZWXb7VOZgf6U42seR1Ph3sc3mQxud8A0LBtkjKzAcA16N1HsynZHmNIrjECwwRe+v6g+pX+Z4qXzkDaka7quSRW5Ncm1l9o2Ul7L+FACBxSQzIotobnb5GJjR6VVDWzP9cKe43byUExjqxTVAnDbhXNJtK87knf4PKKNopquUeizc/DF7vT0jCINYuTyZewERYx1ZYn/pypnsD0/jUqFoUWFsMxhsWs7LwGAHsvqF3nZ3jLUzpIgwdnLvmc/Xb6gj6K/TB9VBtQmuK6YD2G3b8GRNf3WYApz047g+zUYaaBqQuUEHMmukC2xfCfDMpnXQIAjD/w202VU=
+    properties :
+     x : 766
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         OUvre(Win_About)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Btn_Settings
+    identifier : 0x22d51b4820e649b5
+    internal_properties : BwAAAAcAAAA3cxkNM8z/bBm3slRfvyldmwcO9HaVs7Fc7Ht1la0e4BDDf0M9OKA0TUcwqswDT3dY7QyJpkEoTxSPUJw2OZLa9xvONmYueFhoP/qkXMnZSYx4zBXsOMHBD9CVTnfxcuI8J61P0bmovrsYbjFdpMZlRMFHXetJBK5v47Lt9PSCinmwcvZBOaU8aN5wudtMXiOUmgl+v628UfP97czDdR8I78aQWbr+S2dIZ0PjZY8wV5Kg0A0x0VQNz49q79VIYkadnYVH42mQQfVI8Xs5udyDwxyKk9Q2AGPZhGHcWkha0LV+p/BJjJhmlpxNjZK+J+yuKTbaxiQM56Tu2+9kTy24q/hSMjoiFJtrqc8iItH8PwDchVOBamuPbNT4hz4435K0Hrfb013y0psIoGlvzvPI7HeFE6sVtGBZPMYfYLfr2RI85QQ7baf2XUJWNnfT0AAMZadoeH1hW1mRT9QmJ2/hEXK1p79XD6BKbNhkblFgyH3WZEj+FzggTJMOTsgcUHvm8cpROgJDxZ+t5YGyCvletQR3BLP6ew8nFq1+rYC95TMF3uC4VsHcZu3HKX9W140n9nDmOUWKmUAT6laQzXg/Ig9J9azU+VbokWAelFKV96Yxq7NfIXRgs+o2r0WVRwQZBCKjIKIs8FZPBmEzhMNKWftya0zkbFOFZFtSKuALdXdbgbORddVJ5KLlvI6J16cD3lwBXwx4MPOQvBw2p4Dxi06s/WKwFR3R6Kp//d/HMokJueqdxdAWm4YEQ9cF1fMvnr9xNBkw0/8axZs/R5mzo1ibOR1CxZZCsrFefpNyHozn3MADM8+dn0kTuQz/63ZLAVkWGyhqlNLV2UsuyM1KI0Pwi4i/Oqu0XwM+ab42OQ==
+    properties :
+     x : 740
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         ouvre(Win_Settings)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Btn_Search
+    identifier : 0x22d65c510fe46410
+    internal_properties : BwAAAAcAAAAdpGsQInUMdZoRRLl8w4jBNCwrCVLgUnFlMRZqKaXEdbDQPZQiiVuCh5VwIOp8b4FLjO1JdPIhacbgQF3uBsT367lsQ+1B7dSS4rgFWhyOdjHDUiSUT84m5j66+TYed4aI2U9kEZPZ7K/8kdIoETy+j4KlfKjGhrlDAwtVdAJd/nFbmezSpBVu+1v6CKEDkIB+4gIQHS8y6UlrwK5vNvaDODsIuciVhpxFRVnkpR2RMCjiiPnnISDfHQ6MvKl3nhEOhy8tWgb2X4cvL1WzKxy21yD7uHcYnAGLfjXwZXS03oiSAAQSmc5qLV7kJB4AAAA+T1+t4V0wPzYgElHtX5DGp7LlMuKQ/zmOHkN2OFhR5ANy2XDyahWLllKqk8HVt0fWEPHC54DA7RQnbLaRjgpTiNJUmRPGLGpctCOETG/2cC/4WpE1xqNhgf5jIm7MKid44P3Ngu6aUfnEFDc4FCSSqtAsjkbabl6G55IxUI5Aeznc8ClR8fVmAFrxQhnR4TGMoyJOZtlPatBAyAxwnecAyRhn2LIJhQpq/0jPSSsdvjBbeb0/zRz9qxijlp4pK9ZPKi71Oy6QZRSDIT2yQHKhoF/Tj73WejnNaP1X0k6qsEsyj77YVI923vQAOFNxqA9STTVETeO++as1lHVgtYvFGFJi5tzv8EdjyPhc5fkqghGXQrDJNH68izoKgRyOHLMwY4qYYKd0yyO647vewrdJfBuyKsBy6I0H/NDwULPDwVQovzHRNwXHtMNb6AaTI+yCUyPBIRohBi6lLt5svAHw1587VUJCpGhH8dRsjugG2ZpquZ27dAnBwBERizn7d9zU9qYmwyU6sHfuzAzza+lFSW+Vg268NPU=
+    properties :
+     x : 714
+     y : 510
+     width : 20
+     height : 20
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         ouvre(Win_Search)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x22c7fbc500993fcb
+  internal_properties : BwAAAAcAAAAmnmsMK+pSZJrizHlry5BJP+sbufa4zccF/7flbZf4xlv2rTJ5avaWvToZog8Bfg5qj5cqL9/K+JLwUxYFygPOe4+hQvOqbwHe/B4YH64plXyGcwsEwRu1H7jq/rNyP/R81O/USeI2/APkVZidyxtNh0Y/fytnunm/iyk7nElGG0atcn+8qJ8LBDnxES4mH02yeiwFrgWEo6ixqShEqe7e3BCIlx4J1qYpblIc431oi7HFGkFiVZlDyYxU+PQl0CTH8W8dFRumzgcOnys3VyceJZTYWUhKrQ==
+  options : []
+ popup_menus :
+  -
+    name : Ctx_Memos
+    identifier : 0x22cc225d453e096b
+    internal_properties : BwAAAAcAAADfuM7iiEtXtvgxCPbuXf7YsNcGjUEoxq4OCxmI1QestapGBg6FEfZrGkdqIdQQ87vIg2Ezz/pkxn8W63frJ/LkApY2iVakZZg32sG2+1CaqJ7kfHF1TGWFHtQI2vgywHrI1HtxAjAe9Ikdd0df/7WLB4PFTgrBB8DJ2hbXNleHMX/2/R9288aq0R6GLEYlJC2j99UtrpikbTn7TYOJYePmVTW7+dyQlivMhlxaoHQww1kQsMG/Yq1EMGtwCuUR2+fkXjGMeYr73FZbvDAdexlEucv5Xdqq8eCkOdKcFBpMhcZzN+XzW1cuujPGvWqJWRqZKNWvrYuU7Fisg0x+w4UapbgE76YsBbHMfsZe2UpCu66TSFvBibwd9w==
+    options :
+     -
+       name : Opt_Add
+       identifier : 0x22cc225d453f096b
+       internal_properties : BwAAAAcAAAAAQLi5IvZMnfpQvyL1ZQJPwQssCXrikHDfh1EValXKnZb+ymsJ78wcD0AxZjW8C1uBhhENJb7cV+SAZHTELBPstnL8a1ihlRzE15IYHcbI5ItSwJJxfpeFQYKm/ItcJ16it0/CBH+jNIAfYXq32QgVlcphr6aS1Y5wDGmB4DcgDZr5jJ5/vHw7VElXenb3yzTsdLuGLOeS7TUZknowdgBSS9bDJuwfh2VC1lbufQANEXXk4LP9sMIj4ANoVKyqEOG2IkhARyNr0t4BTjVb03xvWJ4+8EgXFHvXI4KrVvSQmS1fbkNOXdZdZc+jhjTuvmbRk0Yap/IULDo9cO4hP5XZ3OQ+zWdxBzkxaADVSUX24R+QSO8/gjMn9OveEWHhhS7JEndulNn2Rpi2l4biRngLw3weW2+eUGoijHXW/nUQkbx6E2qtRIES7V0ZX56utiCvv7BC90l0OtVis5tAaG3vKued5s+HD9hNwF90PTgWyiFGSvcSiLBfJ1KTqJztVw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            Ouvre(Win_Memo, "add")
+           type : 32
+     -
+       name : Opt_Edit
+       identifier : 0x22cc225d4540096b
+       internal_properties : BwAAAAcAAAC87rvwp9R6SQRT4Ho9azWdEYCx39s5gQhvHmC5m1MyK91NJs2PN8QqpyeLl0hYU9u9btf7E0IqVSf5UatjwOtaR99UhPN38b5oGUmG8HpFh8F7snBAyKnB6OVN6/1XxjWLFIvYn+xmpYUf6VPtXTLtUDJ9JVZwJq4bS4URxineS+PClKuj1KeFChAIWsUTWf2vxny1qGmrNCmoOuv1sFYVbkuluAGG73mesnfxDtEK6jIFZ+y0FUQ8KlK/OMISOznjfqKWTdO2EByHpw7+YjpHcuioeMA4fMgIEEx4hvvodhI3iBdIxOe13Kar2F0Sz71CNqFHWIrZjJUahLSqKwxjxEVnpIjuz41wl4SClIVttMjzAv1NLrwXqlpjPNycoafw5wg9iI9B2KZ2QTFe/7OUMv9vyt+9TnVAvg71CTU3Df0Q00y6GW/zlWlcPA7zXsUDh2McTwFwTnCaiH5oEPWTb6zsj2JcN0NWUAo4q5iYR8pz4d1Sgfxad1O9Rx28jaurqw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            ouvre(Win_Memo, "edit", Table.Col_ID)
+           type : 32
+     -
+       name : Sep_Delete
+       identifier : 0x22cc225d4541096b
+       internal_properties : BwAAAAcAAABARc9W21jR7htlDpw8HqLIyWnztrVxgxbuhx8gC7o5McX8mU+TVxVGuhZ0yeQ64ajNDIiotW3GeUzRdZOoLqQiUNJez2m6prOnCnfOHiWPWP+QJUaiNrkKjXFAysy8xBpCeBoLl5+6qpSLE44rVDASoFml3xuZUelN4TSMlJrHAY1Jkd5DZpkJiwpDmbnPMVM4ACzuZtwjZvaea9iOHqedz/KRApbdWcWuCZz+OYXkE60N0fkafZPc1HJG6YuwupJ+upLWo6ydIIkd98/7bl3cv3j/d89G5zHnOIHu/JgfAqjyL6GvM2Yh5TzSXLCSbjj9TRRBp7Lqc72DadmHpENgWPwSru81lHg368zAdeSP1SS6wDp6+vYdAPbir8vIevEfN4F2cxg=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : Opt_Delete
+       identifier : 0x22cc225d4542096b
+       internal_properties : BwAAAAcAAAC2m8VCGsNjEgMGFh4iCkIPqTwY/gQ/IU+TVJKz7S8zGdzdPLhOoZ4KW0EjZ6XtvxUUldyteix7iUhzr+5D7ioYsLyM1lqnTbBJ32NQ/aLXO3hkvh+ur37SksSgSkKloZgwLg3hrJBrobuL+hd7trzgODShtwedwFBcuXrfcsrQm0h8LFcG/fvbHCWdu51ZRRjiXUNcmtEGVrF7B35bvL/uCHg3e2VLBYOvb/U7tap2rr/J/T16BB8GpqDwSr5OBoQ5Es+6eBL8HbWwnvVPmQQY6GuZmjq0O38Jey5GZrdUBmPBRv1hxwaRFnlIgwNW2iZU4j2CmmZsvJ2Sl0Atg7G++IkFe9lpaopCrJAxBdc2G1wqqCcB15D/FyVmbk5MY3Tp4MqYRHzzjn+8uLM0hc5GU7cwaUw2IDOrCRHd0lEAULCRssdr7Ns+Ek/YgtYXuOfq7d5kQYNMYVESpRQzz+BasAcN0NmOAvIcn3kguDgyy8h5uhb1D2wKemlOiFhBc4TzDhss
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            i = TableSelect(Table)
+            si i = -1 ALORS
+            	retour
+            FIN
+            
+            TitreSuivant("Avertissement")
+            si ouinon(non, "Souhaitez-vous vraiment supprimer cette note ?", "Cette opération est irréversible.") = Non ALORS
+            	retour
+            FIN
+            
+            // delete files in a first time, if there are some!
+            si Table.Col_Attached[i] = Vrai ALORS
+            	SqlString = "DELETE FROM Files"
+            	SqlString += " WHERE Memo_ID = " + Table.Col_ID[i]
+            	
+            	SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+            		TitreSuivant("Erreur")
+            		Erreur(HErreurInfo)
+            	FIN
+            FIN
+            
+            // delete note!
+            SqlString = "DELETE FROM Memos"
+            SqlString += " WHERE ROWID = " + Table.Col_ID[i]
+            
+            SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+            	TitreSuivant("Erreur")
+            	Erreur(HErreurInfo)
+            FIN
+            
+            // refresh table
+            ExécuteTraitement(Table, trtInit)
+           type : 32
+     -
+       name : Sep_Options
+       identifier : 0x22cc225d4549096b
+       internal_properties : BwAAAAcAAADIvXeOYwApF1Mt5MQO3giiMYnnUgPJTOqWnz90p66AsrRjQVlRhdMBSFRMveA8+SYXvYDJ5QOC/lCOZ628fHvs5GABWHXcfuVR7BXqHzPqUsDlayQ2x+4HmAnwfijUGNLSWM6PO0c6blzzg0oXXAHgfM2N12sl1WGxZbBEdDYHRcGVyaYLmm05zy4X4WnLuV8crIT0qNb9QJCwTdJgCKmbSXSbCJjXW0fY6w5A+88e0W+/A2dUn3E6chgspzEGiCS0UCCQoZrDRpcjnVVpx9fNpxJNeQq+nfaKhN9MmqodSkCsWu2NbXbASqk9w57qv9eACN6PbFMpsJDWfBqiu11+3nrgdgZfHb4B5SZa17bhnBdFweltLUVaW9kf4gSBwrlH3znOK6A=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : Opt_Options
+       identifier : 0x22cc225d454a096b
+       internal_properties : BwAAAAcAAAD0MIdyAkooyuxwpWUSDTpb2leS+KdX1r6vhyGr2ltsR8UUYBlIPRfZh2d8sKd5SVV1sQWJCzXMGagOAyQfMjTHGmA1y8b483PtosgWpGIJMxkQSpCsAWsuYkekZkz4+UmB5EQg8BnqS9NTuK3puWGI4Z6S9nepFEP5SmfHX/7Xnqv2nSfElByHxgUf23xVUPFbHct0opoWVAfsMeVOPbmc5/s7Nt9AJveZJ8fU9NcCtNeDkajULHuC69ogazNNWmUJyFDz/KpLVRZru/7g3evOvVLbuszz5Z2jKgZjgvhEADNM4Nqbl4l5FGyILng8CJh3co2AA2ccjBWRxd81wS39HIm6z6R3ukTudYRfuuEqSbnzeoK4/3n9rVrf1XBN3uZgHtH/SzxG7IyCZ+AsAH6ZD3WNQuFWYelbakubSzKSIViVdnGGpRwlBlqNPfylihsJVprmzmnA/+vTuhV/6qxaR0Od19XkCFx3emJjXIuZ3zTeVEFA5rROaJY1ij/gDw5A028=
+       options :
+        -
+          name : Opt_Override
+          identifier : 0x22cc225d454b096b
+          internal_properties : BwAAAAcAAAD6oYX0Ks64MAz3+Pbe4BsafcHcx7ynzCIn2NhY+wmJbqJmYNq1RofSfjVEbnrlJwPVxPcOluCgqhSPzyfZh6AlglAtwOBv1m7ToLpImSWkw9eI7EI++hWRjm5VUHYX/G8lvC/8Wobg4XCbQ0R2JM2N2y8R/XdBdzhsarzntpNpTUOvyhO+vyV/ZcTbjvdaU+TGniRzNhhWAU44ry/3IyC4hZDJ3MaULpz8y1XK0/I0UcBBXlzE8j4qAMBec4zVpAaTm9MbROkKRQ5a+ZnQvYeECrNROmNgKk6jY8V1Hy5YbFs2PVMGBK+gOxfo9ipsJ5u8igBiLBPABE/rZZ8zCyaMJ0IiDxqx5jnSO++1eZVSq6d8pzbJiCOXaoWY/m2mh+TO9ZYjhh4L/4Qgi9N6IB6ke/S/A7E1m36waJ4BdfUjSxWdgB6G5tXtTq6D1yjqH9ovGzNj32Pk39Ix2Dzxl7mRS+rNq3ZilZRbpbzAKnZnjYOmopt7u3WtmiU//33VDYcGrB7IcSk9SMKRTvEc0IJ1xYKEEm/hDH5YwwVBrINl22SIGk42Hx3pIg4=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               ouvre(Popup_Override)
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : Sep_Default
+       identifier : 0x22cc225d454c096b
+       internal_properties : BwAAAAcAAACZ8Y73mFsrVrHjvhHHmHb3gelqkCnB4flb+keuSHdyc8Nl9fi+ddocDe6E/qtkaEQAvNaRclK6X+OZLeGGHKI5/L/NyMkRtOK1AG15EwK1cYqW9L7qxDR3ipChfSgpTHRxYA8lHS4FdTVwxrj9W1zr9wuaXMa6CxAzbQYkbFOM59Z0jQvnaGPCLQ0wjX+uyN8ndoWHyetSCPOVSaHfCKt28GOWqVkwvDd/CYxRZa5fyhaV6rHUoOMFaHaORS9SC1gjcQ5M6jmyfoVsYFbH5l+T93HpQsxWQ7AmjrbJEGgD29bydT0j/geIjQqVTvam/kccVptQbcr40plfD9jpjEAk7fnutogh77Aw4ISlMhML7l8a+v3gqfVOeHkHzE7nJi3p5Pld7a36
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : Opt_Unfilter
+       identifier : 0x22cec21609b9c3e4
+       internal_properties : BwAAAAcAAAAYo1HUqFonQfglWqrBY6UtbyC39gY8ErEXIRgjk7gmSayaB6JsjcErHIJFIoSdFCjaRI/vfoJZgOQfzASASHDn64kSFziLqnlUmDiAqchoNxyePSsI6nAQpqbcgn7WrsnnE9SL0p6nI7FhA1TTWFxaoiyKcAmh6ZwWRw3U2MdaF42nQqfmDJvVHRtwH0MHBLGdBXNTR3T4XW+ycHIxQGvnBcDiCJ5rVYL3AXSx6Nb9lPCx6U/QEIgg+BYFcXYJjSpzbkeGEVI/iIk23nGO6Hij0UPfE/HmmoYlAttDnRIen8qGyqeZOPVsYBMKxcB6V5ek+gkJseR/NdbN+z6yXFvNDLZkQqu0l35KfkhEfUzcdjgtGZRK5WTSrAuXhW2ssLt9gFDb1JW5pK7op2zt3LKEQJTkeavwG24+CkVVpIb5bJkr+DBqnNLMWTDVwcqaQ1bcvnI1/bmoaICzEcEWjxI+Qkb/LwD0t64vVYcQLrgW0LgOxR18kE5vorWGgb+GhwufSVjbMoXvatXaq1I/kOIDcUBPi78=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            // clear array
+            si SearchSettings..Occurrence >= 1 ALORS
+            	TableauSupprimeTout(SearchSettings)
+            FIN
+            
+            // reset pagination
+            RowsStart = 0
+            CurrentPage = 1
+            
+            // refresh table
+            ExécuteTraitement(Table, trtInit)
+            
+            // select first line
+            SI Table..Occurrence >= 1 ALORS
+            	TableSelectPlus(Table, 1)
+            	ExécuteTraitement(Table, trtSélection)
+            FIN
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : BwAAAAcAAADMaO85+7y1UVswlmXCtdWI9XO7p/+N+uoF1j2u0I9xr3wxkUqfcNRCcaEMl03WIM+gMT+4zrgudNpg9UEH5rcoGvBFaqbdfYT99R+t1Q==
+  controls :
+   -
+     name : Case1
+     identifier : 0x22c7fc0d00a85860
+     internal_properties : BwAAAAcAAAChmkh3eDq3dahN3zSuy495nRDOsG0pTj1SB1o+Zr+hO7s8cGVdpDwelI+lzCgP6hvzNgHBH3Jwtlfrte+5CUB17OibF0MOSIk=
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      // init vars
+      SqlString, SqlCount, SqlFilter, SqlInclude, SqlExclude, SearchString, Created, Updated sont des chaines
+      SqlQuery est une source de données
+      i, j, RowID sont des entiers sur 8 octets
+      
+      // for pagination, we need to use variables...
+      CurrentPage, RowsStart, RowsTotal, RowsResidual, PagesTotal, RowsOffset sont des entiers = (1, 0, 0, 0, 0, Config["RowsOffset"])
+      
+      // init table arrays
+      TableSettings, SearchSettings sont des tableaux associatifs de Variants
+      Tasks est un tableau de TâchesParallèles
+      
+      // init breaking feature
+      BreakHead, BreakLib sont des Champs
+      Parsed est une chaine
+      
+      // init structure
+      Breaking_Data_Struct est une Structure
+      	Ref est une chaîne
+      	Cnt est un entier
+      FIN
+      Breaking_Data est un tableau de Breaking_Data_Struct
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      // indent data
+      Table..RetraitGauche = 10
+      
+      // footer
+      Message(ChaîneConstruit("MyMeMo %1", ExeInfo(exeVersion)))
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+  procedures :
+   -
+     name : QueryFilter
+     procedure_id : 1354810140333580830
+     type_code : 14
+     code : |1-
+      PROCEDURE privée QueryFilter()
+      
+      // reset vars
+      POUR CHAQUE Key DE ["Filter", "Include", "Exclude"]
+      	SI {"Sql" + Key, indVariable} <> "" ALORS
+      		{"Sql" + Key, indVariable} = ""
+      	FIN
+      FIN
+      
+      SI (SearchSettings["Keywords"]..Existe = vrai) _et_ (SearchSettings["Keywords"] <> "") ALORS
+      	// define specific vars, only for this feature!!
+      	Include, Exclude sont des tableaux de chaînes
+      	
+      	Delimiter est un entier = 0
+      	Delimited est une chaine
+      	
+      	SI ChaîneCommencePar(SearchSettings["Keywords"], ["+", "-", " "]) = 0 ALORS
+      		TableauAjoute(Include, ExtraitChaîne(SearchSettings["Keywords"], rangPremier, ["+", "-", " "]))
+      	FIN
+      	SI Contient(SearchSettings["Keywords"], ["+", "-", " "]) = Vrai ALORS
+      		POUR TOUTE CHAÎNE Substring, n DE SearchSettings["Keywords"] SÉPARÉE PAR ["+", "-", " "]
+      			SI n <> 1 ALORS
+      				Delimiter = (n - 1)
+      				Delimited = SearchSettings["Keywords"][[Delimiter À (Taille(Substring) + Delimiter)]]
+      				SELON Gauche(Delimited, 1)
+      					CAS "+", " "
+      						Parsed = Remplace(Delimited, ["+", " "], "")
+      						SI Parsed <> "" ALORS
+      							TableauAjoute(Include, Minuscule(Parsed))
+      						FIN
+      					CAS "-"
+      						Parsed = Remplace(Delimited, "-", "")
+      						SI Parsed <> "" ALORS
+      							TableauAjoute(Exclude, Minuscule(Parsed))
+      						FIN
+      				FIN
+      			FIN
+      		FIN
+      	FIN
+      	
+      	POUR CHAQUE Key DE ["Include", "Exclude"]
+      		POUR CHAQUE Data DE {Key, indVariable}
+      			pour chaque Column de ["Title", "Content", "Attachments"]
+      				SI {"Sql" + Key, indVariable} <> "" ALORS
+      					{"Sql" + Key, indVariable} += " OR"
+      				FIN
+      				
+      				{"Sql" + Key, indVariable} += " " + Column + " LIKE '%" + SQLite.EscapeString(Data) + "%'"
+      			FIN
+      		FIN
+      		
+      		SI (Key = "Exclude") _et_ (SqlExclude <> "") ALORS
+      			SqlExclude = (" NOT " + SqlExclude)
+      		FIN
+      	FIN
+      FIN
+      
+      SI (SearchSettings["Categories"]..Existe = Vrai) _ET_ (SearchSettings["Categories"] <> "") ALORS
+      	SqlInclude += ((SqlInclude <> "" ? "AND" SINON "") + " CatID ")
+      	
+      	selon contient(SearchSettings["Categories"], ",")
+      		CAS vrai
+      			SqlInclude += "IN (" + SearchSettings["Categories"] + ")"
+      		cas faux
+      			SqlInclude += "= " + SearchSettings["Categories"]
+      	FIN
+      FIN
+      
+      // filter dates values
+      POUR CHAQUE Key DE ["Created", "Updated"]
+      	SI ((SearchSettings[Key + "_From"]..Existe = Vrai) _ET_ (SearchSettings[Key + "_From"] <> "")) _OU_ ((SearchSettings[Key + "_To"]..Existe = Vrai) _ET_ (SearchSettings[Key + "_To"] <> "")) ALORS
+      		SI (SearchSettings[Key + "_From"] <> "") _ET_ (SearchSettings[Key + "_To"] = "") ALORS
+      			SqlInclude += ((SqlInclude <> "" ? "AND" SINON "") + " strftime('%Y-%m-%d', datetime(" + Key + ", 'unixepoch')) >= '" + DateVersChaîne(SearchSettings[Key + "_From"], "AAAA-MM-JJ") + "'")
+      		SINON SI (SearchSettings[Key + "_From"] = "") _ET_ (SearchSettings[Key + "_To"] <> "") ALORS
+      			SqlInclude += ((SqlInclude <> "" ? "AND" SINON "") + " strftime('%Y-%m-%d', datetime(" + Key + ", 'unixepoch')) <= '" + DateVersChaîne(SearchSettings[Key + "_To"], "AAAA-MM-JJ") + "'")
+      		SINON SI (SearchSettings[Key + "_From"] <> "") _ET_ (SearchSettings[Key + "_To"] <> "") ALORS
+      			SI SearchSettings[Key + "_From"] = SearchSettings[Key + "_To"] ALORS
+      				SqlInclude += ((SqlInclude <> "" ? "AND" SINON "") + " strftime('%Y-%m-%d', datetime(" + Key + ", 'unixepoch')) = '" + DateVersChaîne(SearchSettings[Key + "_From"], "AAAA-MM-JJ") + "'")
+      			SINON
+      				SqlInclude += ((SqlInclude <> "" ? "AND" SINON "") + " strftime('%Y-%m-%d', datetime(" + Key + ", 'unixepoch')) BETWEEN '" + DateVersChaîne(SearchSettings[Key + "_From"], "AAAA-MM-JJ") + "' AND '" + DateVersChaîne(SearchSettings[Key + "_To"], "AAAA-MM-JJ") + "'")
+      			FIN
+      		FIN
+      	FIN
+      FIN
+      
+      // show memos with attached files?
+      si SearchSettings["Attached"]..Existe = Vrai ALORS
+      	SqlInclude += ((SqlInclude <> "" ? " AND" SINON "") + " Attached = " + SearchSettings["Attached"])
+      FIN
+      
+      POUR CHAQUE Key DE ["Include", "Exclude"]
+      	SI {"Sql" + Key, indVariable} <> "" ALORS
+      		SqlFilter += ((Contient(SqlFilter, "WHERE") ? " AND" SINON " WHERE") + {"Sql" + Key, indVariable})
+      	FIN
+      FIN
+      
+      RENVOYER SqlFilter
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Fenêtre1
+resources :
+ string_res :
+  identifier : 0x12c7fbc500013fcb
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

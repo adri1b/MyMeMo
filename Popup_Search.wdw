@@ -1,0 +1,151 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Popup_Search
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Popup_Search
+ identifier : 0x2969e0763a30e2ee
+ internal_properties : BwAAAAcAAABPwTtFgHWqsYSt+RgqPyXwC61f1rMvJnS0O078YL8qfNhDrvoilSS23t+wBxbIXPOD7qaWrYQSHOIlBwGbCvJJrKzZsHXEF0RC0BphY4diP9TppPLmKD1HSilv6xQkVmMN5Y7SUWslTp5lOK346Apaz8lal3pAKkCzj5QtITcxMtzuTbfcoarkuTSv6FEAjjFJ3PL9qmnbTNZXJBNa6G/jureSlFJhjIqYqExrTTdWf7DEKUBaaOZKcKlGmXy4l8ln8hOE1tqIHb3xmB7zr7yXqbbEaqKY0YkxLcN06rjNP2ox/IhNghNuDlEUusiWP3t1F+ygcqmCdfa+Uc00Ru1YXLCILiq0XMq9KHNQ2Myi3KJhRH/WehjMuVRp/W+8Y6wJBbB0ATIad8m/aHRbY/9OOlBVoHYyiXIaDO3fMqg9iGr1KIEofimyM/FzgFIanlMS+INA9PlYl7OVKWwBBpKsiZaNOYhzocPCnokYSShRep4Uv9wYGXwN7Sp7tF1l6QHncbyMMnyTLppuSjUr0xZwkLLKRrBZpAVq8PpCvt0vAqyYtbT7hiXoSdUFtQThn0E6DmjVLFizB1iktjil/lg6sq0ggm1H3DB1rsmzXWgcFSVjy3b5EBsryWMGLtgF0YJj/t/gSiy7IYzss1tRdz6Z1fuKbimzNA==
+ properties :
+  width : 351
+  height : 40
+  widthClient : 349
+  heightClient : 38
+ controls :
+  -
+    name : Search
+    identifier : 0x2969e09c3a40777d
+    internal_properties : BwAAAAcAAABsjkuITaDmpjstx+qAWns/iLfgqvBarl4lPZmnqCpQyA0MWk/lLNwAOR6jH28a+YQrrI9IttHUpm829IqcIXvhChJlElK5m5ob7dDctPaRxnGV39ZMT2kJPGU9m9xn5lqhnnfSkZ5ButVqzMhS4+NlxyeddVIDTnsyedvpQS4uCqn8Vp7Z7zavd9i+KuWH4Q53oDFy0IMn6LY/WwCQ2MWIuBE6KNjDhRYqQuZd37BQZoZAAexhxK+5A3Nx7Ei4yo86wDANg0iXtqnBt2kzSXXEhMYfUSCwqdpbTiu7u5PdR5jy8i8iYUTrizHVc17F4q9aBi7tRs+4h5Ye+EDkSp+KZ8LkC3GQl1gqtIQljyDC8sF81CKLu13I4aMpLJkyvLMtv4BYj4c4Q76qVH8pP73jYIMB7OWrGkJ+Pu1BaBMx3dvanp+L8cL1ZGe6CbOWL3M7oyw7t7E2Hw9mP0uuoQf5bOvw3y8P9LCRJGufo53gWVHkHgzIeBUzzSa3YA85p3X9O0cyQnLCCQn2uOMZw6VLh6Gmn4Rsscnsa5qql67uJJ9sbms1UkYV+dE7mjWfXc+EPdWJP3EySKtyA1ETIENdcEfBcowfLvSJu4bLd1Ljigv5N8nju8ElabIOjrkT9XF5Rkg0NDyuN1bvPylo6C09GrvBzg8SnwRT+dajaegfiOseTTDGw12uUurm5Ckilk4KWAwPA0uvmu12aWg3XjdWnSDK+attSOE/U64p
+    properties :
+     x : 6
+     y : 6
+     width : 337
+     height : 26
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         SI ToucheEnfoncée(VK_RETURN) ALORS
+         	SI moimeme <> "" ALORS
+         		Cnt est un entier = Taille(MoiMême)
+         		Previous, Next sont des chaines
+         		
+         		POUR n = 1 _A_ Cnt
+         			Previous = Milieu(MoiMême, n, 1)
+         			Next = Milieu(MoiMême, (n + 1), 1)
+         			
+         			SI (Previous DANS (" ", "+", "-")) _ET_ (Next DANS (" ", "+", "-")) ALORS
+         				TitreSuivant("Erreur")
+         				Erreur("Deux opérateurs multi-critères se succèdent.")
+         				
+         				DonneFocusEtRetourUtilisateur(MoiMême)
+         			FIN
+         		FIN
+         	FIN
+         	
+         	{PrevWindow + ".SearchString", indVariable} = MoiMême
+         	
+         	SELON PrevWindow
+         		CAS "Popup_Types", "Popup_Types_Break", "Popup_Types_Check"
+         			ExécuteTraitement({PrevWindow + ".Table", indChamp}, trtInit)
+         			
+         		AUTRE CAS
+         			// pagination
+         			{PrevWindow + ".RowsStart", indVariable} = 0
+         			{PrevWindow + ".CurrentPage", indVariable} = 1
+         			
+         			// unselect lines
+         			TableSelectMoins(PrevWindow + ".Table")
+         			
+         			// select first line
+         			TableSelectPlus(PrevWindow + ".Table", 1)
+         			
+         			ExécuteTraitement(PrevWindow + ".Table", trtInit)
+         			ExécuteTraitement(PrevWindow + ".Table", trtSélection)
+         	FIN
+         	
+         	ferme
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x2969e06f3a2cc738
+  internal_properties : BwAAAAcAAADp33w6z0xenRPWMqP6Cv1PQvw3r5Z6qQrc5cloeEhwUvXEQbJs3o1mCK+QRH2rfF5tvwKbc6XFN0BYUKB+8+I7bx0E87+G8JPAV7k2ASLX/N3Na+sI81ifCd28s7AAscqhx+jLhvzqa1OH65M3fWatxgrjP/Qt8wc9Vx6AIebUUQt0daJ2nX+ZhmPTX2C/mQkwpMQ46WUGIke5pGcL6tGk+KKveOZrMrMl31aRsu/o6b5I9LSmkZNB2EGB31Ek1rUGDsD9xEPvu7cBCIUj7rYrqh58dJZfx+zhilfs/1oYc49DZq6/keY=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAACjKGpZlLdKpWA1ckKQSTLyaoMkfGIc4sLHzGcNrzLlJq9DxHTEYOUxt9J2c97vhvYqW67GYuswlxmyEqpPEUJ7NRN8Bji+mzAXzZzXHIs=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      // get the name of the previous window
+      PrevWindow est une chaine = FenPrécédente
+      
+      // define position
+      MaFenêtre..X = Arrondi({PrevWindow, indFenêtre}..X + (({PrevWindow, indFenêtre}..Largeur - MaFenêtre..Largeur) / 2))
+      MaFenêtre..Y = Arrondi({PrevWindow, indFenêtre}..Y + (({PrevWindow, indFenêtre}..hauteur - MaFenêtre..hauteur) / 2))
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      // get string value
+      Search = {PrevWindow + ".SearchString", indVariable}
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Popup1
+resources :
+ string_res :
+  identifier : 0x1969e06f09ddc738
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

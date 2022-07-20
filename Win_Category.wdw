@@ -1,0 +1,211 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Win_Category
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Win_Category
+ identifier : 0x22c800f4020d7fd1
+ internal_properties : BwAAAAcAAAAFB2l2+FAaU6jsa0zP/b/r7c7giRi5va54Y4RzfTRuAiFp98+DXQUtVfkXRpBpzD6vGZJHOe+WEU6dSpssFeGH/RbcrVZg0MeoUq6S0ghQBNG602M4gMVdtYfWg5mFFpRXqYzTfCuAcLVOPW0kj1vfpgT7yUQ3xXvWshVmyFJUkbecanmBHZVhCveHVvv8NW1BemWNOTgA8C5prAfJGsOkWGE1FShC8ZkLyEtrqDGY5USCwiPoItcKiMWBJBwr2PVebhtTd7AfWZAp92qp2mgKO1OmOSx7S/ALIKaruKl1CHIGa60EERpJG1rLoeLkRHss+NZisySnMY7rGpuP/xw/oZm9JIwsMQkoQpQ/tbpU3evUTac6PZ8lW4jf1o5FTzCqR/HPMYUlITJaYsC5Bi1k7vbXqWE8MrUpgaav274PlhD9drU7VMg1sfG0lcTEa/S/qqP8vjHr+JSmatC+iwJR9u1hV00s9vDuDmISJi6uJ3utq3BIMBuYdP0bkaMMvvH9jVKKiC5aO0HptMpWw0BbkkVtNF3cENATlFtpwSDf55Kgj1rUrlJVWm7g7jMmBy1dpgO40fi5fEmgpodJoMdrDWVaWYvAC545zAZVeexudviHEa7Kac4rVOBfOsRNZ2IMld3pDxr9iSOFsN2AEnseJvcStmdFE/7JCSGgYE/B3wUthPwKmFbcteHEep4=
+ properties :
+  width : 290
+  height : 70
+  widthClient : 288
+  heightClient : 38
+ controls :
+  -
+    name : Fld_Title
+    identifier : 0x22c8038f0238accc
+    internal_properties : BwAAAAcAAADMbupg914WUjFH4/bmlh0ZoQ5icKdnxKfm8UPtvFnzskrBmIJNYP+yGEAygPWH6aCKXLDnId4TMUCldKQhnXBHRuvCcz8ViXXIE1HTX1Twoliju6IN9sie/HCWn6gNT4l+BExfA33xc7j4QVOk+Y78YyfwfaAGIFrisYjqNRKoun+5Fe/Cio/qmIdgoZ1S5eI/DvHpDYlI2sxVBTV6mVdpjMG8421yAeyOw/tY3Cc8yRR1zTcKFhE0LsRd+fT1mOpBVsExFSwW/JU/lqt3yU9+t5joN/1SCgsbRbnsgkVviSDC41MLmU6RTyfOKFvK7QkshExwpfIdla9IEf/5r2MHcz1Fc+DJkhwHwliqG6rC+7XUSbIuMfTB5Gev/nHYAe4lsYehgyzzE7y2wpM/4B+DebKUWCGzZS3tMOtry68JfaDmg6WbJ3b8n1+cWS8S+yCPip3fet5Yd0L7l7wmTc37AzY7/bE1AtlzHXrj4fkFZO6VmNFyU39yr4ohbmFnCPQi8dufoG+50thUYJKdan4uZJUNJeuH/JlK1eSGywUBicSiGhvMGTYuoKAg5zO282kLP1kFHY+gxC3oUnAhgVqvjMImGYuqmDJP0dHs0OMBxlyjSY+DGUnvIRrjar07UBhe7GQOvgoEJ8gft9YuNlwWZRrR7PM16SO9U2NyhorXYdlD2lxW/fSwRL0RZ4lMCOAZl5TRY/xAxVdftmcgVcjHDoU5LEyMAxrmsw6J
+    properties :
+     x : 6
+     y : 6
+     width : 276
+     height : 26
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+      -
+        code : |1-
+         SI ToucheEnfoncée(VK_RETURN) = Vrai ALORS
+         	// empty field...
+         	SI MoiMême = "" ALORS
+         		TitreSuivant("Erreur")
+         		Erreur("Un intitulé doit être renseigné.")
+         		
+         		DonneFocusEtRetourUtilisateur(MoiMême)
+         	FIN
+         	
+         	// check if the title is not already present in database
+         	SqlString = "SELECT COUNT(ROWID) AS Cnt"
+         	SqlString += " FROM Categories"
+         	SqlString += " WHERE Title = '" + SQLite.EscapeString(MoiMême) + "'"
+         	si Mode = "edit" ALORS
+         		SqlString += " AND ROWID <> " + RowID
+         	FIN
+         	SqlString += " LIMIT 1"
+         	
+         	SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         		TitreSuivant("Erreur")
+         		Erreur(HErreurInfo)
+         	SINON
+         		HLitPremier(SqlQuery, hSansRafraîchir)
+         		si SqlQuery.Cnt = 1 ALORS
+         			HLibèreRequête(SqlQuery)
+         			
+         			TitreSuivant("Erreur")
+         			Erreur("Cet intitulé est déjà présent en base de données.")
+         			
+         			DonneFocusEtRetourUtilisateur(MoiMême)
+         		FIN
+         		
+         		HLibèreRequête(SqlQuery)
+         	FIN
+         	
+         	SELON Mode
+         		CAS "add"
+         			SqlString = "INSERT INTO Categories (Title, Created)"
+         			SqlString += " VALUES ('" + SQLite.EscapeString(moimeme) + "', strftime('%s', 'now'))"
+         			
+         		CAS "edit"
+         			SqlString = "UPDATE Categories"
+         			SqlString += " SET Title = '" + SQLite.EscapeString(MoiMême) + "', Updated = strftime('%s', 'now'))"
+         			SqlString += " WHERE ROWID = " + RowID
+         	FIN
+         	SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+         		TitreSuivant("Erreur")
+         		Erreur(HErreurInfo)
+         	fin
+         	
+         	SI Mode = "add" ALORS
+         		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, "SELECT LAST_INSERT_ROWID() AS Value") = Faux ALORS
+         			TitreSuivant("Erreur")
+         			Erreur(HErreurInfo)
+         		SINON
+         			HLitPremier(SqlQuery, hSansRafraîchir)
+         			RowID = SqlQuery.Value
+         			
+         			// free memory
+         			HLibèreRequête(SqlQuery)
+         		FIN
+         	FIN
+         	
+         	// refresh list
+         	si Win_Memo.Fld_Category..Occurrence >= 2 ALORS
+         		ListeSupprimeTout(Win_Memo.Fld_Category)
+         	FIN
+         	Win_MeMo.Get_Categories
+         	
+         	// select row
+         	i est un entier = ListeCherche(Win_Memo.Fld_Category, RowID)
+         	si i <> -1 ALORS
+         		ListeSelectPlus(Win_Memo.Fld_Category, i)
+         	FIN
+         	
+         	Ferme
+         FIN
+         
+         SI ToucheEnfoncée(VK_ESCAPE) = Vrai ALORS
+         	Ferme
+         FIN
+        type : 65792
+ menu :
+  name : _Menu
+  identifier : 0x22c800f002097050
+  internal_properties : BwAAAAcAAAAmnmsMK+pSZJrizHlry5BJP+sbufa4zccF/7flbZf4xlv2rTJ5avaWvToZog8Bfg5qj5cqL9/K+JLwUxYFygPOe4+hQvOqbwHe/B4YH64plXyGcwsEwRu1H7jq/rNyP/R81O/USeI2/APkVZidyxtNh0Y/fytnunm/iyk7nElGG0atcn+8qJ8LBDnxES4mH02yeiwFrgWEo6ixqShEqe7e3BCIlx4J1qYpblIc431oi7HFGkFiVZlDyYxU+PQl0CTH8W8dFRumzgcOnys3VyceJZTYWUhKrQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAACnPG5VkLO2oRwxfkYM5f5OBj+w8JZFxrhixhgKuzL9Hj+T4AgwwKGzoazY2Wi5mPQsRQ9uCGEKgI0mhj7bZfavya+AAjyylywTyZjTEIc=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre(Mode est une chaine, RowID est un entier sur 8 octets = 0)
+      
+      // init vars
+      SqlString est une chaîne
+      SqlQuery est une source de données
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      selon Mode
+      	CAS "add"
+      		MaFenêtre..Titre = ChaîneConstruit(MaFenêtre..Titre, "Ajouter")
+      		
+      	cas "edit"
+      		MaFenêtre..Titre = ChaîneConstruit(MaFenêtre..Titre, "Modifier")
+      		
+      		SqlString = "SELECT Title"
+      		SqlString += " FROM Categories"
+      		SqlString += " WHERE ROWID = " + RowID
+      		
+      		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = Faux ALORS
+      			TitreSuivant("Erreur")
+      			Erreur(HErreurInfo)
+      		SINON
+      			HLitPremier(SqlQuery, hSansRafraîchir)
+      			Fld_Title = SqlQuery.Title
+      			HLibèreRequête(SqlQuery)
+      		FIN
+      FIN
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Fenêtre1
+resources :
+ string_res :
+  identifier : 0x12c800f0001a7050
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

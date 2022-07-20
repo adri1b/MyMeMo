@@ -1,0 +1,159 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Popup_Override
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Popup_Override
+ identifier : 0x29973a7e556b2977
+ internal_properties : BwAAAAcAAACF1u52WNLHcCrmvPZ3bwZofw56zJclY5AunfZRA7GFyU3mLyF07tjui9JpUCXJd5nSFwwu2K3wFqXlub6wIccyMoU87aG/5OFeAjHiQoUqXMYDJHlfgymsuEfX+AHafFarfe28d5JvgkFP6YYrZMcUUsKIBenmFProD0D1C0KErY2xFQP4JQpfbIEMUFe4vfaSay8igT2nfay3AhcIF65CqM7CkzHRGZMQICqT/kIHppmDliuBHKZ3DPbHToXMgQUMHOpM+bhSxceEGpZiJP3FrAqR9ppRG/BBHqdI8z/DzdAN2+Em7e+8QiWpReYO4OB+j8k40tmoNL+7AvLOPtT1BvGpVCdCMLOnzzGmMnJgLeAE57/HTix1Z+PReYdUL5fzxoF2xAwyxJli7LS3R18liqHmsK/kW+8Kn1/BbC696VTQQ+27gAEZufYvSBoatmqU1fDYxd0+ThWYA+ZznGTt7avK76cJO+y6Ofv6L+wX2Z7vAvgLR4jon/vtrkelCZbPhN+OC0xh9XBXRC8VYcwhWo+vbJ3vXGYIyWJe7jfRNtUir+/nl/LsYlFilNi9O3yL+jGjl+FVR41KjQAK106mRtfGL+EMkYuGt6Y68PKIUlvuDviG9iW0FYEvYQO28AhoM2X4eq4o+HhSOkAOk2sNGIBuAzV2aUi7vsMVFrE=
+ properties :
+  width : 203
+  height : 38
+  widthClient : 201
+  heightClient : 36
+ controls :
+  -
+    name : Rows
+    identifier : 0x29973aa55578c24c
+    internal_properties : BwAAAAcAAABTfjip0ukttCJiHWistkYgujHBz6XxnXGmUy8mArAI3MwdPbZzeI+ycAHy94Qjp2onkFStOeHJ/ejkkusiiALii2zssd7n7Mdr3diFOXjXR80s/8j5unV69JhtG2wJT9xQRswXE0YrJBsO751QDtrOhJ7xLwtOuAr3io73zGcpkPiSe6jiDPn2RCPhHQ+7Qp9lQOnmo31P6F14ZnnJiEF5jnkkBC/ohjRYkMNVfpopYy0MX1940n9VOgK+mfR8VtoM4x+BsNrVC9shtPEnFploXbD4SfsvnH9BkbAmkHj9TejTsoWxa01su0kQE1bIF/sbx5g+kcDf5Tl3dZHmbxEVd3RQ4x6VID56aLaULAeUPUhLIgcJMzoYKbV40knGezIaPO+/ed9lvYYQC1jncht01UrI/xKQqGsZJxLuZVIinKglzhLZbsmW1B2tFJOyi9wseH5Ltynaz3WDCZPLuBoQFCoK5GbqC7ROSrZRhhI/V/UaN2w9Wsi+PyXx8TpVUhUVAW0XFHPpQLHLf3Abh5vy4p8+FLseKYqo3t5H/G9Y/tgkzLY5KmGGiVrwaAtInUH3PhtRsRqMpVzu+MOsBSxh0sWzuWA+dU+XgDYxiRjwmnDMYhA00dlKcVa2cXMPyT5O3gD04d1UHHjfEXdLIfTzxe4rwHuduSmoJbGzeiwOV0n6SlXzuoGxWms2CB3tJw5lqqLIEmc5lLzkbyEwqym+fGq1kjF2aqDfkw1UnPDj3es+HOUwBY4xIcICtk1fBCsVCWtzBu4ZvLZrtgX9U8MgVO+2AVtZ/qypU2Ssbj6DTF19VCSV6iYZd2yucTw5e3MPNGo+79emGWE5Mow4upGsIk6YNzZZlonpVNA=
+    properties :
+     x : 6
+     y : 6
+     width : 189
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         SI ToucheEnfoncée(VK_RETURN) ALORS
+         	SI Rows <= 0 ALORS
+         		TitreSuivant("Erreur")
+         		Erreur("Vous ne pouvez pas indiquer un nombre inférieur ou égal à zéro.")
+         		
+         		DonneFocusEtRetourUtilisateur(Rows)
+         	FIN
+         	SI Rows = "" ALORS
+         		TitreSuivant("Erreur")
+         		Erreur("Vous devez indiquer un nombre supérieur ou égal à 1.")
+         		
+         		DonneFocusEtRetourUtilisateur(Rows)
+         	FIN
+         	
+         	Warn_Option est un booléen = faux
+         	
+         	SI Config["WarnOverride"] = Vrai ALORS
+         		Saisie.LibelléOptionnel = "Ne plus afficher"
+         		
+         		TitreSuivant("Information")
+         		Saisie("Ce paramètre est temporaire, et sera perdu lors de la fermeture de l'application. Toutefois, vous pouvez définir le nombre d'occurrences par page dans les paramètres.", Warn_Option) 
+         	FIN
+         	
+         	// record user choice in database
+         	SI Warn_Option = Vrai ALORS
+         		SqlString est une chaine
+         		SqlQuery est une source de données
+         		
+         		SqlString = "UPDATE Config"
+         		SqlString += " SET Value = 0"
+         		SqlString += " WHERE Name = 'WarnOverride'"
+         		
+         		SI HExécuteRequêteSQL(SqlQuery, DbSoftware, hRequêteSansCorrection, SqlString) = faux ALORS
+         			TitreSuivant("Erreur")
+         			Erreur(HErreurInfo)
+         		FIN
+         		
+         		// reload config
+         		Config["WarnOverride"] = Faux
+         	FIN
+         	
+         	// replace value in window
+         	{PrevWindow + ".RowsOffset", indVariable} = Rows
+         	
+         	// reset pagination
+         	{PrevWindow + ".RowsStart", indVariable} = 0
+         	{PrevWindow + ".CurrentPage", indVariable} = 1
+         	
+         	// refresh table
+         	ExécuteTraitement(PrevWindow + ".Table", trtInit)
+         	
+         	// close window
+         	ferme
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x29973a7855671081
+  internal_properties : BwAAAAcAAADp33w6z0xenRPWMqP6Cv1PQvw3r5Z6qQrc5cloeEhwUvXEQbJs3o1mCK+QRH2rfF5tvwKbc6XFN0BYUKB+8+I7bx0E87+G8JPAV7k2ASLX/N3Na+sI81ifCd28s7AAscqhx+jLhvzqa1OH65M3fWatxgrjP/Qt8wc9Vx6AIebUUQt0daJ2nX+ZhmPTX2C/mQkwpMQ46WUGIke5pGcL6tGk+KKveOZrMrMl31aRsu/o6b5I9LSmkZNB2EGB31Ek1rUGDsD9xEPvu7cBCIUj7rYrqh58dJZfx+zhilfs/1oYc49DZq6/keY=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAADJxpCnJsXcS3ZjoHzWFwi4qFFaSryYGx1bZKdxUdLdPqN3uGCuCOGObsn75nlyB2W9yivvbe79zacA4OSBzwxBe9m6WOrMrcLlG2oBRnE=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      // get the name of the previous window
+      PrevWindow est une chaine = FenPrécédente
+      
+      // define position
+      MaFenêtre..X = Arrondi({PrevWindow, indFenêtre}..X + (({PrevWindow, indFenêtre}..Largeur - MaFenêtre..Largeur) / 2))
+      MaFenêtre..Y = Arrondi({PrevWindow, indFenêtre}..Y + (({PrevWindow, indFenêtre}..Hauteur - MaFenêtre..Hauteur) / 2))
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      Rows = {PrevWindow + ".RowsOffset", indVariable}
+     type : 234
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Popup1
+resources :
+ string_res :
+  identifier : 0x19973a78056b1081
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

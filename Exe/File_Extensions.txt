@@ -1,0 +1,14 @@
+PROCÉDURE File_Extensions(Ext est une chaîne)
+
+SELON Ext
+	CAS "bmp", "dib"
+		RENVOYER "Fichiers bitmap (*.bmp; *.dib)" + TAB + "*.bmp;*.dib"
+	CAS "jpg", "jpeg", "jpe", "jfif"
+		RENVOYER "JPEG (*.jpg; *.jpeg; *.jpe; *.jfif)" + TAB + "*.jpg;*.jpeg;*.jpe;*.jfif"
+	CAS "gif"
+		RENVOYER "GIF (*.gif)" + TAB + "*.gif"
+	CAS "png"
+		RENVOYER "PNG (*.png)" + TAB + "*.png"
+	AUTRE CAS
+		RENVOYER "Tous les fichiers" + TAB + "*.*"
+FIN

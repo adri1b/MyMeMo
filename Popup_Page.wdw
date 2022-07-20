@@ -1,0 +1,164 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Popup_Page
+ major_version : 27
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Popup_Page
+ identifier : 0x297c3ecc1e7b8a2c
+ internal_properties : BwAAAAcAAAAFjyuSIFNk2M00zxgDBbYbi7u/OXkXDmPmfyyf28EUcI22Ncli5Lv6Hzwou/b+gZWryC9RNVBmb1TFEVGS8YyP5iM8tA8OSgBlJZTvlB3c5Er0SHACsQ9Iu/GxqVe9cH+rC+cfZCYwY/BqOO+LMUCdiwLkgVxqjspZWjvdxhLKJB6NPFe4M27G3TzH8/yktFP0zr5Dihb22Zi8DrBNMIn6WP5zwq480xEHaDC14GsOLddlHYfaugWPYt6abiLBGwUzM7K0z4r1WXwbLbWwJtAVn+ZBFsfpmuhgcCM0f40fQ/N44Ko3ppsIKv9c/dnOxG437GOKYfQq0tFx/d8EzWCowkVdiGliiGyQwwIXm1Ob+RGSa0v85puvN1P4oMeuqTNEswo1RIOT2m4lLZEuWH9BszpxQEs5TuxcBC9dMCZik6NzBsAF8H/70JCYmt3+XcJINsNatR24OcDMqB/j6h7EPFblsTGsBVlXnElIuP+8I7yNrFFk4xyRUEdi0oazGvTyd+LJiMIh69bQD8/+4hGFx8/pzLQRcL73PO1v4md7QhRZwqVjFZw6Iy7oD6iFc/9dNfbr0MckSWoFpHz16NCk9RwTi59VTDMNJx3P3TxaVpggCUwxV5w=
+ properties :
+  width : 122
+  height : 38
+  widthClient : 120
+  heightClient : 36
+ controls :
+  -
+    name : Page
+    identifier : 0x297c3eee1e800d28
+    internal_properties : BwAAAAcAAAAypEYlRP0xFRTZaI7VBbV+GVlX061eh8fqrCsCslIkrFoyK+702ssBU6lx6zj5okKRsZRpKSV1iYFpPEc1BxHtDoERicmUp3JDwet9qh8IbgYW2sm0EyFGxoOZ1foDjWjUiBkaH4DS/bfxgUTrp4uaYs4nsaP8BLjCxqYpGr0ryCh57+Ju+khygUL9ie7FB7hkzXVksT6EVC3oXzErhLuYMZmftjPFwWRgH71TBaHUJiMdrqkEdNJOZHWdlO4mzpEo42kM65hfqbafFGaiZ0kZ7IIbdImfkCb+OO1JB8oWS613oJ0WIJsMgF2Rt8k1EPSJZaJCJ3VFQ9DHvQ91+bH1K2pRO/CY4PuASDj39VHtE3AyiL2sxBQ0zYTLuUSK2VS+mfxa6QMw7VpwV69AeHNdyflhV1C9yq/0NiVgndUSxzGvo0iWAx4Du+GKjXvyARe6fnc4MiuJrMWj5VSYG3yVann4l0PgvMNr/3rVawPQR3Pf6H46uiLphZf/OTh7UfsyQf7bO5VSxSBT28OBbhkSYC2FaB6J3Q3jPYac5duGRzscyW4UTXauHW1GP+nYlneKsfw1LkL6jDoPovRh5odyHMNoQ7ypv1YL9NjUWlF3Z2Umn5lU5DO2sQBO/FC4Gg+nOWpM7k+aOLCZ1CXkHY86+wsUqYZQSCtMpN98+hVQO3h9SlPLrmcwXZzLgOQQMcz2klspF6zL+iAoNI8yzl837Fvz3J2bpf1JWqAm3sIQWwBM3D6gWZIH0Um001SfpQdF0vP6cTjK11n/Tk+ungJc4hwHnfZddVCG6LlNqQ==
+    properties :
+     x : 6
+     y : 6
+     width : 108
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         SI ToucheEnfoncée(teEchap) ALORS
+         	Ferme
+         FIN
+         SI ToucheEnfoncée(VK_RETURN) ALORS
+         	SI Page <= 0 ALORS
+         		TitreSuivant("Erreur")
+         		Erreur("Vous ne pouvez pas indiquer un numéro de page inférieur ou égal à zéro.")
+         		
+         		DonneFocusEtRetourUtilisateur(Page)
+         	FIN
+         	SI (Page <= 0) _OU_ (Page > {PrevWindow + ".PagesTotal", indVariable}) ALORS
+         		TitreSuivant("Erreur")
+         		Erreur("Vous ne pouvez pas indiquer un numéro de page supérieur au total de celles-ci.")
+         		
+         		DonneFocusEtRetourUtilisateur(Page)
+         	FIN
+         	si page = "" ALORS
+         		TitreSuivant("Erreur")
+         		Erreur("Vous devez indiquer un nombre supérieur ou égal à 1.")
+         		
+         		DonneFocusEtRetourUtilisateur(Page)
+         	FIN
+         	
+         	{PrevWindow + ".CurrentPage", indVariable} = Page
+         	
+         	// enable all buttons
+         	POUR CHAQUE Button de ["Start", "Previous", "Next", "End"]
+         		{PrevWindow + ".Btn_Page_" + Button, indChamp}..Etat = Actif
+         	FIN
+         	
+         	SELON Page
+         		CAS 1
+         			{PrevWindow + ".RowsStart", indVariable} = 0
+         			POUR CHAQUE Button de ["Start", "Previous"]
+         				{PrevWindow + ".Btn_Page_" + Button, indChamp}..Etat = grisé
+         			FIN
+         			
+         		CAS {PrevWindow + ".PagesTotal", indVariable}
+         			{PrevWindow + ".RowsStart", indVariable} = ({PrevWindow + ".RowsTotal", indVariable} - ({PrevWindow + ".RowsResidual", indVariable} = 0 ? {PrevWindow + ".RowsOffset", indVariable} sinon {PrevWindow + ".RowsResidual", indVariable}))
+         			POUR CHAQUE Button de ["Next", "End"]
+         				{PrevWindow + ".Btn_Page_" + Button, indChamp}..Etat = Grisé
+         			FIN
+         			
+         		AUTRE CAS
+         			{PrevWindow + ".RowsStart", indVariable} = ((Page * {PrevWindow + ".RowsOffset", indVariable}) - {PrevWindow + ".RowsOffset", indVariable})
+         	FIN
+         	
+         	{PrevWindow + ".Lib_Total_Pages", indChamp} = ChaîneConstruit("Page %1 de %2", Page, {PrevWindow + ".PagesTotal", indVariable})
+         	
+         	// refresh table
+         	ExécuteTraitement(PrevWindow + ".Table", trtInit)
+         	
+         	// close window
+         	ferme
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x297c3ec21e775ff0
+  internal_properties : BwAAAAcAAADp33w6z0xenRPWMqP6Cv1PQvw3r5Z6qQrc5cloeEhwUvXEQbJs3o1mCK+QRH2rfF5tvwKbc6XFN0BYUKB+8+I7bx0E87+G8JPAV7k2ASLX/N3Na+sI81ifCd28s7AAscqhx+jLhvzqa1OH65M3fWatxgrjP/Qt8wc9Vx6AIebUUQt0daJ2nX+ZhmPTX2C/mQkwpMQ46WUGIke5pGcL6tGk+KKveOZrMrMl31aRsu/o6b5I9LSmkZNB2EGB31Ek1rUGDsD9xEPvu7cBCIUj7rYrqh58dJZfx+zhilfs/1oYc49DZq6/keY=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BwAAAAcAAACd2kTDEgEYlzJfXKDyI7R01A2m/uDwmEiGz6aKJbI9bmOHSPCOGPGWdvGTXgEKLx3FpqZLQiLrkZs0lCjNk8D1j/VeJB6QaX6hRwatKp0=
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      // get the name of the previous window
+      PrevWindow est une chaine = FenPrécédente
+      
+      // define position
+      MaFenêtre..X = Arrondi({PrevWindow, indFenêtre}..X + (({PrevWindow, indFenêtre}..Largeur - MaFenêtre..Largeur) / 2))
+      MaFenêtre..Y = Arrondi({PrevWindow, indFenêtre}..Y + (({PrevWindow, indFenêtre}..Hauteur - MaFenêtre..Hauteur) / 2))
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1-
+      Page = {PrevWindow + ".CurrentPage", indVariable}
+     type : 234
+   -
+     code : |1-
+      
+     type : 177
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : BwAAAAcAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : Popup1
+resources :
+ string_res :
+  identifier : 0x197c3ec210625fe0
+  internal_properties : BwAAAAcAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BwAAAAcAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BwAAAAcAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
